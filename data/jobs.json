@@ -1,0 +1,1804 @@
+{
+ "issues": [
+  {
+   "date": "2026-10-06",
+   "ads_found": 10,
+   "segments": 12,
+   "vacancies_listed": 31,
+   "keys": [
+    "09630418d9e77cc7",
+    "0dcd6a856c121a5c",
+    "17af4bdffcb0661a",
+    "2cf854e316e4204c",
+    "2d4f4e84aed8abcd",
+    "2f58251ca05afe99",
+    "448bcc87b66b4513",
+    "45a4f0159c94cedb",
+    "4e561cc943e936a2",
+    "55d9ba462582e74e",
+    "5e6d93fb56ea99a4",
+    "6ca7da1bef2eb547",
+    "6e992b1822d3a565",
+    "84bac598195a6510",
+    "862ce115da0b006a",
+    "900dc2ca1178e91e",
+    "95aad6b98935740b",
+    "9ad053feb0058d3d",
+    "9e28dd56598fd6a6",
+    "a1e1fdb9043bf715",
+    "a4a6a7ab02bd7ac1",
+    "a698095b8c67b323",
+    "b95df8f252e244e1",
+    "bbc3e64378ad508b",
+    "c284f13690d43f7c",
+    "cdec715c012c513b",
+    "cffff36a6dbc05c2",
+    "dd4b6f1d6d9e537e",
+    "e8c2d70285622f63",
+    "f2b5f55cbf8bb241",
+    "feec5ede09194b5a"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "ads_found": 13,
+   "segments": 16,
+   "vacancies_listed": 32,
+   "keys": [
+    "05335fdfbf8d7160",
+    "0b6303b99235983e",
+    "130d8ef2cfcefe48",
+    "21c703bdd61f80f6",
+    "2303945506340d0e",
+    "2f457f43f44a1dbc",
+    "39fbc8a8813ae3c6",
+    "3c771d67949d803b",
+    "3ec450fa5a0b5aeb",
+    "442e1e5fc159d0e4",
+    "45a4f0159c94cedb",
+    "5354d2392a98a5d5",
+    "58c04a4d4a8d0dd0",
+    "5a3400399c75b704",
+    "5bac0bb6b024132f",
+    "6cc5034789c5b56f",
+    "6f07cd1add07681d",
+    "70fe0bc69b172cbf",
+    "789376eb3643ca43",
+    "845a3837f9a1ab95",
+    "8c4ba310cb104dcc",
+    "a19c76f233928be6",
+    "b23bd88c7c2fc9d6",
+    "bafe865abd995088",
+    "bb25e747d4bfa7cc",
+    "c660babf38a39430",
+    "c7ed3de7e57a2bff",
+    "c97b4ba0ee993cb8",
+    "cff9e09fbf23e665",
+    "da4167ae445a8f6c",
+    "daf3de135d204696",
+    "f0cc4a27bc3ab83b"
+   ]
+  }
+ ],
+ "jobs": [
+  {
+   "key": "900dc2ca1178e91e",
+   "title": "Quantity Surveyor",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "loumarie@steadfastqatar.com"
+   ],
+   "phones": [
+    "33080644"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING Quantity Surveyor Residents Engineer QAQC Engineer Draftsman Send CV to loumarie@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Prepares bills of quantities and cost estimates, measures completed work, values variations and supports contract and subcontractor payments.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "0dcd6a856c121a5c",
+   "title": "Resident Engineer",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "loumarie@steadfastqatar.com"
+   ],
+   "phones": [
+    "33080644"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING Quantity Surveyor Residents Engineer QAQC Engineer Draftsman Send CV to loumarie@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "9ad053feb0058d3d",
+   "title": "QA/QC Engineer",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "loumarie@steadfastqatar.com"
+   ],
+   "phones": [
+    "33080644"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING Quantity Surveyor Residents Engineer QAQC Engineer Draftsman Send CV to loumarie@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Implements quality plans, inspects works against specifications, raises non-conformance reports and keeps inspection records.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "a698095b8c67b323",
+   "title": "Draftsman",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "loumarie@steadfastqatar.com"
+   ],
+   "phones": [
+    "33080644"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING Quantity Surveyor Residents Engineer QAQC Engineer Draftsman Send CV to loumarie@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "9e28dd56598fd6a6",
+   "title": "Mechanical Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "77169781"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modeller/Engineer BIM Electrical Engineer. Safety Officer With Oil N&Gas/ Construction (5 Years Of Gulf Exp) Contact: 77169781, fatmazafar2203@gmail.com",
+   "details": [
+    "Oil N&Gas/ Construction",
+    "(5 Years Of Gulf Exp)"
+   ],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "cffff36a6dbc05c2",
+   "title": "MEP BIM Modeller/Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "77169781"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modeller/Engineer BIM Electrical Engineer. Safety Officer With Oil N&Gas/ Construction (5 Years Of Gulf Exp) Contact: 77169781, fatmazafar2203@gmail.com",
+   "details": [
+    "Oil N&Gas/ Construction",
+    "(5 Years Of Gulf Exp)"
+   ],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "95aad6b98935740b",
+   "title": "BIM Electrical Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "77169781"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modeller/Engineer BIM Electrical Engineer. Safety Officer With Oil N&Gas/ Construction (5 Years Of Gulf Exp) Contact: 77169781, fatmazafar2203@gmail.com",
+   "details": [
+    "Oil N&Gas/ Construction",
+    "(5 Years Of Gulf Exp)"
+   ],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "c284f13690d43f7c",
+   "title": "Safety Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "77169781"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modeller/Engineer BIM Electrical Engineer. Safety Officer With Oil N&Gas/ Construction (5 Years Of Gulf Exp) Contact: 77169781, fatmazafar2203@gmail.com",
+   "details": [
+    "Oil N&Gas/ Construction",
+    "(5 Years Of Gulf Exp)"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "448bcc87b66b4513",
+   "title": "Senior FM Engineer (Mechanical)",
+   "company": "Servico",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING For Facilities Management Company Immediate Joiners Preferred Senior FM engineer mechanical Mechanical engineer, HVAC, Plumber Experience in FM & relevant fields Email: u.salma@servico.qa",
+   "details": [
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "b95df8f252e244e1",
+   "title": "Mechanical Engineer",
+   "company": "Servico",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING For Facilities Management Company Immediate Joiners Preferred Senior FM engineer mechanical Mechanical engineer, HVAC, Plumber Experience in FM & relevant fields Email: u.salma@servico.qa",
+   "details": [
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "feec5ede09194b5a",
+   "title": "HVAC Technician",
+   "company": "Servico",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING For Facilities Management Company Immediate Joiners Preferred Senior FM engineer mechanical Mechanical engineer, HVAC, Plumber Experience in FM & relevant fields Email: u.salma@servico.qa",
+   "details": [
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "6ca7da1bef2eb547",
+   "title": "Plumber",
+   "company": "Servico",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING For Facilities Management Company Immediate Joiners Preferred Senior FM engineer mechanical Mechanical engineer, HVAC, Plumber Experience in FM & relevant fields Email: u.salma@servico.qa",
+   "details": [
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Installs and repairs water, drainage and sanitary systems, reads piping layouts and carries out routine maintenance.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "dd4b6f1d6d9e537e",
+   "title": "Fire Alarm Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Fire Alam Technician, AC Technician Civil Foreman, Plumbing Foreman Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "862ce115da0b006a",
+   "title": "AC Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Fire Alam Technician, AC Technician Civil Foreman, Plumbing Foreman Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "f2b5f55cbf8bb241",
+   "title": "Civil Foreman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Fire Alam Technician, AC Technician Civil Foreman, Plumbing Foreman Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "2d4f4e84aed8abcd",
+   "title": "Plumbing Foreman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Fire Alam Technician, AC Technician Civil Foreman, Plumbing Foreman Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "e8c2d70285622f63",
+   "title": "Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Draftsman, Mechanical Engineer Document Controller (Safety Officer -Kahrama Approved) Email: meptechnicaljobs@gmail.com",
+   "details": [
+    "Kahrama Approved"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "6e992b1822d3a565",
+   "title": "Mechanical Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Draftsman, Mechanical Engineer Document Controller (Safety Officer -Kahrama Approved) Email: meptechnicaljobs@gmail.com",
+   "details": [
+    "Kahrama Approved"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "5e6d93fb56ea99a4",
+   "title": "Document Controller",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Draftsman, Mechanical Engineer Document Controller (Safety Officer -Kahrama Approved) Email: meptechnicaljobs@gmail.com",
+   "details": [
+    "Kahrama Approved"
+   ],
+   "typical_duties": "Controls project documents and transmittals, maintains registers and revision status and supports audits and handover packages.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "bbc3e64378ad508b",
+   "title": "Safety Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Draftsman, Mechanical Engineer Document Controller (Safety Officer -Kahrama Approved) Email: meptechnicaljobs@gmail.com",
+   "details": [
+    "Kahrama Approved"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "55d9ba462582e74e",
+   "title": "Plumber",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Plumbers, Electricians, Tile Mason, Gypsum Carpenter Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Installs and repairs water, drainage and sanitary systems, reads piping layouts and carries out routine maintenance.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "cdec715c012c513b",
+   "title": "Electrician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Plumbers, Electricians, Tile Mason, Gypsum Carpenter Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "84bac598195a6510",
+   "title": "Tile Mason",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Plumbers, Electricians, Tile Mason, Gypsum Carpenter Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Performs skilled finishing and building trade work to drawings and quality standards.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "a1e1fdb9043bf715",
+   "title": "Gypsum Carpenter",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [
+    "66070243"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "Urgently Required Plumbers, Electricians, Tile Mason, Gypsum Carpenter Walk-in Interview on Friday (9 Oct 26) Address – Building 57, Zone 57, 559 Street Industrial area street 38 Watsaap for Location Map-00974-66070243 Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Performs skilled finishing and building trade work to drawings and quality standards.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "17af4bdffcb0661a",
+   "title": "Construction Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Construction Managers Project Manager (Mech/Elec) Sr. Design Engineers(Mech & Elec) QA/QC Engineers (Mech/Elec) Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "4e561cc943e936a2",
+   "title": "Project Manager (Mech/Elec)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Construction Managers Project Manager (Mech/Elec) Sr. Design Engineers(Mech & Elec) QA/QC Engineers (Mech/Elec) Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "09630418d9e77cc7",
+   "title": "Senior Design Engineer (Mech & Elec)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Construction Managers Project Manager (Mech/Elec) Sr. Design Engineers(Mech & Elec) QA/QC Engineers (Mech/Elec) Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "2f58251ca05afe99",
+   "title": "QA/QC Engineer (Mech/Elec)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Construction Managers Project Manager (Mech/Elec) Sr. Design Engineers(Mech & Elec) QA/QC Engineers (Mech/Elec) Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Implements quality plans, inspects works against specifications, raises non-conformance reports and keeps inspection records.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "2cf854e316e4204c",
+   "title": "Civil Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "girihill2020@gmail.com"
+   ],
+   "phones": [
+    "33193621"
+   ],
+   "walk_in_date": null,
+   "ad_text": "CIVIL SUPERVISOR urgently required 1 to 3 years experience for a contracting company email: girihill2020@gmail.com",
+   "details": [
+    "1 to 3 years experience for a",
+    "contracting company"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "a4a6a7ab02bd7ac1",
+   "title": "Maintenance Electrician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "capitalteam2022@gmail.com"
+   ],
+   "phones": [
+    "55757562"
+   ],
+   "walk_in_date": null,
+   "ad_text": "WANTED - MAINTENANCE ELECTRICIAN for a reputed firm with 3 to 5 Years working experience Send C V with copies of Certificates 55757562 capitalteam2022@gmail.com",
+   "details": [
+    "3 to 5 Years working experience"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-06",
+   "seen_dates": [
+    "2026-10-06"
+   ]
+  },
+  {
+   "key": "45a4f0159c94cedb",
+   "title": "Family Driver",
+   "company": "Private employer (Qatari family)",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [],
+   "phones": [
+    "55353787"
+   ],
+   "walk_in_date": null,
+   "ad_text": "AN INDIAN DRIVER IS REQUIRED to work for a Qatari family For inquiries please send a WhatsApp message to 55353787",
+   "details": [
+    "For inquiries"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-06",
+   "source": "20261006.pdf",
+   "first_seen": "2026-10-06",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-06",
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "58c04a4d4a8d0dd0",
+   "title": "Maintenance Technician",
+   "company": "Emco Qatar",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "careers@emcoqatar.net"
+   ],
+   "phones": [
+    "44466609",
+    "44466648",
+    "51009064"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "EMCO QATAR WALK-IN INTERVIEW Hiring maintenance technicians for plant maintenance operations Date: 09-Oct-2026 Time: 09:00 AM to 02:00 PM (Friday) Open Positions Diploma or ITI with minimum 7 years of industrial Senior HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial BMS Technician maintenance experience, including at least 2 years in industrial plant maintenance Please walk in for the interview along with your updated Resume Scan for Location EMCO QATAR HEAD OFFICE Tel: 44466609 / Global Business Center Building No. 40, 4th Floor, Umm Ghuwailina, Doha Opp. to Old Airport Arrival Terminal. 44466648 careers@emcoqatar.net / WhatsApp: 00 974 5100",
+   "details": [
+    "plant maintenance operations",
+    "(Friday)",
+    "Diploma or ITI with minimum 7 years of industrial",
+    "maintenance experience, including at least 2 years",
+    "in industrial plant maintenance"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "da4167ae445a8f6c",
+   "title": "Senior HVAC Technician",
+   "company": "Emco Qatar",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "careers@emcoqatar.net"
+   ],
+   "phones": [
+    "44466609",
+    "44466648",
+    "51009064"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "EMCO QATAR WALK-IN INTERVIEW Hiring maintenance technicians for plant maintenance operations Date: 09-Oct-2026 Time: 09:00 AM to 02:00 PM (Friday) Open Positions Diploma or ITI with minimum 7 years of industrial Senior HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial BMS Technician maintenance experience, including at least 2 years in industrial plant maintenance Please walk in for the interview along with your updated Resume Scan for Location EMCO QATAR HEAD OFFICE Tel: 44466609 / Global Business Center Building No. 40, 4th Floor, Umm Ghuwailina, Doha Opp. to Old Airport Arrival Terminal. 44466648 careers@emcoqatar.net / WhatsApp: 00 974 5100",
+   "details": [
+    "plant maintenance operations",
+    "(Friday)",
+    "Diploma or ITI with minimum 7 years of industrial",
+    "maintenance experience, including at least 2 years",
+    "in industrial plant maintenance"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "cff9e09fbf23e665",
+   "title": "HVAC Technician",
+   "company": "Emco Qatar",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "careers@emcoqatar.net"
+   ],
+   "phones": [
+    "44466609",
+    "44466648",
+    "51009064"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "EMCO QATAR WALK-IN INTERVIEW Hiring maintenance technicians for plant maintenance operations Date: 09-Oct-2026 Time: 09:00 AM to 02:00 PM (Friday) Open Positions Diploma or ITI with minimum 7 years of industrial Senior HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial BMS Technician maintenance experience, including at least 2 years in industrial plant maintenance Please walk in for the interview along with your updated Resume Scan for Location EMCO QATAR HEAD OFFICE Tel: 44466609 / Global Business Center Building No. 40, 4th Floor, Umm Ghuwailina, Doha Opp. to Old Airport Arrival Terminal. 44466648 careers@emcoqatar.net / WhatsApp: 00 974 5100",
+   "details": [
+    "plant maintenance operations",
+    "(Friday)",
+    "Diploma or ITI with minimum 7 years of industrial",
+    "maintenance experience, including at least 2 years",
+    "in industrial plant maintenance"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "845a3837f9a1ab95",
+   "title": "BMS Technician",
+   "company": "Emco Qatar",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "careers@emcoqatar.net"
+   ],
+   "phones": [
+    "44466609",
+    "44466648",
+    "51009064"
+   ],
+   "walk_in_date": "2026-10-09",
+   "ad_text": "EMCO QATAR WALK-IN INTERVIEW Hiring maintenance technicians for plant maintenance operations Date: 09-Oct-2026 Time: 09:00 AM to 02:00 PM (Friday) Open Positions Diploma or ITI with minimum 7 years of industrial Senior HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial HVAC Technician maintenance experience, including at least 2 years in industrial plant maintenance Diploma or ITI with minimum 5 years of industrial BMS Technician maintenance experience, including at least 2 years in industrial plant maintenance Please walk in for the interview along with your updated Resume Scan for Location EMCO QATAR HEAD OFFICE Tel: 44466609 / Global Business Center Building No. 40, 4th Floor, Umm Ghuwailina, Doha Opp. to Old Airport Arrival Terminal. 44466648 careers@emcoqatar.net / WhatsApp: 00 974 5100",
+   "details": [
+    "plant maintenance operations",
+    "(Friday)",
+    "Diploma or ITI with minimum 7 years of industrial",
+    "maintenance experience, including at least 2 years",
+    "in industrial plant maintenance"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "f0cc4a27bc3ab83b",
+   "title": "Mechanical Engineer",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable, exp in Start up, O&M support) Mechanical, Electrical, Instrument Engineers Mechanical Foreman Send CV to (mentioning position) Email: buildorahr@gmail.com or",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "bafe865abd995088",
+   "title": "Electrical Engineer",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable, exp in Start up, O&M support) Mechanical, Electrical, Instrument Engineers Mechanical Foreman Send CV to (mentioning position) Email: buildorahr@gmail.com or",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "39fbc8a8813ae3c6",
+   "title": "Instrument Engineer",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable, exp in Start up, O&M support) Mechanical, Electrical, Instrument Engineers Mechanical Foreman Send CV to (mentioning position) Email: buildorahr@gmail.com or",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "05335fdfbf8d7160",
+   "title": "Mechanical Foreman",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable, exp in Start up, O&M support) Mechanical, Electrical, Instrument Engineers Mechanical Foreman Send CV to (mentioning position) Email: buildorahr@gmail.com or",
+   "details": [],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "789376eb3643ca43",
+   "title": "Mechanical Draughtsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Draughtsman Civil QA QC Inspector Electrical Engineer Environment Officer Email: mariamsteadfast@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "c660babf38a39430",
+   "title": "Civil QA QC Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Draughtsman Civil QA QC Inspector Electrical Engineer Environment Officer Email: mariamsteadfast@gmail.com",
+   "details": [],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "0b6303b99235983e",
+   "title": "Electrical Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Draughtsman Civil QA QC Inspector Electrical Engineer Environment Officer Email: mariamsteadfast@gmail.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "2303945506340d0e",
+   "title": "Environment Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Draughtsman Civil QA QC Inspector Electrical Engineer Environment Officer Email: mariamsteadfast@gmail.com",
+   "details": [],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "5354d2392a98a5d5",
+   "title": "Scaffolding Inspector",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable) Certfd. Scaffolding inspector&Insulators. Supervisor Scaffolding & Foreman-insulation (both V9permit receiver) Send CV to (mentioning position) buildorahr@gmail.com or",
+   "details": [
+    "insulation",
+    "(both V9permit receiver)"
+   ],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "3c771d67949d803b",
+   "title": "Insulator",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable) Certfd. Scaffolding inspector&Insulators. Supervisor Scaffolding & Foreman-insulation (both V9permit receiver) Send CV to (mentioning position) buildorahr@gmail.com or",
+   "details": [
+    "insulation",
+    "(both V9permit receiver)"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "a19c76f233928be6",
+   "title": "Foreman",
+   "company": "Buildora Qatar Oil & Gas Project",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "buildorahr@gmail.com"
+   ],
+   "phones": [
+    "71752555"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUILDORA QATAR OIL & GAS PROJECT Urgently hiring (6 months, extendable) Certfd. Scaffolding inspector&Insulators. Supervisor Scaffolding & Foreman-insulation (both V9permit receiver) Send CV to (mentioning position) buildorahr@gmail.com or",
+   "details": [
+    "insulation",
+    "(both V9permit receiver)"
+   ],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "5bac0bb6b024132f",
+   "title": "Mechanical/Electrical BIM Modeler",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical/Electrical BIM Modeler ELV Engineer Architectural Engineer Road & Infra Draftsman Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "b23bd88c7c2fc9d6",
+   "title": "ELV Engineer",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical/Electrical BIM Modeler ELV Engineer Architectural Engineer Road & Infra Draftsman Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "3ec450fa5a0b5aeb",
+   "title": "Architectural Engineer",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical/Electrical BIM Modeler ELV Engineer Architectural Engineer Road & Infra Draftsman Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "2f457f43f44a1dbc",
+   "title": "Road & Infra Draftsman",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical/Electrical BIM Modeler ELV Engineer Architectural Engineer Road & Infra Draftsman Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "c7ed3de7e57a2bff",
+   "title": "HSE Officer",
+   "company": "Spectech Qatar",
+   "company_inferred": true,
+   "location": "Mesaieed, Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "info@spectechqatar.com"
+   ],
+   "phones": [
+    "77351212"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING – HSE OFFICERS Location: Mesaieed, Qatar. Duration: 1 Year+ Vacancies: 100+ Positions 5+ Years of Oil & Gas Experience – Mandatory QE Approval – Preferred Email: info@spectechqatar.com",
+   "details": [
+    "Location: Mesaieed, Qatar. Duration: 1 Year+",
+    "5+ Years of Oil & Gas Experience – Mandatory"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "daf3de135d204696",
+   "title": "Sales Account Manager",
+   "company": "DNS",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hr@dns.com.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR CANDIDATES AT IT COMPANY for the below positions Sales Account Manager Business Development Executive Preference : IT Sales experience Sales account management Transferable visa, Driving licence Send CV : hr@dns.com.qa",
+   "details": [
+    "Preference : IT Sales experience",
+    "Sales account management",
+    "Transferable visa, Driving licence"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "130d8ef2cfcefe48",
+   "title": "Business Development Executive",
+   "company": "DNS",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hr@dns.com.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR CANDIDATES AT IT COMPANY for the below positions Sales Account Manager Business Development Executive Preference : IT Sales experience Sales account management Transferable visa, Driving licence Send CV : hr@dns.com.qa",
+   "details": [
+    "Preference : IT Sales experience",
+    "Sales account management",
+    "Transferable visa, Driving licence"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "6cc5034789c5b56f",
+   "title": "Draughtsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Doha, Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hrddepartment08@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT REQUIREMENT A reputable Company in Doha is looking for the following category DRAUGHTSMAN Minimum 5 years of experience in infrastructure/Foul sewer network projects Strong knowledge of PWA GIS Standards, QPRO Standards, RO and TDP requirements, Knowledge of PDLM submission Preparation of structural drawings and Bar Bending Schedules (BBS) for drainage chambers/manholes Experience in Ashghal projects preferred Send CVs to: hrddepartment08@gmail.com Only shortlisted applicants will be contacted",
+   "details": [
+    "Minimum 5 years of experience in infrastructure/Foul sewer",
+    "network projects",
+    "Strong knowledge of PWA GIS Standards, QPRO Standards, RO",
+    "and TDP requirements, Knowledge of PDLM submission",
+    "Preparation of structural drawings and Bar Bending Schedules"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "c97b4ba0ee993cb8",
+   "title": "Civil Foreman",
+   "company": "Buhmaid",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "info@buhmaid.com"
+   ],
+   "phones": [
+    "66996705"
+   ],
+   "walk_in_date": null,
+   "ad_text": "VACANCY FOR Civil Foreman with Tower experience & Steel Fixer Submit your application to info@buhmaid.com or send your resume via Whatsapp to: 66996705 (Applicants must have transferable visa with NOC immediately)",
+   "details": [
+    "Tower experience",
+    "(Applicants must have transferable visa with NOC",
+    "immediately)"
+   ],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "70fe0bc69b172cbf",
+   "title": "Steel Fixer",
+   "company": "Buhmaid",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "info@buhmaid.com"
+   ],
+   "phones": [
+    "66996705"
+   ],
+   "walk_in_date": null,
+   "ad_text": "VACANCY FOR Civil Foreman with Tower experience & Steel Fixer Submit your application to info@buhmaid.com or send your resume via Whatsapp to: 66996705 (Applicants must have transferable visa with NOC immediately)",
+   "details": [
+    "Tower experience",
+    "(Applicants must have transferable visa with NOC",
+    "immediately)"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "5a3400399c75b704",
+   "title": "Production/Sales Coordinator",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hrsafidqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED FOR Multinational Manufacturing company in Qatar Production / Sales Coordinator Male, with 2 years experience, good knowledge of MS Word / Excel, with transferable visa & NOC (Location Industrial area) Send CV to: hrsafidqatar@gmail.com",
+   "details": [
+    "Male, with 2 years experience, good knowledge of",
+    "MS Word / Excel, with transferable visa & NOC"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "6f07cd1add07681d",
+   "title": "Sales Executive",
+   "company": "Amco Group",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "job@amcogroup.co"
+   ],
+   "phones": [
+    "44212155",
+    "44212166",
+    "70487375"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT We are hiring for the following positions Sales Executive Accountant Customer Service Officer 3-5 years experience, Qatar driving license, NOC Apply now Email: job@amcogroup.co Contact:44212155/44212166 / Mob: 70487375",
+   "details": [
+    "3-5 years experience, Qatar driving license, NOC"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "21c703bdd61f80f6",
+   "title": "Accountant",
+   "company": "Amco Group",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "job@amcogroup.co"
+   ],
+   "phones": [
+    "44212155",
+    "44212166",
+    "70487375"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT We are hiring for the following positions Sales Executive Accountant Customer Service Officer 3-5 years experience, Qatar driving license, NOC Apply now Email: job@amcogroup.co Contact:44212155/44212166 / Mob: 70487375",
+   "details": [
+    "3-5 years experience, Qatar driving license, NOC"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "bb25e747d4bfa7cc",
+   "title": "Customer Service Officer",
+   "company": "Amco Group",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "job@amcogroup.co"
+   ],
+   "phones": [
+    "44212155",
+    "44212166",
+    "70487375"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT We are hiring for the following positions Sales Executive Accountant Customer Service Officer 3-5 years experience, Qatar driving license, NOC Apply now Email: job@amcogroup.co Contact:44212155/44212166 / Mob: 70487375",
+   "details": [
+    "3-5 years experience, Qatar driving license, NOC"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "442e1e5fc159d0e4",
+   "title": "Trailer Driver",
+   "company": "Amco Group",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "job@amcogroup.co"
+   ],
+   "phones": [
+    "44212155",
+    "44212166",
+    "70487375"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT We are hiring for the following positions Trailer driver PRO 3-5 years experience, Qatar driving license, NOC Apply now Email: job@amcogroup.co Contact: 44212155/ 44212166 / Mob: 70487375",
+   "details": [
+    "3-5 years experience, Qatar driving license, NOC"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  },
+  {
+   "key": "8c4ba310cb104dcc",
+   "title": "PRO",
+   "company": "Amco Group",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "job@amcogroup.co"
+   ],
+   "phones": [
+    "44212155",
+    "44212166",
+    "70487375"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT We are hiring for the following positions Trailer driver PRO 3-5 years experience, Qatar driving license, NOC Apply now Email: job@amcogroup.co Contact: 44212155/ 44212166 / Mob: 70487375",
+   "details": [
+    "3-5 years experience, Qatar driving license, NOC"
+   ],
+   "typical_duties": "Handles government and visa paperwork, labour and immigration transactions and company documentation.",
+   "issue_date": "2026-10-07",
+   "source": "20261007.pdf",
+   "first_seen": "2026-10-07",
+   "last_seen": "2026-10-07",
+   "seen_dates": [
+    "2026-10-07"
+   ]
+  }
+ ]
+}
