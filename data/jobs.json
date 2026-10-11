@@ -1,6 +1,90 @@
 {
  "issues": [
   {
+   "date": "2026-10-01",
+   "ads_found": 0,
+   "segments": 0,
+   "vacancies_listed": 0,
+   "keys": []
+  },
+  {
+   "date": "2026-10-02",
+   "ads_found": 0,
+   "segments": 0,
+   "vacancies_listed": 0,
+   "keys": []
+  },
+  {
+   "date": "2026-10-03",
+   "ads_found": 0,
+   "segments": 0,
+   "vacancies_listed": 0,
+   "keys": []
+  },
+  {
+   "date": "2026-10-04",
+   "ads_found": 12,
+   "segments": 13,
+   "vacancies_listed": 30,
+   "keys": [
+    "016477156694435a",
+    "07781fb1da782846",
+    "1480b89fd8234e67",
+    "1590e35d7a0cfcec",
+    "1a6f7fe2954aceed",
+    "1ebf039d2a914f06",
+    "1f2d1fec1ee87d29",
+    "23c3cb5330c90333",
+    "27c9aee721079fec",
+    "2eec03ac8fd2685d",
+    "52397c128e12afb9",
+    "52d20d3eeafc2bc6",
+    "5d84ced62b71da1c",
+    "6ec551292464c930",
+    "6f5b793845f14258",
+    "710f5d6436805708",
+    "7c6373aea02ce28f",
+    "80f59a3a0dc4b5ce",
+    "8ab5ac747b53a8bd",
+    "8ef933a9c4725be4",
+    "a653797551eb72df",
+    "b2c58da9106ba095",
+    "b6077a3f9620cf25",
+    "be51cb9f2192bd2c",
+    "c7791f128eaec7c4",
+    "ce7c8edb78984cd8",
+    "d1deff2dc3907a70",
+    "d86e2f771ed14aa7",
+    "d9ad251a6081e8e2",
+    "eac8b1f80e607957"
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "ads_found": 10,
+   "segments": 17,
+   "vacancies_listed": 17,
+   "keys": [
+    "138fb27fc0b311c2",
+    "1b7444a7682b787f",
+    "24d0c2ca03d44415",
+    "27d0245c716dc8b9",
+    "2ae83b344b4c737a",
+    "300642d2709fc8f3",
+    "45c40528d07e7704",
+    "4e40ab07fd7499f8",
+    "70fe0bc69b172cbf",
+    "87d5c511c57a0356",
+    "95aae6695fda2bfe",
+    "9bac77bba7d22940",
+    "a97a8e909945e16d",
+    "b06bcf0ed623f877",
+    "bb8983ecb73efca4",
+    "c97b4ba0ee993cb8",
+    "f1cd1efb6a9c7509"
+   ]
+  },
+  {
    "date": "2026-10-06",
    "ads_found": 10,
    "segments": 12,
@@ -77,6 +161,56 @@
     "da4167ae445a8f6c",
     "daf3de135d204696",
     "f0cc4a27bc3ab83b"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "ads_found": 0,
+   "segments": 0,
+   "vacancies_listed": 0,
+   "keys": []
+  },
+  {
+   "date": "2026-10-09",
+   "ads_found": 0,
+   "segments": 0,
+   "vacancies_listed": 0,
+   "keys": []
+  },
+  {
+   "date": "2026-10-10",
+   "ads_found": 0,
+   "segments": 0,
+   "vacancies_listed": 0,
+   "keys": []
+  },
+  {
+   "date": "2026-10-11",
+   "ads_found": 11,
+   "segments": 30,
+   "vacancies_listed": 21,
+   "keys": [
+    "11d1ff3dc72820c4",
+    "21c703bdd61f80f6",
+    "27d0245c716dc8b9",
+    "2c72360b67d18a74",
+    "37933e0a75ffb61f",
+    "442e1e5fc159d0e4",
+    "6f07cd1add07681d",
+    "70fe0bc69b172cbf",
+    "804576df939c053e",
+    "855980f050fc162c",
+    "8c4ba310cb104dcc",
+    "8e0698119fc5d109",
+    "abbe90e850a1799e",
+    "b88e008b5e5f02ec",
+    "bb25e747d4bfa7cc",
+    "c97b4ba0ee993cb8",
+    "e6e754c923a95f21",
+    "ede63cab7dfe1f83",
+    "f385182906f4b687",
+    "f4960ddf74a91111",
+    "f85ffde2d8a337c6"
    ]
   }
  ],
@@ -1587,10 +1721,12 @@
    "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-05",
+    "2026-10-07",
+    "2026-10-11"
    ]
   },
   {
@@ -1617,10 +1753,12 @@
    "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
-   "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-05",
+    "2026-10-07",
+    "2026-10-11"
    ]
   },
   {
@@ -1675,9 +1813,10 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-11"
    ]
   },
   {
@@ -1705,9 +1844,10 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-11"
    ]
   },
   {
@@ -1735,9 +1875,10 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-11"
    ]
   },
   {
@@ -1765,9 +1906,10 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-11"
    ]
   },
   {
@@ -1795,9 +1937,1712 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-07",
+   "last_seen": "2026-10-11",
    "seen_dates": [
-    "2026-10-07"
+    "2026-10-07",
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "c7791f128eaec7c4",
+   "title": "CCTV Technician/Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "avjobqatar@gmail.com"
+   ],
+   "phones": [
+    "44466609",
+    "44466648"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading CCTV Services Company in Qatar is looking for suitable candidates for the following positions 1 2 CCTV Technicians / Engineers Time-organized technician with a minimum of 5 years’ experience in installation commissioning, and handling of multiple CCTV brands, with the ability to work and manage the assigned tasks with limited supervision Thorough knowledge of ELV systems, including CCTV, Access Control Systems, and security systems Experience with MOI & GCC installation regulations and standards is preferred AutoCAD drafting experience and IT knowledge and troubleshooting skills are preferred Audio Visual Technician / Engineer Strong knowledge of AV systems, design, installation, integration, and commissioning including displays, projectors, LED displays, audio systems, video conferencing, and control systems Experience with AV control systems such as Crestron, AMX, and Extron ",
+   "details": [
+    "Time-organized technician with a minimum of 5 years’ experience in installation",
+    "commissioning, and handling of multiple CCTV brands, with the ability to work and",
+    "manage the assigned tasks with limited supervision",
+    "Thorough knowledge of ELV systems, including CCTV, Access Control Systems, and",
+    "security systems"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "1480b89fd8234e67",
+   "title": "Audio Visual Technician/Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "avjobqatar@gmail.com"
+   ],
+   "phones": [
+    "44466609",
+    "44466648"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading CCTV Services Company in Qatar is looking for suitable candidates for the following positions 1 2 CCTV Technicians / Engineers Time-organized technician with a minimum of 5 years’ experience in installation commissioning, and handling of multiple CCTV brands, with the ability to work and manage the assigned tasks with limited supervision Thorough knowledge of ELV systems, including CCTV, Access Control Systems, and security systems Experience with MOI & GCC installation regulations and standards is preferred AutoCAD drafting experience and IT knowledge and troubleshooting skills are preferred Audio Visual Technician / Engineer Strong knowledge of AV systems, design, installation, integration, and commissioning including displays, projectors, LED displays, audio systems, video conferencing, and control systems Experience with AV control systems such as Crestron, AMX, and Extron ",
+   "details": [
+    "Time-organized technician with a minimum of 5 years’ experience in installation",
+    "commissioning, and handling of multiple CCTV brands, with the ability to work and",
+    "manage the assigned tasks with limited supervision",
+    "Thorough knowledge of ELV systems, including CCTV, Access Control Systems, and",
+    "security systems"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "b2c58da9106ba095",
+   "title": "Architectural Finishing Engineer",
+   "company": "Qatar construction/fit-out company requires",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "info@anc.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "ARCHITECTURAL FINISHING ENGINEER REQUIRED Qatar construction/fit-out company requires an Architectural Finishing Engineer with 5+ years’ experience in finishing and fit-out projects Architecture/Civil Engineering degree required Qatar experience preferred Send CV to: info@anc.qa",
+   "details": [
+    "Qatar construction/fit-out company requires",
+    "5+ years’",
+    "experience in finishing and fit-out projects",
+    "Architecture/Civil Engineering degree required",
+    "Qatar experience preferred"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "6f5b793845f14258",
+   "title": "An Architectural Finishing Engineer",
+   "company": "Qatar construction/fit-out company requires",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "info@anc.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "ARCHITECTURAL FINISHING ENGINEER REQUIRED Qatar construction/fit-out company requires an Architectural Finishing Engineer with 5+ years’ experience in finishing and fit-out projects Architecture/Civil Engineering degree required Qatar experience preferred Send CV to: info@anc.qa",
+   "details": [
+    "Qatar construction/fit-out company requires",
+    "5+ years’",
+    "experience in finishing and fit-out projects",
+    "Architecture/Civil Engineering degree required",
+    "Qatar experience preferred"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "07781fb1da782846",
+   "title": "Mechanical Engineer",
+   "company": "TIG",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hr.tesla@tig.qa"
+   ],
+   "phones": [
+    "33773766"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED MEP CONTRACTING COMPANY IN QATAR is looking for Mechanical Engineer (experience in fire protection field and have background in Leading the Maintenance/Operations.) Electrical Engineer (Experience in ELV and MEP projet and maintenance) Must hold UDPA license. Minimum 2 to 3 years of experience Share CV: hr.tesla@tig.qa / 33773766 (WhatsApp only)",
+   "details": [
+    "(experience in fire protection field and have background in",
+    "Leading the Maintenance/Operations.)",
+    "(Experience in ELV and MEP projet and maintenance)",
+    "Must hold UDPA license. Minimum 2 to 3 years of experience"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "8ab5ac747b53a8bd",
+   "title": "Electrical Engineer",
+   "company": "TIG",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hr.tesla@tig.qa"
+   ],
+   "phones": [
+    "33773766"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED MEP CONTRACTING COMPANY IN QATAR is looking for Mechanical Engineer (experience in fire protection field and have background in Leading the Maintenance/Operations.) Electrical Engineer (Experience in ELV and MEP projet and maintenance) Must hold UDPA license. Minimum 2 to 3 years of experience Share CV: hr.tesla@tig.qa / 33773766 (WhatsApp only)",
+   "details": [
+    "(experience in fire protection field and have background in",
+    "Leading the Maintenance/Operations.)",
+    "(Experience in ELV and MEP projet and maintenance)",
+    "Must hold UDPA license. Minimum 2 to 3 years of experience"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "1590e35d7a0cfcec",
+   "title": "Resident Engineer (16+ Consultant Exp, UPDA - Required)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [],
+   "phones": [
+    "30019559",
+    "30014559"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Resident Engineer (16+ Consultant Exp, UPDA - Required) Road Works, Wet Utilities & Drainage Work, Structural Senior Resident Engineer (20+ Consultant Exp, UPDA Gr. A Mandatory) Mechanical Draftsman - 5+ Exp",
+   "details": [
+    "Road Works, Wet Utilities & Drainage Work, Structural",
+    "Senior Resident Engineer (20+ Consultant Exp, UPDA Gr. A Mandatory)",
+    "5+ Exp"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "2eec03ac8fd2685d",
+   "title": "Mechanical Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [],
+   "phones": [
+    "30019559",
+    "30014559"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Resident Engineer (16+ Consultant Exp, UPDA - Required) Road Works, Wet Utilities & Drainage Work, Structural Senior Resident Engineer (20+ Consultant Exp, UPDA Gr. A Mandatory) Mechanical Draftsman - 5+ Exp",
+   "details": [
+    "Road Works, Wet Utilities & Drainage Work, Structural",
+    "Senior Resident Engineer (20+ Consultant Exp, UPDA Gr. A Mandatory)",
+    "5+ Exp"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "6ec551292464c930",
+   "title": "Elevator Technician",
+   "company": "Le-Interior",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hr@le-interior.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED FOR Erigo Hygiene & Elevators Sales Executive (M/F) - 2 Nos Reception cum Document Controller (Female) - 1 Nos Elevator Technician- 3 Nos Driver (Medium Tanker/Trailer Truck) - 1 Nos Please post your resume in ( https://erigo.co/erigo-hygiene/careers.html ) INTERIOR ARCHITECT REQUIRED Limited Edition Interiors seeks a creative Interior Architect with Design & site coordination skills Qatar driving license required CV: hr@le-interior.com",
+   "details": [
+    "3 Nos",
+    "Driver (Medium Tanker/Trailer Truck) - 1 Nos",
+    "Please post your resume in",
+    "( https://erigo.co/erigo-hygiene/careers.html )",
+    "INTERIOR ARCHITECT REQUIRED Limited Edition Interiors seeks a"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "27c9aee721079fec",
+   "title": "Creative Interior Architect",
+   "company": "Le-Interior",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hr@le-interior.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED FOR Erigo Hygiene & Elevators Sales Executive (M/F) - 2 Nos Reception cum Document Controller (Female) - 1 Nos Elevator Technician- 3 Nos Driver (Medium Tanker/Trailer Truck) - 1 Nos Please post your resume in ( https://erigo.co/erigo-hygiene/careers.html ) INTERIOR ARCHITECT REQUIRED Limited Edition Interiors seeks a creative Interior Architect with Design & site coordination skills Qatar driving license required CV: hr@le-interior.com",
+   "details": [
+    "3 Nos",
+    "Driver (Medium Tanker/Trailer Truck) - 1 Nos",
+    "Please post your resume in",
+    "( https://erigo.co/erigo-hygiene/careers.html )",
+    "INTERIOR ARCHITECT REQUIRED Limited Edition Interiors seeks a"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "d1deff2dc3907a70",
+   "title": "Designer Cum Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "appointment333ip@gmail.com"
+   ],
+   "phones": [
+    "30257525"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED URGENT Designer cum Printer (Gulf experience required) Designer cum Accountant Sales & Marketing Executive (Advertising) appointment333ip@gmail.com",
+   "details": [],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "80f59a3a0dc4b5ce",
+   "title": "Sales & Marketing Executive (Advertising)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "appointment333ip@gmail.com"
+   ],
+   "phones": [
+    "30257525"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED URGENT Designer cum Printer (Gulf experience required) Designer cum Accountant Sales & Marketing Executive (Advertising) appointment333ip@gmail.com",
+   "details": [],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "7c6373aea02ce28f",
+   "title": "Logistics Officer",
+   "company": "Piec",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "admin@piec.com.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "VACANCY PROCUREMENT & LOGISTICS OFFICER A well-established Elevator Company in Qatar is looking for an experienced Procurement & Logistics Officer Requirements Bachelor’s degree in Business Administration, Supply Chain Logistics, or a related field Minimum 5 years of relevant experience, preferably in the elevator, construction, or engineering industry Experience in procurement of elevator materials, spare parts, and equipment is an advantage Strong experience in sourcing suppliers, obtaining quotations negotiating prices, and issuing purchase orders Experience in coordinating international shipments, freight forwarding, customs clearance, and deliveries Good knowledge of shipping and import documentation Ability to follow up with suppliers and ensure timely delivery of materials Good communication, negotiation, and organizational skills Interested candidates may send their CV to admin@p",
+   "details": [
+    "for an experienced Procurement & Logistics Officer",
+    "Requirements",
+    "Bachelor’s degree in Business Administration, Supply Chain",
+    "Logistics, or a related field",
+    "Minimum 5 years of relevant experience, preferably in the"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "1f2d1fec1ee87d29",
+   "title": "Chiller Plant Operator",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "caacareers@gmail.com"
+   ],
+   "phones": [
+    "31616585"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading Facility Management Company is looking for experienced professionals for the following roles Chiller Plant Operator (Electrical & Electronics) - 6 Years with ITI Laundry / Kitchen Technician - 6 Years with ITI Sr.Refrigeration Technician – 6 years with ITI AV Technician – 6 years with ITI VRF Supervisor – 8 years with ITI VRF Technician – 6 years with ITI Interested may apply with CV Educational and Experience Certificates at Email: caacareers@gmail.com",
+   "details": [
+    "(Electrical & Electronics) - 6 Years with ITI",
+    "6 Years with ITI",
+    "6 years with ITI",
+    "8 years with ITI",
+    "Educational and Experience Certificates at"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "5d84ced62b71da1c",
+   "title": "Laundry/Kitchen Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "caacareers@gmail.com"
+   ],
+   "phones": [
+    "31616585"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading Facility Management Company is looking for experienced professionals for the following roles Chiller Plant Operator (Electrical & Electronics) - 6 Years with ITI Laundry / Kitchen Technician - 6 Years with ITI Sr.Refrigeration Technician – 6 years with ITI AV Technician – 6 years with ITI VRF Supervisor – 8 years with ITI VRF Technician – 6 years with ITI Interested may apply with CV Educational and Experience Certificates at Email: caacareers@gmail.com",
+   "details": [
+    "(Electrical & Electronics) - 6 Years with ITI",
+    "6 Years with ITI",
+    "6 years with ITI",
+    "8 years with ITI",
+    "Educational and Experience Certificates at"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "1ebf039d2a914f06",
+   "title": "Sr.Refrigeration Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "caacareers@gmail.com"
+   ],
+   "phones": [
+    "31616585"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading Facility Management Company is looking for experienced professionals for the following roles Chiller Plant Operator (Electrical & Electronics) - 6 Years with ITI Laundry / Kitchen Technician - 6 Years with ITI Sr.Refrigeration Technician – 6 years with ITI AV Technician – 6 years with ITI VRF Supervisor – 8 years with ITI VRF Technician – 6 years with ITI Interested may apply with CV Educational and Experience Certificates at Email: caacareers@gmail.com",
+   "details": [
+    "(Electrical & Electronics) - 6 Years with ITI",
+    "6 Years with ITI",
+    "6 years with ITI",
+    "8 years with ITI",
+    "Educational and Experience Certificates at"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "eac8b1f80e607957",
+   "title": "AV Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "caacareers@gmail.com"
+   ],
+   "phones": [
+    "31616585"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading Facility Management Company is looking for experienced professionals for the following roles Chiller Plant Operator (Electrical & Electronics) - 6 Years with ITI Laundry / Kitchen Technician - 6 Years with ITI Sr.Refrigeration Technician – 6 years with ITI AV Technician – 6 years with ITI VRF Supervisor – 8 years with ITI VRF Technician – 6 years with ITI Interested may apply with CV Educational and Experience Certificates at Email: caacareers@gmail.com",
+   "details": [
+    "(Electrical & Electronics) - 6 Years with ITI",
+    "6 Years with ITI",
+    "6 years with ITI",
+    "8 years with ITI",
+    "Educational and Experience Certificates at"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "a653797551eb72df",
+   "title": "VRF Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "caacareers@gmail.com"
+   ],
+   "phones": [
+    "31616585"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading Facility Management Company is looking for experienced professionals for the following roles Chiller Plant Operator (Electrical & Electronics) - 6 Years with ITI Laundry / Kitchen Technician - 6 Years with ITI Sr.Refrigeration Technician – 6 years with ITI AV Technician – 6 years with ITI VRF Supervisor – 8 years with ITI VRF Technician – 6 years with ITI Interested may apply with CV Educational and Experience Certificates at Email: caacareers@gmail.com",
+   "details": [
+    "(Electrical & Electronics) - 6 Years with ITI",
+    "6 Years with ITI",
+    "6 years with ITI",
+    "8 years with ITI",
+    "Educational and Experience Certificates at"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "8ef933a9c4725be4",
+   "title": "VRF Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "caacareers@gmail.com"
+   ],
+   "phones": [
+    "31616585"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A leading Facility Management Company is looking for experienced professionals for the following roles Chiller Plant Operator (Electrical & Electronics) - 6 Years with ITI Laundry / Kitchen Technician - 6 Years with ITI Sr.Refrigeration Technician – 6 years with ITI AV Technician – 6 years with ITI VRF Supervisor – 8 years with ITI VRF Technician – 6 years with ITI Interested may apply with CV Educational and Experience Certificates at Email: caacareers@gmail.com",
+   "details": [
+    "(Electrical & Electronics) - 6 Years with ITI",
+    "6 Years with ITI",
+    "6 years with ITI",
+    "8 years with ITI",
+    "Educational and Experience Certificates at"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "1a6f7fe2954aceed",
+   "title": "Safety Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Safety Officer Electrical Draftsman Architectural Draftsman Mechanical Draftsman Send cvs +974 51114783 hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "ce7c8edb78984cd8",
+   "title": "Electrical Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Safety Officer Electrical Draftsman Architectural Draftsman Mechanical Draftsman Send cvs +974 51114783 hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "be51cb9f2192bd2c",
+   "title": "Architectural Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Safety Officer Electrical Draftsman Architectural Draftsman Mechanical Draftsman Send cvs +974 51114783 hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "710f5d6436805708",
+   "title": "Mechanical Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Safety Officer Electrical Draftsman Architectural Draftsman Mechanical Draftsman Send cvs +974 51114783 hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "52397c128e12afb9",
+   "title": "Administration Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "2017hrqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Reputed Trading Co. Looking to Hire the Following Administration Manager Graduate, with Minimum 5 years of experience in managing a company Valid Qatar Driving License Excellent command of English & Arabic Strong local market knowledge and business contacts Salary QAR: 10,000.00 + Transportation Sales Executive (Food Products) Graduate with Minimum 3 years of experience in food product sales Valid Qatar Driving License Strong market knowledge and customer network in Qatar Salary QAR: 3,500.00 + Company Accommodation + Transportation Sales Coordinator (Male/Female) Graduate with Minimum 5 years of experience in Sales Coordination Fluent in English Good Knowledge in MS Office with Excel Skills Must be willing to transfer sponsorship Salary QAR: 3,000.00 + Company Accommodation + Transportation (All Post Preferred Transferable visa must with NOC) Candidates who can join immediately please f",
+   "details": [
+    "Graduate, with Minimum 5 years of",
+    "experience in managing a company",
+    "Valid Qatar Driving License",
+    "Excellent command of English & Arabic",
+    "Strong local market knowledge and business"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "d86e2f771ed14aa7",
+   "title": "Sales Executive (Food Products)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "2017hrqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Reputed Trading Co. Looking to Hire the Following Administration Manager Graduate, with Minimum 5 years of experience in managing a company Valid Qatar Driving License Excellent command of English & Arabic Strong local market knowledge and business contacts Salary QAR: 10,000.00 + Transportation Sales Executive (Food Products) Graduate with Minimum 3 years of experience in food product sales Valid Qatar Driving License Strong market knowledge and customer network in Qatar Salary QAR: 3,500.00 + Company Accommodation + Transportation Sales Coordinator (Male/Female) Graduate with Minimum 5 years of experience in Sales Coordination Fluent in English Good Knowledge in MS Office with Excel Skills Must be willing to transfer sponsorship Salary QAR: 3,000.00 + Company Accommodation + Transportation (All Post Preferred Transferable visa must with NOC) Candidates who can join immediately please f",
+   "details": [
+    "Graduate, with Minimum 5 years of",
+    "experience in managing a company",
+    "Valid Qatar Driving License",
+    "Excellent command of English & Arabic",
+    "Strong local market knowledge and business"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "b6077a3f9620cf25",
+   "title": "Sales Coordinator (/)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "2017hrqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Reputed Trading Co. Looking to Hire the Following Administration Manager Graduate, with Minimum 5 years of experience in managing a company Valid Qatar Driving License Excellent command of English & Arabic Strong local market knowledge and business contacts Salary QAR: 10,000.00 + Transportation Sales Executive (Food Products) Graduate with Minimum 3 years of experience in food product sales Valid Qatar Driving License Strong market knowledge and customer network in Qatar Salary QAR: 3,500.00 + Company Accommodation + Transportation Sales Coordinator (Male/Female) Graduate with Minimum 5 years of experience in Sales Coordination Fluent in English Good Knowledge in MS Office with Excel Skills Must be willing to transfer sponsorship Salary QAR: 3,000.00 + Company Accommodation + Transportation (All Post Preferred Transferable visa must with NOC) Candidates who can join immediately please f",
+   "details": [
+    "Graduate, with Minimum 5 years of",
+    "experience in managing a company",
+    "Valid Qatar Driving License",
+    "Excellent command of English & Arabic",
+    "Strong local market knowledge and business"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "23c3cb5330c90333",
+   "title": "Logistics Coordinator",
+   "company": "Company Name",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "alquema.qa@gmail.com"
+   ],
+   "phones": [
+    "30473481"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Logistics Coordinator Company Name AlQuema International Trading Email: alquema.qa@gmail.com Mobile: +974 - 30473481",
+   "details": [
+    "Company Name",
+    "AlQuema International Trading"
+   ],
+   "typical_duties": "Coordinates schedules, documents and communication between teams, customers and suppliers and tracks follow-ups.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "52d20d3eeafc2bc6",
+   "title": "Mechanical Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modelor MEP Technician Civil 3D draftsman Email: sanaajmal845@gmail.com",
+   "details": [
+    "MEP BIM Modelor"
+   ],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "016477156694435a",
+   "title": "MEP Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modelor MEP Technician Civil 3D draftsman Email: sanaajmal845@gmail.com",
+   "details": [
+    "MEP BIM Modelor"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "d9ad251a6081e8e2",
+   "title": "Civil 3D Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Mechanical Inspector MEP BIM Modelor MEP Technician Civil 3D draftsman Email: sanaajmal845@gmail.com",
+   "details": [
+    "MEP BIM Modelor"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-04",
+   "source": "classified-20261004.pdf",
+   "first_seen": "2026-10-04",
+   "last_seen": "2026-10-04",
+   "seen_dates": [
+    "2026-10-04"
+   ]
+  },
+  {
+   "key": "2ae83b344b4c737a",
+   "title": "Business Development Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "miltradingkw@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED Business Development Executive with 5 years experience in Business Development, Procurement, Logistics with good communication skills, Driving license & Car Email: miltradingkw@gmail.com",
+   "details": [
+    "with 5 years experience in Business",
+    "Development, Procurement, Logistics with good",
+    "communication skills, Driving license & Car"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "87d5c511c57a0356",
+   "title": "Senior Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "recruitmentqatar700@gmail.com"
+   ],
+   "phones": [
+    "31154953"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A WELL-REPUTED HVAC & REFRIGERATION spare parts company in Qatar is looking for candidates for the following positions Senior Accountant, Sales Executive Medium & Light vehicle driver Preferably Indians with minimum 2 years’ experience in the similar job title Candidates, kindly send resumes to recruitmentqatar700@gmail.com / Mob: +974 31154953",
+   "details": [
+    "Preferably Indians with minimum 2 years’ experience",
+    "in the similar job title"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "300642d2709fc8f3",
+   "title": "Sales Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "recruitmentqatar700@gmail.com"
+   ],
+   "phones": [
+    "31154953"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A WELL-REPUTED HVAC & REFRIGERATION spare parts company in Qatar is looking for candidates for the following positions Senior Accountant, Sales Executive Medium & Light vehicle driver Preferably Indians with minimum 2 years’ experience in the similar job title Candidates, kindly send resumes to recruitmentqatar700@gmail.com / Mob: +974 31154953",
+   "details": [
+    "Preferably Indians with minimum 2 years’ experience",
+    "in the similar job title"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "24d0c2ca03d44415",
+   "title": "Medium & Light Vehicle Driver",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "recruitmentqatar700@gmail.com"
+   ],
+   "phones": [
+    "31154953"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A WELL-REPUTED HVAC & REFRIGERATION spare parts company in Qatar is looking for candidates for the following positions Senior Accountant, Sales Executive Medium & Light vehicle driver Preferably Indians with minimum 2 years’ experience in the similar job title Candidates, kindly send resumes to recruitmentqatar700@gmail.com / Mob: +974 31154953",
+   "details": [
+    "Preferably Indians with minimum 2 years’ experience",
+    "in the similar job title"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "b06bcf0ed623f877",
+   "title": "Sales Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "dohafactoryjobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED Metal Factory, New Industrial Area, Doha Sales Executive Metal Fabricator / Welder Machinist Email your CV dohafactoryjobs@gmail.com",
+   "details": [
+    "Machinist"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "138fb27fc0b311c2",
+   "title": "Metal Fabricator/Welder",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Industrial Area, Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "dohafactoryjobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED Metal Factory, New Industrial Area, Doha Sales Executive Metal Fabricator / Welder Machinist Email your CV dohafactoryjobs@gmail.com",
+   "details": [
+    "Machinist"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "95aae6695fda2bfe",
+   "title": "Business Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "tfphrd1@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WANTED BUSINESS EXECUTIVE A leading Grade A fire protection company in Qatar is seeking a dynamic Business Executive to join its team Requirements: Proven experience in MEP sales Valid Qatar driving license preferred Strong communication and negotiation skills To apply, send your CV to tfphrd1@gmail.com",
+   "details": [
+    "is seeking a dynamic Business Executive to join its team",
+    "Requirements: Proven experience in MEP sales",
+    "Valid Qatar driving license preferred",
+    "Strong communication and negotiation skills"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "27d0245c716dc8b9",
+   "title": "ELV Engineer/Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "career.austingulf@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "ELV ENGINEER / SUPERVISOR REQUIRED Reputed company urgently needs ELV Engineer / Supervisor with 2+ years experience in installation, testing commissioning, troubleshooting, supervision. Expertise in CCTV, Access Control, Structured Cabling required. Qatar/ GCC/MOI knowledge preferred Driving license advantage CV: career.austingulf@gmail.com",
+   "details": [
+    "Supervisor with 2+ years experience in installation, testing",
+    "commissioning, troubleshooting, supervision. Expertise in",
+    "CCTV, Access Control, Structured Cabling required. Qatar/",
+    "GCC/MOI knowledge preferred",
+    "Driving license advantage"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-05",
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "45c40528d07e7704",
+   "title": "HSE Manager",
+   "company": "Contracting Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "hr@ibqatar.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT VACANCIES REPUTED CONSTRUCTION/MEP CONTRACTING COMPANY HSE Manager with 8–12 years’ experience NEBOSH/IOSH qualification; AP certification Strong Leadership of HSE Interested candidates Send CV to hr@ibqatar.com",
+   "details": [
+    "with 8–12 years’ experience",
+    "NEBOSH/IOSH qualification; AP certification",
+    "Strong Leadership of HSE",
+    "Interested candidates"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "1b7444a7682b787f",
+   "title": "Marketing Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hrrecruiter388@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "HIRING Marketing executive HR recruiter Accountant Messenger Pls mail to: hrrecruiter388@gmail.com",
+   "details": [
+    "HR recruiter",
+    "Messenger"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "4e40ab07fd7499f8",
+   "title": "Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "hrrecruiter388@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "HIRING Marketing executive HR recruiter Accountant Messenger Pls mail to: hrrecruiter388@gmail.com",
+   "details": [
+    "HR recruiter",
+    "Messenger"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "9bac77bba7d22940",
+   "title": "Steel FAB: Sales Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "recruitment7556@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "JOB VACANCY Company in Qatar requires experienced candidates Steel FAB: Sales Executive, Operation Controller Construction Chemical Sales Executive / Manager Fence Industry experienced personals Interested candidates may send their CV to recruitment7556@gmail.com",
+   "details": [
+    "Fence Industry experienced personals",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "f1cd1efb6a9c7509",
+   "title": "Operation Controller",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "other-jobs",
+   "category_label": "Other Jobs",
+   "emails": [
+    "recruitment7556@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "JOB VACANCY Company in Qatar requires experienced candidates Steel FAB: Sales Executive, Operation Controller Construction Chemical Sales Executive / Manager Fence Industry experienced personals Interested candidates may send their CV to recruitment7556@gmail.com",
+   "details": [
+    "Fence Industry experienced personals",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "bb8983ecb73efca4",
+   "title": "Construction Chemical Sales Executive/Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "recruitment7556@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "JOB VACANCY Company in Qatar requires experienced candidates Steel FAB: Sales Executive, Operation Controller Construction Chemical Sales Executive / Manager Fence Industry experienced personals Interested candidates may send their CV to recruitment7556@gmail.com",
+   "details": [
+    "Fence Industry experienced personals",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "a97a8e909945e16d",
+   "title": "And Civil Foreman",
+   "company": "Wathiqa",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "info@wathiqa.qa",
+    "haji@wathiqa.qa"
+   ],
+   "phones": [
+    "66337050"
+   ],
+   "walk_in_date": null,
+   "ad_text": "Urgently Looking for Civil engineer UPDA Grade C, and Civil Foreman and Safety Officer certified NEBOSH, IOSH Managing Safely our construction co, With Valid QID Experience candidates send CV in our email info@wathiqa.qa, haji@wathiqa.qa",
+   "details": [
+    "and Safety Officer certified NEBOSH, IOSH Managing",
+    "Safely our construction co, With Valid QID",
+    "Experience candidates send CV in our email"
+   ],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-05",
+   "source": "classified-20261005.pdf",
+   "first_seen": "2026-10-05",
+   "last_seen": "2026-10-05",
+   "seen_dates": [
+    "2026-10-05"
+   ]
+  },
+  {
+   "key": "abbe90e850a1799e",
+   "title": "Heavy Driver",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [],
+   "phones": [
+    "44466609",
+    "44466648"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED General Contracting firm is looking for HEAVY DRIVER G U L F Experience not less than 5 years T I M E S MEDIUM DRIVER Experience not less than 5 years Nationality – Nepal, Bangladesh Sri Lankan, Indian & Philippines 44466609 Interested candidates can send their CVs to hr@egygulfgroup. com 44466648",
+   "details": [
+    "G U L F",
+    "Experience not less than 5 years",
+    "T I M E S",
+    "Nationality – Nepal, Bangladesh",
+    "Sri Lankan, Indian & Philippines"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "f4960ddf74a91111",
+   "title": "Medium Driver",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [],
+   "phones": [
+    "44466609",
+    "44466648"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED General Contracting firm is looking for HEAVY DRIVER G U L F Experience not less than 5 years T I M E S MEDIUM DRIVER Experience not less than 5 years Nationality – Nepal, Bangladesh Sri Lankan, Indian & Philippines 44466609 Interested candidates can send their CVs to hr@egygulfgroup. com 44466648",
+   "details": [
+    "G U L F",
+    "Experience not less than 5 years",
+    "T I M E S",
+    "Nationality – Nepal, Bangladesh",
+    "Sri Lankan, Indian & Philippines"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "855980f050fc162c",
+   "title": "Document Controller",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "alinjazpolyclinic@gmail.com",
+    "hradmin.elegant@gmail.com"
+   ],
+   "phones": [
+    "74040025",
+    "30585057"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT URGENT RECRUITMENT We are hiring for the following positions A reputed Fit-Out Company is seeking experienced Specialty (Diagnostic Radiology) professionals with relevant Fit-Out experience for QS Specialty (Cosmetic Dermatologist) Document Controller Draftsman 30585057 Accountant & Admin Assistant Email: alinjazpolyclinic@gmail.com Send CV to: hradmin.elegant@gmail.com",
+   "details": [],
+   "typical_duties": "Controls project documents and transmittals, maintains registers and revision status and supports audits and handover packages.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "b88e008b5e5f02ec",
+   "title": "Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "alinjazpolyclinic@gmail.com",
+    "hradmin.elegant@gmail.com"
+   ],
+   "phones": [
+    "74040025",
+    "30585057"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT URGENT RECRUITMENT We are hiring for the following positions A reputed Fit-Out Company is seeking experienced Specialty (Diagnostic Radiology) professionals with relevant Fit-Out experience for QS Specialty (Cosmetic Dermatologist) Document Controller Draftsman 30585057 Accountant & Admin Assistant Email: alinjazpolyclinic@gmail.com Send CV to: hradmin.elegant@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "f85ffde2d8a337c6",
+   "title": "Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "alinjazpolyclinic@gmail.com",
+    "hradmin.elegant@gmail.com"
+   ],
+   "phones": [
+    "74040025",
+    "30585057"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT URGENT RECRUITMENT We are hiring for the following positions A reputed Fit-Out Company is seeking experienced Specialty (Diagnostic Radiology) professionals with relevant Fit-Out experience for QS Specialty (Cosmetic Dermatologist) Document Controller Draftsman 30585057 Accountant & Admin Assistant Email: alinjazpolyclinic@gmail.com Send CV to: hradmin.elegant@gmail.com",
+   "details": [],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "ede63cab7dfe1f83",
+   "title": "Admin Assistant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "alinjazpolyclinic@gmail.com",
+    "hradmin.elegant@gmail.com"
+   ],
+   "phones": [
+    "74040025",
+    "30585057"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - IMMEDIATE REQUIREMENT URGENT RECRUITMENT We are hiring for the following positions A reputed Fit-Out Company is seeking experienced Specialty (Diagnostic Radiology) professionals with relevant Fit-Out experience for QS Specialty (Cosmetic Dermatologist) Document Controller Draftsman 30585057 Accountant & Admin Assistant Email: alinjazpolyclinic@gmail.com Send CV to: hradmin.elegant@gmail.com",
+   "details": [],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "f385182906f4b687",
+   "title": "Industrial Electrician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "dohahire2024@gmail.com"
+   ],
+   "phones": [
+    "55840093"
+   ],
+   "walk_in_date": null,
+   "ad_text": "WANTED INDUSTRIAL ELECTRICIANS Electrical Diploma with 5 years’ industrial maintenance experience, including 3 years’ regional experience. Skilled in MCC panels, motors, generators, VFDs and LV switchgear Good English and PTW/LOTO knowledge required HSE Officers: QatarEnergy-approved experienced HSE Officers required for a long-term project Please share the CV 55840093, dohahire2024@gmail.com",
+   "details": [
+    "Electrical Diploma with 5 years’ industrial maintenance",
+    "experience, including 3 years’ regional experience. Skilled in",
+    "MCC panels, motors, generators, VFDs and LV switchgear",
+    "Good English and PTW/LOTO knowledge required",
+    "HSE Officers: QatarEnergy-approved"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "8e0698119fc5d109",
+   "title": "Project Acquisition Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [],
+   "phones": [
+    "33000675"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Project Acquisition Manager With experience not less than 10 years in the Qatari market for Wooden Industry factory",
+   "details": [
+    "With experience not less than 10 years in the",
+    "Qatari market for",
+    "Wooden Industry factory"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "e6e754c923a95f21",
+   "title": "General Manager",
+   "company": "Acc Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "arctic@accqatar.com"
+   ],
+   "phones": [
+    "33395506",
+    "55576125"
+   ],
+   "walk_in_date": null,
+   "ad_text": "GENERAL MANAGER Operations & Business Development required 5+ years’ HVAC field experience Salary QR: 10000–15000 Qatar driving license preferred Email: arctic@accqatar.com Mob: 33395506, 55576125",
+   "details": [
+    "Operations & Business Development required",
+    "5+ years’ HVAC field experience",
+    "Qatar driving license preferred"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "804576df939c053e",
+   "title": "Pickups with & Without Driver",
+   "company": "Thousandstransport",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "qataroffice@yahoo.com",
+    "sales@thousandstransport.com",
+    "info@travellertransport.com",
+    "hipower@safarigroup.net"
+   ],
+   "phones": [
+    "55853618",
+    "55861541",
+    "44425610",
+    "44180042",
+    "55875266",
+    "44513283",
+    "30777432",
+    "55899097",
+    "44681056",
+    "70495406"
+   ],
+   "walk_in_date": null,
+   "ad_text": "BUS RENTAL / HIRE Q MASTER W.L.L. 15/26/30/65 Seater Buses with / W-out Driver Contact # 55853618, 55861541 (24 Hours) F: 44425610 Em: qataroffice@yahoo.com THOUSANDS TRANSPORT 60/67 Seated A/C non AC Buses w/ w-out driver T: 4418 0042...F: 4418 0042...M: 5587 5266...Em: sales@thousandstransport.com TRAVELLER TRANSPORT - 13/22/26/36/66 Seater Bus With & Without Driver Tel: 44513283 Mob: 30777432 / 55899097. Email: info@travellertransport.com HIPOWER TRANSPORT: 13/22/26/66 Seater Buses & Pickups with & without driver Tel: 4468 1056,............. Mob: 7049 5406,............ Em: hipower@safarigroup.net",
+   "details": [],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "37933e0a75ffb61f",
+   "title": "Technician",
+   "company": "Roveoz",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "cv@roveoz.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT RECRUITMENT – QATAR We are urgently looking for highly experienced Electrical & Telecommunication Technicians and Riggers for immediate employment in Qatar Required Qualifications & Experience Minimum 10+ years of relevant experience in ➠ Electrical works ➠ Telecommunication works ➠ Control panels and electrical systems ➠ Communication towers and related installations ➠ Valid Work at Height Certificate is mandatory ➠ Rigger / Rigger License or relevant certification is required ➠ Good knowledge of electrical standards, cables, control panels and site installation works ➠ Experience working at height and on telecommunication towers ➠ Valid Qatar Driving License will be an added advantage ➠ Candidates must be available for immediate joining ➠ Location: Qatar ➠ Position:Electrical Technician / Telecommunication Technician / Rigger ➠ Experience: 10+ Years ➠ Joining: Immediate, Sponsor",
+   "details": [
+    "for immediate employment in Qatar",
+    "Required Qualifications & Experience",
+    "Minimum 10+ years of relevant experience in",
+    "➠ Electrical works",
+    "➠ Telecommunication works"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "11d1ff3dc72820c4",
+   "title": "Riggers",
+   "company": "Roveoz",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "cv@roveoz.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT RECRUITMENT – QATAR We are urgently looking for highly experienced Electrical & Telecommunication Technicians and Riggers for immediate employment in Qatar Required Qualifications & Experience Minimum 10+ years of relevant experience in ➠ Electrical works ➠ Telecommunication works ➠ Control panels and electrical systems ➠ Communication towers and related installations ➠ Valid Work at Height Certificate is mandatory ➠ Rigger / Rigger License or relevant certification is required ➠ Good knowledge of electrical standards, cables, control panels and site installation works ➠ Experience working at height and on telecommunication towers ➠ Valid Qatar Driving License will be an added advantage ➠ Candidates must be available for immediate joining ➠ Location: Qatar ➠ Position:Electrical Technician / Telecommunication Technician / Rigger ➠ Experience: 10+ Years ➠ Joining: Immediate, Sponsor",
+   "details": [
+    "for immediate employment in Qatar",
+    "Required Qualifications & Experience",
+    "Minimum 10+ years of relevant experience in",
+    "➠ Electrical works",
+    "➠ Telecommunication works"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
+   ]
+  },
+  {
+   "key": "2c72360b67d18a74",
+   "title": "Technician/Rigger",
+   "company": "Roveoz",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "cv@roveoz.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT RECRUITMENT – QATAR We are urgently looking for highly experienced Electrical & Telecommunication Technicians and Riggers for immediate employment in Qatar Required Qualifications & Experience Minimum 10+ years of relevant experience in ➠ Electrical works ➠ Telecommunication works ➠ Control panels and electrical systems ➠ Communication towers and related installations ➠ Valid Work at Height Certificate is mandatory ➠ Rigger / Rigger License or relevant certification is required ➠ Good knowledge of electrical standards, cables, control panels and site installation works ➠ Experience working at height and on telecommunication towers ➠ Valid Qatar Driving License will be an added advantage ➠ Candidates must be available for immediate joining ➠ Location: Qatar ➠ Position:Electrical Technician / Telecommunication Technician / Rigger ➠ Experience: 10+ Years ➠ Joining: Immediate, Sponsor",
+   "details": [
+    "for immediate employment in Qatar",
+    "Required Qualifications & Experience",
+    "Minimum 10+ years of relevant experience in",
+    "➠ Electrical works",
+    "➠ Telecommunication works"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-11",
+   "source": "classified-20261011.pdf",
+   "first_seen": "2026-10-11",
+   "last_seen": "2026-10-11",
+   "seen_dates": [
+    "2026-10-11"
    ]
   }
  ]
