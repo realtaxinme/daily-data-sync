@@ -212,6 +212,23 @@
     "f4960ddf74a91111",
     "f85ffde2d8a337c6"
    ]
+  },
+  {
+   "date": "2026-10-12",
+   "ads_found": 7,
+   "segments": 12,
+   "vacancies_listed": 9,
+   "keys": [
+    "2ec9794e82d4a4e3",
+    "401dd36333b65ba5",
+    "4bbb5eaea67b8acd",
+    "8e0698119fc5d109",
+    "a0ab7818abe6ab98",
+    "e6e754c923a95f21",
+    "eefa05967da9b9c5",
+    "f2bae15a01097605",
+    "fbf9d1db3c1fca89"
+   ]
   }
  ],
  "jobs": [
@@ -3481,9 +3498,10 @@
    "issue_date": "2026-10-11",
    "source": "classified-20261011.pdf",
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "seen_dates": [
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
    ]
   },
   {
@@ -3512,9 +3530,10 @@
    "issue_date": "2026-10-11",
    "source": "classified-20261011.pdf",
    "first_seen": "2026-10-11",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-12",
    "seen_dates": [
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-12"
    ]
   },
   {
@@ -3643,6 +3662,221 @@
    "last_seen": "2026-10-11",
    "seen_dates": [
     "2026-10-11"
+   ]
+  },
+  {
+   "key": "eefa05967da9b9c5",
+   "title": "Engineer",
+   "company": "Ultimate Trading & Cont. Co. W.L.L",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hrd@ultimate-qatar.com"
+   ],
+   "phones": [
+    "70216939"
+   ],
+   "walk_in_date": null,
+   "ad_text": "ULTIMATE TRADING & CONT. CO. W.L.L CIVIL & ELECTRO-MECHANICAL CONTRACTOR WE ARE HIRING - LOCAL HIRING – QATAR (cid:175) 3–5 years of experience; UPDA required Mechanical (cid:175) Knowledge of HVAC, Fire Fighting, Plumbing & Drainage Engineer Site coordination, drawings and project documentation (cid:175) (cid:175) Minimum 8 years of experience Electrical (cid:175) UPDA Grade A mandatory Engineer (cid:175) Construction experience (cid:175) Electrical installation supervision and site coordination Draftsman (cid:175) 2–4 years of Civil & MEP drafting experience Cum (cid:175) Diploma / ITI / Engineering qualification Estimation (cid:175) AutoCAD, shop and as-built drawings, quantity take-off and BOQs (cid:175) 3–5 years of procurement experience Procurement (cid:175) Engineering graduate Officer (cid:175) Vendor management, supplier evaluation, negotiation and purchase orders Send your upd",
+   "details": [
+    "Site coordination, drawings and project documentation",
+    "(cid:175)",
+    "Minimum 8 years of experience",
+    "Electrical",
+    "UPDA Grade A mandatory"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
+   ]
+  },
+  {
+   "key": "a0ab7818abe6ab98",
+   "title": "Draftsman",
+   "company": "Ultimate Trading & Cont. Co. W.L.L",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hrd@ultimate-qatar.com"
+   ],
+   "phones": [
+    "70216939"
+   ],
+   "walk_in_date": null,
+   "ad_text": "ULTIMATE TRADING & CONT. CO. W.L.L CIVIL & ELECTRO-MECHANICAL CONTRACTOR WE ARE HIRING - LOCAL HIRING – QATAR (cid:175) 3–5 years of experience; UPDA required Mechanical (cid:175) Knowledge of HVAC, Fire Fighting, Plumbing & Drainage Engineer Site coordination, drawings and project documentation (cid:175) (cid:175) Minimum 8 years of experience Electrical (cid:175) UPDA Grade A mandatory Engineer (cid:175) Construction experience (cid:175) Electrical installation supervision and site coordination Draftsman (cid:175) 2–4 years of Civil & MEP drafting experience Cum (cid:175) Diploma / ITI / Engineering qualification Estimation (cid:175) AutoCAD, shop and as-built drawings, quantity take-off and BOQs (cid:175) 3–5 years of procurement experience Procurement (cid:175) Engineering graduate Officer (cid:175) Vendor management, supplier evaluation, negotiation and purchase orders Send your upd",
+   "details": [
+    "Site coordination, drawings and project documentation",
+    "(cid:175)",
+    "Minimum 8 years of experience",
+    "Electrical",
+    "UPDA Grade A mandatory"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
+   ]
+  },
+  {
+   "key": "2ec9794e82d4a4e3",
+   "title": "Officer",
+   "company": "Ultimate Trading & Cont. Co. W.L.L",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hrd@ultimate-qatar.com"
+   ],
+   "phones": [
+    "70216939"
+   ],
+   "walk_in_date": null,
+   "ad_text": "ULTIMATE TRADING & CONT. CO. W.L.L CIVIL & ELECTRO-MECHANICAL CONTRACTOR WE ARE HIRING - LOCAL HIRING – QATAR (cid:175) 3–5 years of experience; UPDA required Mechanical (cid:175) Knowledge of HVAC, Fire Fighting, Plumbing & Drainage Engineer Site coordination, drawings and project documentation (cid:175) (cid:175) Minimum 8 years of experience Electrical (cid:175) UPDA Grade A mandatory Engineer (cid:175) Construction experience (cid:175) Electrical installation supervision and site coordination Draftsman (cid:175) 2–4 years of Civil & MEP drafting experience Cum (cid:175) Diploma / ITI / Engineering qualification Estimation (cid:175) AutoCAD, shop and as-built drawings, quantity take-off and BOQs (cid:175) 3–5 years of procurement experience Procurement (cid:175) Engineering graduate Officer (cid:175) Vendor management, supplier evaluation, negotiation and purchase orders Send your upd",
+   "details": [
+    "Site coordination, drawings and project documentation",
+    "(cid:175)",
+    "Minimum 8 years of experience",
+    "Electrical",
+    "UPDA Grade A mandatory"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
+   ]
+  },
+  {
+   "key": "4bbb5eaea67b8acd",
+   "title": "Driver Cum Helper",
+   "company": "Driver Cum Helper – A/C Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [],
+   "phones": [
+    "70002406"
+   ],
+   "walk_in_date": null,
+   "ad_text": "DRIVER CUM HELPER – A/C COMPANY Qatar light vehicle licence required Secondment basis. QAR 2,200 + accommodation 10 hours daily",
+   "details": [
+    "A/C COMPANY",
+    "Qatar light vehicle licence required",
+    "10 hours daily"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
+   ]
+  },
+  {
+   "key": "401dd36333b65ba5",
+   "title": "HVAC Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "jjmsckm@gmail.com"
+   ],
+   "phones": [
+    "30596005"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED HVAC Technician with firefighting system knowledge (3 years exp.in Qatar) Driver with Airport Driving License (AVOP) email: jjmsckm@gmail.com",
+   "details": [
+    "firefighting",
+    "system knowledge",
+    "(3 years exp.in Qatar)",
+    "Driver with Airport Driving License (AVOP)"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
+   ]
+  },
+  {
+   "key": "fbf9d1db3c1fca89",
+   "title": "Senior Presales Engineer",
+   "company": "Loons Group",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "careers@loonsgroup.com"
+   ],
+   "phones": [
+    "70910458"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY HIRING Senior Presales Engineer - ELV Bachelor's Degree in Electrical, 7-10 years of experience in same Field. Kindly share your CV to careers@loonsgroup.com",
+   "details": [
+    "ELV Bachelor's",
+    "Degree in Electrical, 7-10 years of experience",
+    "in same Field. Kindly share your CV to"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
+   ]
+  },
+  {
+   "key": "f2bae15a01097605",
+   "title": "Reqd: Accountant",
+   "company": "Twol-Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "hr@twol-qatar.com"
+   ],
+   "phones": [
+    "31189892"
+   ],
+   "walk_in_date": null,
+   "ad_text": "(cid:3)(cid:5)(cid:6)(cid:13)(cid:11)(cid:12)(cid:14)(cid:1)(cid:4)(cid:8)(cid:7) (cid:1)(cid:1) (cid:9)(cid:6)(cid:5)(cid:10)(cid:1)(cid:2)(cid:11)(cid:6)(cid:13)(cid:11)(cid:12)(cid:1) (cid:1) (cid:2)(cid:1)(cid:13)(cid:4)(cid:14)(cid:20)(cid:8)(cid:4)(cid:5)(cid:19)(cid:20)(cid:17)(cid:10)(cid:14)(cid:9)(cid:1)(cid:8)(cid:4)(cid:5)(cid:19)(cid:15)(cid:17)(cid:24)(cid:1)(cid:10)(cid:14)(cid:1)(cid:5)(cid:7)(cid:18)(cid:7)(cid:16)(cid:1)(cid:10)(cid:18)(cid:1) (cid:12)(cid:15)(cid:15)(cid:11)(cid:10)(cid:14)(cid:9)(cid:1)(cid:8)(cid:15)(cid:17)(cid:1)(cid:4)(cid:1)(cid:12)(cid:11)(cid:8)(cid:10)(cid:14)(cid:17)(cid:10)(cid:9)(cid:1)(cid:4)(cid:10)(cid:9)(cid:11)(cid:8)(cid:7)(cid:12)(cid:1)(cid:2)(cid:15)(cid:8)(cid:18)(cid:15)(cid:16)(cid:1)(cid:19)(cid:15)(cid:1) (cid:16)(cid:17)(cid:15)(cid:21)(cid:10)(cid:6)(cid:7)(cid:1)(cid:3)(cid:19)(cid:12)(cid:12)(cid:22)(cid:6)(cid:11)(cid:13)",
+   "details": [
+    "Exp. in Tally & Odoo",
+    "Single, Arabic + English",
+    "Sal. QR 2,500 + Accom. + Transp"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-12",
+   "source": "classified-20261012.pdf",
+   "first_seen": "2026-10-12",
+   "last_seen": "2026-10-12",
+   "seen_dates": [
+    "2026-10-12"
    ]
   }
  ]
