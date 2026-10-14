@@ -236,6 +236,25 @@
    "segments": 0,
    "vacancies_listed": 0,
    "keys": []
+  },
+  {
+   "date": "2026-10-14",
+   "ads_found": 5,
+   "segments": 9,
+   "vacancies_listed": 11,
+   "keys": [
+    "09e4ab997a3c8966",
+    "1ebf039d2a914f06",
+    "1ee5db372cd140a4",
+    "1f2d1fec1ee87d29",
+    "5d84ced62b71da1c",
+    "8ef933a9c4725be4",
+    "a653797551eb72df",
+    "c094a8a6a8f7a37a",
+    "eac8b1f80e607957",
+    "f9af717005b6a13c",
+    "ffd643991a86b261"
+   ]
   }
  ],
  "jobs": [
@@ -2382,9 +2401,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-14"
    ]
   },
   {
@@ -2414,9 +2434,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-14"
    ]
   },
   {
@@ -2446,9 +2467,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-14"
    ]
   },
   {
@@ -2478,9 +2500,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-14"
    ]
   },
   {
@@ -2510,9 +2533,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-14"
    ]
   },
   {
@@ -2542,9 +2566,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-10-14",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-10-14"
    ]
   },
   {
@@ -3884,6 +3909,158 @@
    "last_seen": "2026-10-12",
    "seen_dates": [
     "2026-10-12"
+   ]
+  },
+  {
+   "key": "c094a8a6a8f7a37a",
+   "title": "Sales Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hrcongqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "SALES EXECUTIVE REQUIRED For a leading Stationary Supplies & Office Equipment company Requirements: Min. 2 year's experience in Stationary/ Office Equipment/B2B Sales Corporate Accounts & Tender Quoting experience preferred Qatar driving licence mandatory MS Office knowledge required. Arabic language advantage Send CV to: hrcongqatar@gmail.com",
+   "details": [
+    "Requirements: Min. 2 year's experience in Stationary/",
+    "Office Equipment/B2B Sales",
+    "Corporate Accounts & Tender Quoting experience preferred",
+    "Qatar driving licence mandatory",
+    "MS Office knowledge required. Arabic language advantage"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-14",
+   "source": "classified-20261014.pdf",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "seen_dates": [
+    "2026-10-14"
+   ]
+  },
+  {
+   "key": "f9af717005b6a13c",
+   "title": "Assistant Storekeeper",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "recruiter0804999@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Asst Storekeeper / OIL & GAS Assistant Storekeeper Must have 5 years of experience in total, out of which 3 years of experience in Oil and Gas Industry Must have an attested DIPLOMA or GRADUATION certificate in any field Send CV to: recruiter0804999@gmail.com with the job title on the subject before 20th October 2026",
+   "details": [
+    "Must have 5 years of experience in total, out of which",
+    "3 years of experience in Oil and Gas Industry",
+    "Must have an attested DIPLOMA or GRADUATION",
+    "certificate in any field",
+    "with the job title on the subject before 20th October 2026"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-14",
+   "source": "classified-20261014.pdf",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "seen_dates": [
+    "2026-10-14"
+   ]
+  },
+  {
+   "key": "1ee5db372cd140a4",
+   "title": "HR & Admin Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "raim78811@gmail.com"
+   ],
+   "phones": [
+    "33359471"
+   ],
+   "walk_in_date": null,
+   "ad_text": "NEPALI FEMALE HR & ADMIN OFFICER 10+ years experienced in HR & Admin including 8 years in Qatar, MA in Sociology Expertise in Full Cycle Recruitment and HR Administration & Operations. Proficient in Microsoft Office Looking for suitable position. Transferable Visa with NOC Email: raim78811@gmail.com /",
+   "details": [
+    "10+ years experienced in HR & Admin",
+    "including 8 years in Qatar, MA in Sociology",
+    "Expertise in Full Cycle Recruitment and HR Administration",
+    "& Operations. Proficient in Microsoft Office",
+    "Looking for suitable position. Transferable Visa with NOC"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-14",
+   "source": "classified-20261014.pdf",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "seen_dates": [
+    "2026-10-14"
+   ]
+  },
+  {
+   "key": "ffd643991a86b261",
+   "title": "Storekeeper Cum Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "tmbnn123@gmail.com"
+   ],
+   "phones": [
+    "51236873",
+    "55500891"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Storekeeper cum Accountant Sales Executives with Qatar driving licence Trailer Driver with UAE Heavy licence Email: tmbnn123@gmail.com",
+   "details": [
+    "Sales Executives with Qatar driving licence",
+    "UAE Heavy licence"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-14",
+   "source": "classified-20261014.pdf",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "seen_dates": [
+    "2026-10-14"
+   ]
+  },
+  {
+   "key": "09e4ab997a3c8966",
+   "title": "Trailer Driver",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "tmbnn123@gmail.com"
+   ],
+   "phones": [
+    "51236873",
+    "55500891"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Storekeeper cum Accountant Sales Executives with Qatar driving licence Trailer Driver with UAE Heavy licence Email: tmbnn123@gmail.com",
+   "details": [
+    "Sales Executives with Qatar driving licence",
+    "UAE Heavy licence"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-14",
+   "source": "classified-20261014.pdf",
+   "first_seen": "2026-10-14",
+   "last_seen": "2026-10-14",
+   "seen_dates": [
+    "2026-10-14"
    ]
   }
  ]
