@@ -276,6 +276,23 @@
    "segments": 0,
    "vacancies_listed": 0,
    "keys": []
+  },
+  {
+   "date": "2026-10-18",
+   "ads_found": 6,
+   "segments": 13,
+   "vacancies_listed": 9,
+   "keys": [
+    "0f1d700f02c96cd3",
+    "401dd36333b65ba5",
+    "4431d9816780d5c0",
+    "538d401d2d5ffd6c",
+    "56b5183101b3860d",
+    "889ffb5e2b9a82be",
+    "a084dda4484e7278",
+    "c039394fde37a0d5",
+    "c10e004552844625"
+   ]
   }
  ],
  "jobs": [
@@ -3867,9 +3884,10 @@
    "issue_date": "2026-10-12",
    "source": "classified-20261012.pdf",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-12",
+   "last_seen": "2026-10-18",
    "seen_dates": [
-    "2026-10-12"
+    "2026-10-12",
+    "2026-10-18"
    ]
   },
   {
@@ -4082,6 +4100,241 @@
    "last_seen": "2026-10-14",
    "seen_dates": [
     "2026-10-14"
+   ]
+  },
+  {
+   "key": "c039394fde37a0d5",
+   "title": "Tyre Fitter",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "qatarhr2019@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED READY-MIX COMPANY IN Kids Saloon QATAR URGENTLY REQUIRES TYRE FITTER Min. 10 years’ experience in tyre inspection, repair & replacement. Qatar Driving License required WELDER CUM FABRICATOR Min. 5 years’ experience in Welding & Fabrication Female / Male Haircut Dressers needed for Fine Kids Saloon AC & REFRIGERATION MECHANIC Min. 5 years’ experience in troubleshooting testing, maintaining, and repairing heating & cooling systems Interested candidate with valid driving license & NOC may apply by sending your updated CV to qatarhr2019@gmail.com",
+   "details": [
+    "Min. 10 years’ experience in tyre inspection, repair",
+    "& replacement. Qatar Driving License required",
+    "WELDER CUM FABRICATOR",
+    "Min. 5 years’ experience in Welding &",
+    "Fabrication"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "889ffb5e2b9a82be",
+   "title": "AC & Refrigeration Mechanic",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "qatarhr2019@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED READY-MIX COMPANY IN Kids Saloon QATAR URGENTLY REQUIRES TYRE FITTER Min. 10 years’ experience in tyre inspection, repair & replacement. Qatar Driving License required WELDER CUM FABRICATOR Min. 5 years’ experience in Welding & Fabrication Female / Male Haircut Dressers needed for Fine Kids Saloon AC & REFRIGERATION MECHANIC Min. 5 years’ experience in troubleshooting testing, maintaining, and repairing heating & cooling systems Interested candidate with valid driving license & NOC may apply by sending your updated CV to qatarhr2019@gmail.com",
+   "details": [
+    "Min. 10 years’ experience in tyre inspection, repair",
+    "& replacement. Qatar Driving License required",
+    "WELDER CUM FABRICATOR",
+    "Min. 5 years’ experience in Welding &",
+    "Fabrication"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "538d401d2d5ffd6c",
+   "title": "Social Media Specialist",
+   "company": "A Reputed Furniture Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "other-jobs",
+   "category_label": "Other Jobs",
+   "emails": [
+    "urgentrecruitment567@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED FURNITURE COMPANY is looking for Candidates Social Media Specialist - Arabic Sales Engineer – Should have experience in Furniture, Interior, fitout Accountant - Arabic Knowledge Email: urgentrecruitment567@gmail.com",
+   "details": [
+    "Arabic",
+    "Sales Engineer – Should have experience in",
+    "Furniture, Interior, fitout",
+    "Arabic Knowledge"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "56b5183101b3860d",
+   "title": "Accountant",
+   "company": "A Reputed Furniture Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "urgentrecruitment567@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED FURNITURE COMPANY is looking for Candidates Social Media Specialist - Arabic Sales Engineer – Should have experience in Furniture, Interior, fitout Accountant - Arabic Knowledge Email: urgentrecruitment567@gmail.com",
+   "details": [
+    "Arabic",
+    "Sales Engineer – Should have experience in",
+    "Furniture, Interior, fitout",
+    "Arabic Knowledge"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "a084dda4484e7278",
+   "title": "Civil Foreman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "jjmsckm@gmail.com"
+   ],
+   "phones": [
+    "30596005"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED HVAC Technician with Firefighting system knowledge Minimum 3 year experience in Qatar Villa Construction Contractor (Without material) Civil Foreman for Villa Construction Mesons & Steel Fixtures Please contact: 30596005, mail: jjmsckm@gmail.com",
+   "details": [
+    "Firefighting system knowledge",
+    "Minimum 3 year experience in Qatar",
+    "Villa Construction Contractor (Without material)",
+    "Villa Construction",
+    "Mesons & Steel Fixtures"
+   ],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "c10e004552844625",
+   "title": "Experienced Document Controller Cum Accounts Assistant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "consultingoffice2026@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - MALE DOCUMENT CONTROLLER A reputed engineering consultancy is looking for an experienced Document controller cum Accounts assistant minimum 3 years of experience Candidates must have prior experience working in a consultancy firm. Strong document management, accounts background and MS Office skills are required Qatar-based, immediate joiners Email: consultingoffice2026@gmail.com",
+   "details": [
+    "minimum 3 years of experience",
+    "Candidates must have prior experience working in a",
+    "consultancy firm. Strong document management, accounts",
+    "background and MS Office skills are required"
+   ],
+   "typical_duties": "Controls project documents and transmittals, maintains registers and revision status and supports audits and handover packages.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "0f1d700f02c96cd3",
+   "title": "Well Experienced Heavy Equipments Mechanic",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [],
+   "phones": [
+    "70480158"
+   ],
+   "walk_in_date": null,
+   "ad_text": "MANPOWER REQUIRED Well experienced heavy equipments mechanic Mechanical three years diploma holder.(Fresh) Auto Electrician / AC Mechanic for heavy equipment Lath machine operator well experienced CONTACT ON WHAT’S APP / 70480158",
+   "details": [
+    "Mechanical three years diploma holder.(Fresh)",
+    "Auto Electrician / AC Mechanic for",
+    "heavy equipment",
+    "Lath machine operator well experienced"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
+   ]
+  },
+  {
+   "key": "4431d9816780d5c0",
+   "title": "Sales Executive/Accountant/Project Coordinator",
+   "company": "Spotmedia",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "admin@spotmedia.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "SPOT MEDIA SEEKING EXPERIENCED PROFESSIONALS for the following positions Sales Executive / Accountant / Project Coordinator Requirements: Min 5 years’ relevant experience valid Qatar driving licence, and NOC Interested candidates send CV to admin@spotmedia.qa",
+   "details": [
+    "Requirements: Min 5 years’ relevant experience",
+    "valid Qatar driving licence, and NOC"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-18",
+   "source": "classified-20261018.pdf",
+   "first_seen": "2026-10-18",
+   "last_seen": "2026-10-18",
+   "seen_dates": [
+    "2026-10-18"
    ]
   }
  ]
