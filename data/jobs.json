@@ -293,6 +293,31 @@
     "c039394fde37a0d5",
     "c10e004552844625"
    ]
+  },
+  {
+   "date": "2026-10-19",
+   "ads_found": 7,
+   "segments": 10,
+   "vacancies_listed": 17,
+   "keys": [
+    "1b86283b156998a3",
+    "1bc434b467c2175c",
+    "448bcc87b66b4513",
+    "67275b80d8cca57a",
+    "6ca7da1bef2eb547",
+    "7188d5900083e9b0",
+    "84169bc85929c971",
+    "94fdb04f56f85a78",
+    "9a039d5bd52cc530",
+    "b95df8f252e244e1",
+    "ba95042fc18790cf",
+    "da74075911e69a59",
+    "e01e83181b98eb6d",
+    "ec2cb2c9e8b5ab5b",
+    "ef7c10860f2840d6",
+    "f626bb2026cb7ab3",
+    "feec5ede09194b5a"
+   ]
   }
  ],
  "jobs": [
@@ -539,9 +564,10 @@
    "issue_date": "2026-10-06",
    "source": "20261006.pdf",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-19",
    "seen_dates": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-19"
    ]
   },
   {
@@ -567,9 +593,10 @@
    "issue_date": "2026-10-06",
    "source": "20261006.pdf",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-19",
    "seen_dates": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-19"
    ]
   },
   {
@@ -595,9 +622,10 @@
    "issue_date": "2026-10-06",
    "source": "20261006.pdf",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-19",
    "seen_dates": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-19"
    ]
   },
   {
@@ -623,9 +651,10 @@
    "issue_date": "2026-10-06",
    "source": "20261006.pdf",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-19",
    "seen_dates": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-19"
    ]
   },
   {
@@ -4335,6 +4364,381 @@
    "last_seen": "2026-10-18",
    "seen_dates": [
     "2026-10-18"
+   ]
+  },
+  {
+   "key": "da74075911e69a59",
+   "title": "Accountant",
+   "company": "Twol-Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "hr@twol-qatar.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "ACCOUNTANT REQUIRED Single, under 40, with minimum 4 years’ Tally experience and service company background Responsible and skilled in accounts, inventory supplier follow-up and purchasing. NOC required Accommodation provided All requirements mandatory CV: hr@twol-qatar.com",
+   "details": [
+    "REQUIRED",
+    "Single, under 40, with",
+    "minimum 4 years’ Tally",
+    "experience and service",
+    "company background"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "7188d5900083e9b0",
+   "title": "Graphic Designer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "appointment333ip@gmail.com"
+   ],
+   "phones": [
+    "30257525"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED URGENT Graphic Designer (Gulf experience required) appointment333ip@gmail.com",
+   "details": [
+    "(Gulf experience required)"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "ba95042fc18790cf",
+   "title": "T&C Engineer (Electrical & Mechanical)",
+   "company": "Najco Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hr@najcoqatar.com"
+   ],
+   "phones": [
+    "55731780",
+    "50553002"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING T&C Engineers (Electrical & Mechanical) HSE officers (5 Years Building construction experience required) GIS Technician Mechanical & Electrical Supervisors (Oil & Gas exp) Available for immediate joining. Short term duration Send CV hr@najcoqatar.com 55731780 / 50553002",
+   "details": [
+    "(5 Years Building construction experience required)",
+    "Mechanical & Electrical Supervisors (Oil & Gas exp)",
+    "Available for immediate joining. Short term duration"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "84169bc85929c971",
+   "title": "HSE Officer",
+   "company": "Najco Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "hr@najcoqatar.com"
+   ],
+   "phones": [
+    "55731780",
+    "50553002"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING T&C Engineers (Electrical & Mechanical) HSE officers (5 Years Building construction experience required) GIS Technician Mechanical & Electrical Supervisors (Oil & Gas exp) Available for immediate joining. Short term duration Send CV hr@najcoqatar.com 55731780 / 50553002",
+   "details": [
+    "(5 Years Building construction experience required)",
+    "Mechanical & Electrical Supervisors (Oil & Gas exp)",
+    "Available for immediate joining. Short term duration"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "1bc434b467c2175c",
+   "title": "GIS Technician",
+   "company": "Najco Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hr@najcoqatar.com"
+   ],
+   "phones": [
+    "55731780",
+    "50553002"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING T&C Engineers (Electrical & Mechanical) HSE officers (5 Years Building construction experience required) GIS Technician Mechanical & Electrical Supervisors (Oil & Gas exp) Available for immediate joining. Short term duration Send CV hr@najcoqatar.com 55731780 / 50553002",
+   "details": [
+    "(5 Years Building construction experience required)",
+    "Mechanical & Electrical Supervisors (Oil & Gas exp)",
+    "Available for immediate joining. Short term duration"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "f626bb2026cb7ab3",
+   "title": "Multi-skilled Technician",
+   "company": "Local For Facilities Management Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING FOR FACILITIES MANAGEMENT COMPANY Immediate Joiners Preferred Multi-skilled technician AC technician Sales Engineer-FM background Electrician Experience in FM & relevant fields Contact: 66847082, Email: u.salma@servico.qa",
+   "details": [
+    "FM background",
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "9a039d5bd52cc530",
+   "title": "AC Technician",
+   "company": "Local For Facilities Management Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING FOR FACILITIES MANAGEMENT COMPANY Immediate Joiners Preferred Multi-skilled technician AC technician Sales Engineer-FM background Electrician Experience in FM & relevant fields Contact: 66847082, Email: u.salma@servico.qa",
+   "details": [
+    "FM background",
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "94fdb04f56f85a78",
+   "title": "Sales Engineer",
+   "company": "Local For Facilities Management Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING FOR FACILITIES MANAGEMENT COMPANY Immediate Joiners Preferred Multi-skilled technician AC technician Sales Engineer-FM background Electrician Experience in FM & relevant fields Contact: 66847082, Email: u.salma@servico.qa",
+   "details": [
+    "FM background",
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "e01e83181b98eb6d",
+   "title": "Electrician",
+   "company": "Local For Facilities Management Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "u.salma@servico.qa"
+   ],
+   "phones": [
+    "66847082"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOCAL HIRING FOR FACILITIES MANAGEMENT COMPANY Immediate Joiners Preferred Multi-skilled technician AC technician Sales Engineer-FM background Electrician Experience in FM & relevant fields Contact: 66847082, Email: u.salma@servico.qa",
+   "details": [
+    "FM background",
+    "Experience in FM & relevant fields"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "67275b80d8cca57a",
+   "title": "ELV/CCTV Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "linkandshield@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Facility Engineer: Degree in Civil/Mechanical Engineering or Architecture; minimum 7 years’ Middle East experience Expertise in fit-outs, renovations, hard/soft FM maintenance and AutoCAD ELV/CCTV Engineers ELV Site Supervisor Send CV to: linkandshield@gmail.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "ec2cb2c9e8b5ab5b",
+   "title": "ELV Site Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "linkandshield@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Facility Engineer: Degree in Civil/Mechanical Engineering or Architecture; minimum 7 years’ Middle East experience Expertise in fit-outs, renovations, hard/soft FM maintenance and AutoCAD ELV/CCTV Engineers ELV Site Supervisor Send CV to: linkandshield@gmail.com",
+   "details": [],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "1b86283b156998a3",
+   "title": "HVAC Technician (10 Positions)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Lusail, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [],
+   "phones": [
+    "31319649"
+   ],
+   "walk_in_date": null,
+   "ad_text": "WE ARE HIRING HVAC Technicians (10 positions), Doha Experienced in Package Unit AC, Chiller units, VRF systems installation, maintenance and breakdown repairs. Salary QAR 2,500+AT. Valid QID required Receptionist (Male &Female), Lusail. 10-hour shift. Salary QAR 2,800 all-inclusive. Fluent Arabic and English required Candidates in Qatar with own or family visa may apply CV via WhatsApp: +974 31319649",
+   "details": [
+    "Experienced in Package Unit AC, Chiller units, VRF systems",
+    "installation, maintenance and breakdown repairs. Salary QAR",
+    "2,500+AT. Valid QID required",
+    "QAR 2,800 all-inclusive. Fluent Arabic and English required",
+    "Candidates in Qatar with own or family visa may apply"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
+   ]
+  },
+  {
+   "key": "ef7c10860f2840d6",
+   "title": "Receptionist (&)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Lusail, Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [],
+   "phones": [
+    "31319649"
+   ],
+   "walk_in_date": null,
+   "ad_text": "WE ARE HIRING HVAC Technicians (10 positions), Doha Experienced in Package Unit AC, Chiller units, VRF systems installation, maintenance and breakdown repairs. Salary QAR 2,500+AT. Valid QID required Receptionist (Male &Female), Lusail. 10-hour shift. Salary QAR 2,800 all-inclusive. Fluent Arabic and English required Candidates in Qatar with own or family visa may apply CV via WhatsApp: +974 31319649",
+   "details": [
+    "Experienced in Package Unit AC, Chiller units, VRF systems",
+    "installation, maintenance and breakdown repairs. Salary QAR",
+    "2,500+AT. Valid QID required",
+    "QAR 2,800 all-inclusive. Fluent Arabic and English required",
+    "Candidates in Qatar with own or family visa may apply"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-19",
+   "source": "classified-20261019.pdf",
+   "first_seen": "2026-10-19",
+   "last_seen": "2026-10-19",
+   "seen_dates": [
+    "2026-10-19"
    ]
   }
  ]
