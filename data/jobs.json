@@ -318,6 +318,25 @@
     "f626bb2026cb7ab3",
     "feec5ede09194b5a"
    ]
+  },
+  {
+   "date": "2026-10-20",
+   "ads_found": 5,
+   "segments": 11,
+   "vacancies_listed": 11,
+   "keys": [
+    "133d4d26ef7e6ba6",
+    "3983775de80a9909",
+    "40af8bc9758defa8",
+    "50c51589fa9cd29c",
+    "545d361d3e2b25da",
+    "83100d7145792d28",
+    "af582c805f1cd0cc",
+    "bc87709cf342b969",
+    "cdd4e762dee992fd",
+    "cf269db4c37580c2",
+    "f6ad7f524edf2fbd"
+   ]
   }
  ],
  "jobs": [
@@ -4739,6 +4758,329 @@
    "last_seen": "2026-10-19",
    "seen_dates": [
     "2026-10-19"
+   ]
+  },
+  {
+   "key": "af582c805f1cd0cc",
+   "title": "Technician",
+   "company": "Swedishaccess",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "admin@swedishaccess.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING: TECHNICIAN Candidates must have minimum of 2-3 years of experience in automatic entrance systems Applicants must hold a valid visa Interested candidates may apply by sending their CV to admin@swedishaccess.com",
+   "details": [
+    "Candidates must have minimum of 2-3 years of",
+    "experience in automatic entrance systems",
+    "Applicants must hold a valid visa"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "40af8bc9758defa8",
+   "title": "MEP BIM Modeler",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "me.qatarhr@gmail.com"
+   ],
+   "phones": [
+    "66560087"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW MEP BIM Modeler HSE officer Civil QS Elec/Mech/Arch Engineer Email: me.qatarhr@gmail.com",
+   "details": [
+    "Civil QS"
+   ],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "bc87709cf342b969",
+   "title": "HSE Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "me.qatarhr@gmail.com"
+   ],
+   "phones": [
+    "66560087"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW MEP BIM Modeler HSE officer Civil QS Elec/Mech/Arch Engineer Email: me.qatarhr@gmail.com",
+   "details": [
+    "Civil QS"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "cdd4e762dee992fd",
+   "title": "Elec/Mech/Arch Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "me.qatarhr@gmail.com"
+   ],
+   "phones": [
+    "66560087"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW MEP BIM Modeler HSE officer Civil QS Elec/Mech/Arch Engineer Email: me.qatarhr@gmail.com",
+   "details": [
+    "Civil QS"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "cf269db4c37580c2",
+   "title": "Receptionist (Philippine & Arabic)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "careerdentalcenter@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED FOR DENTAL CENTER Receptionist (Philippine & Arabic) Assistant (Philippine) Marketing staff (driving license required) Social media marketier Send your CVs to careerdentalcenter@gmail.com",
+   "details": [
+    "Marketing staff (driving license required)",
+    "Social media marketier"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "133d4d26ef7e6ba6",
+   "title": "Assistant (Philippine)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "careerdentalcenter@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED FOR DENTAL CENTER Receptionist (Philippine & Arabic) Assistant (Philippine) Marketing staff (driving license required) Social media marketier Send your CVs to careerdentalcenter@gmail.com",
+   "details": [
+    "Marketing staff (driving license required)",
+    "Social media marketier"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "f6ad7f524edf2fbd",
+   "title": "Scaffolding Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "71611907"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Scaffolding Supervisor Civil QS Architectural Draftsman Permit Applicant Email: fatmazafar2203@gmail.com",
+   "details": [
+    "Civil QS",
+    "Permit Applicant"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "50c51589fa9cd29c",
+   "title": "Architectural Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "71611907"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Scaffolding Supervisor Civil QS Architectural Draftsman Permit Applicant Email: fatmazafar2203@gmail.com",
+   "details": [
+    "Civil QS",
+    "Permit Applicant"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "83100d7145792d28",
+   "title": "Manager",
+   "company": "REQUIRED: MANAGER FOR Parcel Delivery Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "alkhalilconst03@gmail.com",
+    "sandcity58@gmail.com"
+   ],
+   "phones": [
+    "71724852"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED: MANAGER FOR Parcel Delivery Company with at least five years of experience in the same field Civil Engineer with experience in professional contracting Civil works supervisors with experience across all stages of construction and finishing. Please send your CV to Email: alkhalilconst03@gmail.com MALE / FEMALE MASSAGE THERAPIST required for Male & Female massage center in Hotel SPA business All the therapist must have experience. Thailand, India Nepal, Sri lanka, Moroccan & Filipino nationality can apply. Overseas candidate can also apply. Overseas & local agent if can recruitment process from outside the country agent also welcome. Please call: 71724852 email: sandcity58@gmail.com",
+   "details": [
+    "Parcel Delivery Company",
+    "with at least five years of experience in the same field",
+    "experience in professional contracting",
+    "experience across all stages",
+    "All the therapist must have experience. Thailand, India"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "3983775de80a9909",
+   "title": "Civil Engineer",
+   "company": "REQUIRED: MANAGER FOR Parcel Delivery Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "alkhalilconst03@gmail.com",
+    "sandcity58@gmail.com"
+   ],
+   "phones": [
+    "71724852"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED: MANAGER FOR Parcel Delivery Company with at least five years of experience in the same field Civil Engineer with experience in professional contracting Civil works supervisors with experience across all stages of construction and finishing. Please send your CV to Email: alkhalilconst03@gmail.com MALE / FEMALE MASSAGE THERAPIST required for Male & Female massage center in Hotel SPA business All the therapist must have experience. Thailand, India Nepal, Sri lanka, Moroccan & Filipino nationality can apply. Overseas candidate can also apply. Overseas & local agent if can recruitment process from outside the country agent also welcome. Please call: 71724852 email: sandcity58@gmail.com",
+   "details": [
+    "Parcel Delivery Company",
+    "with at least five years of experience in the same field",
+    "experience in professional contracting",
+    "experience across all stages",
+    "All the therapist must have experience. Thailand, India"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
+   ]
+  },
+  {
+   "key": "545d361d3e2b25da",
+   "title": "Civil Works Supervisor",
+   "company": "REQUIRED: MANAGER FOR Parcel Delivery Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "alkhalilconst03@gmail.com",
+    "sandcity58@gmail.com"
+   ],
+   "phones": [
+    "71724852"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED: MANAGER FOR Parcel Delivery Company with at least five years of experience in the same field Civil Engineer with experience in professional contracting Civil works supervisors with experience across all stages of construction and finishing. Please send your CV to Email: alkhalilconst03@gmail.com MALE / FEMALE MASSAGE THERAPIST required for Male & Female massage center in Hotel SPA business All the therapist must have experience. Thailand, India Nepal, Sri lanka, Moroccan & Filipino nationality can apply. Overseas candidate can also apply. Overseas & local agent if can recruitment process from outside the country agent also welcome. Please call: 71724852 email: sandcity58@gmail.com",
+   "details": [
+    "Parcel Delivery Company",
+    "with at least five years of experience in the same field",
+    "experience in professional contracting",
+    "experience across all stages",
+    "All the therapist must have experience. Thailand, India"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-20",
+   "source": "classified-20261020.pdf",
+   "first_seen": "2026-10-20",
+   "last_seen": "2026-10-20",
+   "seen_dates": [
+    "2026-10-20"
    ]
   }
  ]
