@@ -337,6 +337,33 @@
     "cf269db4c37580c2",
     "f6ad7f524edf2fbd"
    ]
+  },
+  {
+   "date": "2026-10-21",
+   "ads_found": 7,
+   "segments": 10,
+   "vacancies_listed": 19,
+   "keys": [
+    "23ce6d5daba869b9",
+    "363cf200ac80fd38",
+    "3983775de80a9909",
+    "545d361d3e2b25da",
+    "642483a0635496e6",
+    "6f07cd1add07681d",
+    "83100d7145792d28",
+    "8c4ba310cb104dcc",
+    "980ec88101ce7e56",
+    "986b5caae600a76f",
+    "a1b2d31d88c496f3",
+    "b54c18b7578a8ab1",
+    "c84c071e578c900e",
+    "ccbe39f414a7e9fc",
+    "e1ea2271f91f000b",
+    "e40fde20a38849e3",
+    "f3cd328510295daa",
+    "f67a6b81d2097fd5",
+    "fbc53b9d2b65132f"
+   ]
   }
  ],
  "jobs": [
@@ -1942,10 +1969,11 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-21",
    "seen_dates": [
     "2026-10-07",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-21"
    ]
   },
   {
@@ -2066,10 +2094,11 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-11",
+   "last_seen": "2026-10-21",
    "seen_dates": [
     "2026-10-07",
-    "2026-10-11"
+    "2026-10-11",
+    "2026-10-21"
    ]
   },
   {
@@ -5012,9 +5041,10 @@
    "issue_date": "2026-10-20",
    "source": "classified-20261020.pdf",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "seen_dates": [
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ]
   },
   {
@@ -5045,9 +5075,10 @@
    "issue_date": "2026-10-20",
    "source": "classified-20261020.pdf",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "seen_dates": [
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
    ]
   },
   {
@@ -5078,9 +5109,421 @@
    "issue_date": "2026-10-20",
    "source": "classified-20261020.pdf",
    "first_seen": "2026-10-20",
-   "last_seen": "2026-10-20",
+   "last_seen": "2026-10-21",
    "seen_dates": [
-    "2026-10-20"
+    "2026-10-20",
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "642483a0635496e6",
+   "title": "Experienced Senior Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Doha, Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "recruitmenthrdohaqatar@gmail.com"
+   ],
+   "phones": [
+    "51029929"
+   ],
+   "walk_in_date": null,
+   "ad_text": "VACANCY ANNOUNCEMENT - SENIOR ACCOUNTANT An experienced Senior Accountant is required with approximately 10 years of relevant accounting experience and a strong background in auditing Nationality: Open to all nationalities. Availability: Immediate joiners only Total Monthly Package: QAR 8,500–9,000 How to Apply Interested candidates may submit their CVs to recruitmenthrdohaqatar@gmail.com or contact +974 51029929",
+   "details": [
+    "10 years of relevant accounting experience and a",
+    "strong background in auditing",
+    "Total Monthly Package: QAR 8,500–9,000"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "980ec88101ce7e56",
+   "title": "Resident Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Resident Engineer with UPDA (Road, Utility, Structures) HSE officer Draftsman (TDP, Architectural, Electrical) Scaffolding supervisor (QE approved) Email: hibaf3346@gmail.com",
+   "details": [
+    "UPDA",
+    "(Road, Utility, Structures)"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "fbc53b9d2b65132f",
+   "title": "HSE Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Resident Engineer with UPDA (Road, Utility, Structures) HSE officer Draftsman (TDP, Architectural, Electrical) Scaffolding supervisor (QE approved) Email: hibaf3346@gmail.com",
+   "details": [
+    "UPDA",
+    "(Road, Utility, Structures)"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "23ce6d5daba869b9",
+   "title": "Draftsman (TDP, Architectural, Electrical)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Resident Engineer with UPDA (Road, Utility, Structures) HSE officer Draftsman (TDP, Architectural, Electrical) Scaffolding supervisor (QE approved) Email: hibaf3346@gmail.com",
+   "details": [
+    "UPDA",
+    "(Road, Utility, Structures)"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "e40fde20a38849e3",
+   "title": "Scaffolding Supervisor (QE Approved)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Resident Engineer with UPDA (Road, Utility, Structures) HSE officer Draftsman (TDP, Architectural, Electrical) Scaffolding supervisor (QE approved) Email: hibaf3346@gmail.com",
+   "details": [
+    "UPDA",
+    "(Road, Utility, Structures)"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "986b5caae600a76f",
+   "title": "Electrician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment-esth@outlook.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WALK-IN INTERVIEW Scan for the (For a Leading MEP Company) Date: 23-10-2026 (Friday) 24-10-2026 (Saturday) Timing: 09.30 am-03.30 pm (cid:62)(cid:381)(cid:272)(cid:258)(cid:415)(cid:381)(cid:374)(cid:855) Kabir Trading BUILDING - 89, 2ND FLOOR, OFFICE NO- 6, STREET NO. 220, ZONE: 25 A LEADINGA M LeEaPd CinOgM MPEAPN CYo mISp SanEyE KinI NQGat aSrK iIsL lLoEokDi nTgE fCoHr NICIANS FOR PROJECTS IN QAT AR, IRAQ, RWANDA, AND SYRIA REQUIRED TITLE MANPOWER ELECTRICIAN 250 ELECTRICAL CHARGEHAND 25 PLUMBER 134 PLUMBING CHARGEHAND 13 PIPE FITTER 70 PIPE FITTER CHARGEHAND 7 DUCTMAN 90 DUCTING CHARGEHAND 9 GRAND TOTAL 598 *Accommoda(cid:415)on & Transporta(cid:415)on will be provided by the company *5+ years MEP Industry experience is preferred *Valid Qatar ID with NOC to transfer the sponsorship is must *Should be ready to join with 02-04 weeks maximum *Documents to bring: Updated CV, Qatar ID, Ce",
+   "details": [
+    "250",
+    "ELECTRICAL CHARGEHAND",
+    "25",
+    "134",
+    "PLUMBING CHARGEHAND"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "f3cd328510295daa",
+   "title": "Plumber",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment-esth@outlook.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WALK-IN INTERVIEW Scan for the (For a Leading MEP Company) Date: 23-10-2026 (Friday) 24-10-2026 (Saturday) Timing: 09.30 am-03.30 pm (cid:62)(cid:381)(cid:272)(cid:258)(cid:415)(cid:381)(cid:374)(cid:855) Kabir Trading BUILDING - 89, 2ND FLOOR, OFFICE NO- 6, STREET NO. 220, ZONE: 25 A LEADINGA M LeEaPd CinOgM MPEAPN CYo mISp SanEyE KinI NQGat aSrK iIsL lLoEokDi nTgE fCoHr NICIANS FOR PROJECTS IN QAT AR, IRAQ, RWANDA, AND SYRIA REQUIRED TITLE MANPOWER ELECTRICIAN 250 ELECTRICAL CHARGEHAND 25 PLUMBER 134 PLUMBING CHARGEHAND 13 PIPE FITTER 70 PIPE FITTER CHARGEHAND 7 DUCTMAN 90 DUCTING CHARGEHAND 9 GRAND TOTAL 598 *Accommoda(cid:415)on & Transporta(cid:415)on will be provided by the company *5+ years MEP Industry experience is preferred *Valid Qatar ID with NOC to transfer the sponsorship is must *Should be ready to join with 02-04 weeks maximum *Documents to bring: Updated CV, Qatar ID, Ce",
+   "details": [
+    "250",
+    "ELECTRICAL CHARGEHAND",
+    "25",
+    "134",
+    "PLUMBING CHARGEHAND"
+   ],
+   "typical_duties": "Installs and repairs water, drainage and sanitary systems, reads piping layouts and carries out routine maintenance.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "ccbe39f414a7e9fc",
+   "title": "Pipe Fitter",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment-esth@outlook.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WALK-IN INTERVIEW Scan for the (For a Leading MEP Company) Date: 23-10-2026 (Friday) 24-10-2026 (Saturday) Timing: 09.30 am-03.30 pm (cid:62)(cid:381)(cid:272)(cid:258)(cid:415)(cid:381)(cid:374)(cid:855) Kabir Trading BUILDING - 89, 2ND FLOOR, OFFICE NO- 6, STREET NO. 220, ZONE: 25 A LEADINGA M LeEaPd CinOgM MPEAPN CYo mISp SanEyE KinI NQGat aSrK iIsL lLoEokDi nTgE fCoHr NICIANS FOR PROJECTS IN QAT AR, IRAQ, RWANDA, AND SYRIA REQUIRED TITLE MANPOWER ELECTRICIAN 250 ELECTRICAL CHARGEHAND 25 PLUMBER 134 PLUMBING CHARGEHAND 13 PIPE FITTER 70 PIPE FITTER CHARGEHAND 7 DUCTMAN 90 DUCTING CHARGEHAND 9 GRAND TOTAL 598 *Accommoda(cid:415)on & Transporta(cid:415)on will be provided by the company *5+ years MEP Industry experience is preferred *Valid Qatar ID with NOC to transfer the sponsorship is must *Should be ready to join with 02-04 weeks maximum *Documents to bring: Updated CV, Qatar ID, Ce",
+   "details": [
+    "250",
+    "ELECTRICAL CHARGEHAND",
+    "25",
+    "134",
+    "PLUMBING CHARGEHAND"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "e1ea2271f91f000b",
+   "title": "Quality Supervisor",
+   "company": "Food manufacturing & Egg supplies company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hraldaintl@gmail.com"
+   ],
+   "phones": [
+    "30025221"
+   ],
+   "walk_in_date": null,
+   "ad_text": "VACANCY Quality Supervisor & Purchase Officer Food manufacturing & Egg supplies company in Qatar seeks experienced candidates Food industry experience required Arabic proficiency is mandatory for Purchase Officer only Send CV Email: hraldaintl@gmail.com /",
+   "details": [
+    "Food manufacturing & Egg supplies company",
+    "in Qatar seeks experienced candidates",
+    "Food industry experience required",
+    "Arabic proficiency is mandatory for Purchase Officer only"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "f67a6b81d2097fd5",
+   "title": "Purchase Officer",
+   "company": "Food manufacturing & Egg supplies company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hraldaintl@gmail.com"
+   ],
+   "phones": [
+    "30025221"
+   ],
+   "walk_in_date": null,
+   "ad_text": "VACANCY Quality Supervisor & Purchase Officer Food manufacturing & Egg supplies company in Qatar seeks experienced candidates Food industry experience required Arabic proficiency is mandatory for Purchase Officer only Send CV Email: hraldaintl@gmail.com /",
+   "details": [
+    "Food manufacturing & Egg supplies company",
+    "in Qatar seeks experienced candidates",
+    "Food industry experience required",
+    "Arabic proficiency is mandatory for Purchase Officer only"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "c84c071e578c900e",
+   "title": "Scaffolding Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Scaffolding Supervisor Scaffolding Inspector Architectural Draftsman Permit Applicant Email: mariamsteadfast@gmail.com",
+   "details": [
+    "Permit Applicant"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "a1b2d31d88c496f3",
+   "title": "Scaffolding Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Scaffolding Supervisor Scaffolding Inspector Architectural Draftsman Permit Applicant Email: mariamsteadfast@gmail.com",
+   "details": [
+    "Permit Applicant"
+   ],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "363cf200ac80fd38",
+   "title": "Architectural Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "mariamsteadfast@gmail.com"
+   ],
+   "phones": [
+    "51114274"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Scaffolding Supervisor Scaffolding Inspector Architectural Draftsman Permit Applicant Email: mariamsteadfast@gmail.com",
+   "details": [
+    "Permit Applicant"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
+   ]
+  },
+  {
+   "key": "b54c18b7578a8ab1",
+   "title": "Fright and Customer Service Agent",
+   "company": "Shipping and Fright Forwarding Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "job@amcogroup.co"
+   ],
+   "phones": [
+    "44212155",
+    "44212166"
+   ],
+   "walk_in_date": null,
+   "ad_text": "IMMEDIATE REQUIREMENT Shipping and Fright Forwarding Company Required the Following Fright and Customer service agent Sales executive PRO 5 years (minimum) experience, Qatar driving license, NOC Apply email: job@amcogroup.co",
+   "details": [
+    "5 years (minimum) experience, Qatar driving license, NOC"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-21",
+   "source": "classified-20261021.pdf",
+   "first_seen": "2026-10-21",
+   "last_seen": "2026-10-21",
+   "seen_dates": [
+    "2026-10-21"
    ]
   }
  ]
