@@ -364,6 +364,23 @@
     "f67a6b81d2097fd5",
     "fbc53b9d2b65132f"
    ]
+  },
+  {
+   "date": "2026-10-22",
+   "ads_found": 5,
+   "segments": 13,
+   "vacancies_listed": 9,
+   "keys": [
+    "1761ca6effe609aa",
+    "381b0182febe85c9",
+    "3a44dd3b3447dd02",
+    "4657810e34656ec6",
+    "6e74f5d3bda9204d",
+    "7a8c86878fd8fcb5",
+    "adeca602b917d8cd",
+    "dfc051e9fa4f4cc7",
+    "f4ffe360712b4a3f"
+   ]
   }
  ],
  "jobs": [
@@ -5524,6 +5541,256 @@
    "last_seen": "2026-10-21",
    "seen_dates": [
     "2026-10-21"
+   ]
+  },
+  {
+   "key": "381b0182febe85c9",
+   "title": "* Civil and Fit Out Draftsman (Exp. +7 Y)",
+   "company": "A Leading Construction And",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruitment26q@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A LEADING CONSTRUCTION AND FIT-OUT COMPANY IN QATAR IS SEEKING TO HIRE A QUALIFIED * DC (Exp. +7 Y) * Civil and fit out QS (Exp. +7 Y) * Civil and fit out draftsman (Exp. +7 Y) Civil engineer (Exp. 3-5 Y) Fit out supervisor (Exp. +10 Y) Civil QA/QC (Exp. +10 Y) Candidates must have an experience in construction & Fit-Out field Interested candidates may send their CV to recruitment26q@gmail.com",
+   "details": [
+    "Civil QA/QC (Exp. +10 Y)",
+    "Candidates must have an experience in",
+    "construction & Fit-Out field",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "6e74f5d3bda9204d",
+   "title": "Civil Engineer (Exp. 3-5 Y)",
+   "company": "A Leading Construction And",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruitment26q@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A LEADING CONSTRUCTION AND FIT-OUT COMPANY IN QATAR IS SEEKING TO HIRE A QUALIFIED * DC (Exp. +7 Y) * Civil and fit out QS (Exp. +7 Y) * Civil and fit out draftsman (Exp. +7 Y) Civil engineer (Exp. 3-5 Y) Fit out supervisor (Exp. +10 Y) Civil QA/QC (Exp. +10 Y) Candidates must have an experience in construction & Fit-Out field Interested candidates may send their CV to recruitment26q@gmail.com",
+   "details": [
+    "Civil QA/QC (Exp. +10 Y)",
+    "Candidates must have an experience in",
+    "construction & Fit-Out field",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "f4ffe360712b4a3f",
+   "title": "Fit Out Supervisor (Exp. +10 Y)",
+   "company": "A Leading Construction And",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment26q@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A LEADING CONSTRUCTION AND FIT-OUT COMPANY IN QATAR IS SEEKING TO HIRE A QUALIFIED * DC (Exp. +7 Y) * Civil and fit out QS (Exp. +7 Y) * Civil and fit out draftsman (Exp. +7 Y) Civil engineer (Exp. 3-5 Y) Fit out supervisor (Exp. +10 Y) Civil QA/QC (Exp. +10 Y) Candidates must have an experience in construction & Fit-Out field Interested candidates may send their CV to recruitment26q@gmail.com",
+   "details": [
+    "Civil QA/QC (Exp. +10 Y)",
+    "Candidates must have an experience in",
+    "construction & Fit-Out field",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "3a44dd3b3447dd02",
+   "title": "ACMV Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [],
+   "phones": [
+    "30788843"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING ACMV Supervisor and ACMV Technicians Please WhatsApp your CV to +974 30788843",
+   "details": [],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "1761ca6effe609aa",
+   "title": "Tea Boy/Cleaner/Receptionist",
+   "company": "Staff Required For Mep Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "hospitality-healthcare",
+   "category_label": "Hospitality & Healthcare",
+   "emails": [
+    "hiringmanager.qa@gmail.com"
+   ],
+   "phones": [
+    "31377822"
+   ],
+   "walk_in_date": null,
+   "ad_text": "STAFF REQUIRED FOR MEP COMPANY Electricians - Previous work experience in Qatar Plumbers - Previous work experience in Qatar Light Vehicle Driver Valid Qatar manual light vehicle driving licence Tea Boy / Cleaner / Receptionist Email: hiringmanager.qa@gmail.com WhatsApp only: +974 3137 7822",
+   "details": [],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "7a8c86878fd8fcb5",
+   "title": "Electrical Site Engineer",
+   "company": "Staff Required For Mep Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hiringmanager.qa@gmail.com"
+   ],
+   "phones": [
+    "31377822"
+   ],
+   "walk_in_date": null,
+   "ad_text": "STAFF REQUIRED FOR MEP COMPANY Electrical Site Engineer Mechanical Site Engineer Mechanical Draftsmen Experience in plumbing, drainage and HVAC drafting Send your CV to Email: hiringmanager.qa@gmail.com WhatsApp only: +974 3137 7822",
+   "details": [
+    "Experience in plumbing, drainage and HVAC drafting"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "adeca602b917d8cd",
+   "title": "Mechanical Site Engineer",
+   "company": "Staff Required For Mep Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hiringmanager.qa@gmail.com"
+   ],
+   "phones": [
+    "31377822"
+   ],
+   "walk_in_date": null,
+   "ad_text": "STAFF REQUIRED FOR MEP COMPANY Electrical Site Engineer Mechanical Site Engineer Mechanical Draftsmen Experience in plumbing, drainage and HVAC drafting Send your CV to Email: hiringmanager.qa@gmail.com WhatsApp only: +974 3137 7822",
+   "details": [
+    "Experience in plumbing, drainage and HVAC drafting"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "4657810e34656ec6",
+   "title": "Mechanical Draftsmen",
+   "company": "Staff Required For Mep Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hiringmanager.qa@gmail.com"
+   ],
+   "phones": [
+    "31377822"
+   ],
+   "walk_in_date": null,
+   "ad_text": "STAFF REQUIRED FOR MEP COMPANY Electrical Site Engineer Mechanical Site Engineer Mechanical Draftsmen Experience in plumbing, drainage and HVAC drafting Send your CV to Email: hiringmanager.qa@gmail.com WhatsApp only: +974 3137 7822",
+   "details": [
+    "Experience in plumbing, drainage and HVAC drafting"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
+   ]
+  },
+  {
+   "key": "dfc051e9fa4f4cc7",
+   "title": "We Are Seeking An Outdoor Sales Executive ()",
+   "company": "Trusted Glass Manufacturing Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hr.recruitment.jgf@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "HIRING Trusted Glass Manufacturing Company We are seeking an Outdoor Sales Executive (Male) with 3-5 years of Experience in the GCC Aluminium & Glass Industry. Strong knowledge of the GCC market Valid Qatar Driving License (mandatory) Interested candidates may send their CV to hr.recruitment.jgf@gmail.com",
+   "details": [
+    "with 3-5 years of Experience in the GCC Aluminium &",
+    "Glass Industry. Strong knowledge of the GCC market",
+    "Valid Qatar Driving License (mandatory)",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-22",
+   "source": "classified-20261022.pdf",
+   "first_seen": "2026-10-22",
+   "last_seen": "2026-10-22",
+   "seen_dates": [
+    "2026-10-22"
    ]
   }
  ]
