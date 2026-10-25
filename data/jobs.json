@@ -395,6 +395,44 @@
    "segments": 0,
    "vacancies_listed": 0,
    "keys": []
+  },
+  {
+   "date": "2026-10-25",
+   "ads_found": 13,
+   "segments": 17,
+   "vacancies_listed": 30,
+   "keys": [
+    "09ba7c9fd65b720f",
+    "1761ca6effe609aa",
+    "19a82f816446de39",
+    "1ebf039d2a914f06",
+    "1f2d1fec1ee87d29",
+    "30c6564935539f83",
+    "401dd36333b65ba5",
+    "4657810e34656ec6",
+    "4e561cc943e936a2",
+    "5cebe072c0bb7df9",
+    "5d84ced62b71da1c",
+    "6f07cd1add07681d",
+    "7a8c86878fd8fcb5",
+    "832c2edd09f6bc4e",
+    "838dc0a6b0ca28d9",
+    "8c4ba310cb104dcc",
+    "8ec8760a0762c630",
+    "8ef933a9c4725be4",
+    "9baec683982aaccc",
+    "a1f97037bf05bc4a",
+    "a653797551eb72df",
+    "adeca602b917d8cd",
+    "ae6bd433fc9e8a51",
+    "b54c18b7578a8ab1",
+    "bbbfaa57570d6682",
+    "bf9f7e3c4b121a7a",
+    "de3bc1fda840e172",
+    "dfc051e9fa4f4cc7",
+    "ea15226c7970541b",
+    "eac8b1f80e607957"
+   ]
   }
  ],
  "jobs": [
@@ -1097,9 +1135,10 @@
    "issue_date": "2026-10-06",
    "source": "20261006.pdf",
    "first_seen": "2026-10-06",
-   "last_seen": "2026-10-06",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-06"
+    "2026-10-06",
+    "2026-10-25"
    ]
   },
   {
@@ -2000,11 +2039,12 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-07",
     "2026-10-11",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-25"
    ]
   },
   {
@@ -2125,11 +2165,12 @@
    "issue_date": "2026-10-07",
    "source": "20261007.pdf",
    "first_seen": "2026-10-07",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-07",
     "2026-10-11",
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-25"
    ]
   },
   {
@@ -2547,10 +2588,11 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-04",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-25"
    ]
   },
   {
@@ -2580,10 +2622,11 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-04",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-25"
    ]
   },
   {
@@ -2613,10 +2656,11 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-04",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-25"
    ]
   },
   {
@@ -2646,10 +2690,11 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-04",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-25"
    ]
   },
   {
@@ -2679,10 +2724,11 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-04",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-25"
    ]
   },
   {
@@ -2712,10 +2758,11 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-14",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-04",
-    "2026-10-14"
+    "2026-10-14",
+    "2026-10-25"
    ]
   },
   {
@@ -3992,10 +4039,11 @@
    "issue_date": "2026-10-12",
    "source": "classified-20261012.pdf",
    "first_seen": "2026-10-12",
-   "last_seen": "2026-10-18",
+   "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-12",
-    "2026-10-18"
+    "2026-10-18",
+    "2026-10-25"
    ]
   },
   {
@@ -5552,9 +5600,10 @@
    "issue_date": "2026-10-21",
    "source": "classified-20261021.pdf",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-10-25"
    ]
   },
   {
@@ -5689,9 +5738,10 @@
    "issue_date": "2026-10-22",
    "source": "classified-20261022.pdf",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-25"
    ]
   },
   {
@@ -5717,9 +5767,10 @@
    "issue_date": "2026-10-22",
    "source": "classified-20261022.pdf",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-25"
    ]
   },
   {
@@ -5745,9 +5796,10 @@
    "issue_date": "2026-10-22",
    "source": "classified-20261022.pdf",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-25"
    ]
   },
   {
@@ -5773,9 +5825,10 @@
    "issue_date": "2026-10-22",
    "source": "classified-20261022.pdf",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-25"
    ]
   },
   {
@@ -5802,9 +5855,423 @@
    "issue_date": "2026-10-22",
    "source": "classified-20261022.pdf",
    "first_seen": "2026-10-22",
-   "last_seen": "2026-10-22",
+   "last_seen": "2026-10-25",
    "seen_dates": [
-    "2026-10-22"
+    "2026-10-22",
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "30c6564935539f83",
+   "title": "Senior Electrical Tendering Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "kem.recruitment@gmail.com"
+   ],
+   "phones": [
+    "44466609",
+    "44466648",
+    "44337616",
+    "44337675"
+   ],
+   "walk_in_date": null,
+   "ad_text": "IMMEDIATELY REQUIRED FOR A REPUTED A GRADE ELECTRICAL COMPANY IN QATAR SENIOR ELECTRICAL TENDERING ENGINEER Core Responsibilities & Role Analyze complex tender documents, drawings, and specifications for Electrical Distribution and Transmission network projects Perform deep technical evaluations and manage commercial proposals to successfully secure major infrastructure contracts Develop precise estimation, analytical costing, and strategic bidding configurations Coordinate effectively with KAHRAMAA, consultants, subcontractors, and core project stakeholders Candidates Requirement Bachelor’s degree in Electrical Engineering. Classified Minimum 06 to 08 Years of dedicated experience in Electrical Tendering/ Estimation Valid A Grade UPDA / MMUP Engineering Registration & License in Qatar (Must). TEL Possess comprehensive expertise in Electrical Distribution and Transmission networks. 44466",
+   "details": [
+    "Core Responsibilities & Role",
+    "Analyze complex tender documents, drawings, and specifications for",
+    "Electrical Distribution and Transmission network projects",
+    "Perform deep technical evaluations and manage commercial proposals to",
+    "successfully secure major infrastructure contracts"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "09ba7c9fd65b720f",
+   "title": "Consultants",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "other-jobs",
+   "category_label": "Other Jobs",
+   "emails": [
+    "kem.recruitment@gmail.com"
+   ],
+   "phones": [
+    "44466609",
+    "44466648",
+    "44337616",
+    "44337675"
+   ],
+   "walk_in_date": null,
+   "ad_text": "IMMEDIATELY REQUIRED FOR A REPUTED A GRADE ELECTRICAL COMPANY IN QATAR SENIOR ELECTRICAL TENDERING ENGINEER Core Responsibilities & Role Analyze complex tender documents, drawings, and specifications for Electrical Distribution and Transmission network projects Perform deep technical evaluations and manage commercial proposals to successfully secure major infrastructure contracts Develop precise estimation, analytical costing, and strategic bidding configurations Coordinate effectively with KAHRAMAA, consultants, subcontractors, and core project stakeholders Candidates Requirement Bachelor’s degree in Electrical Engineering. Classified Minimum 06 to 08 Years of dedicated experience in Electrical Tendering/ Estimation Valid A Grade UPDA / MMUP Engineering Registration & License in Qatar (Must). TEL Possess comprehensive expertise in Electrical Distribution and Transmission networks. 44466",
+   "details": [
+    "Core Responsibilities & Role",
+    "Analyze complex tender documents, drawings, and specifications for",
+    "Electrical Distribution and Transmission network projects",
+    "Perform deep technical evaluations and manage commercial proposals to",
+    "successfully secure major infrastructure contracts"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "ae6bd433fc9e8a51",
+   "title": "Technical Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [],
+   "phones": [
+    "33583779"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR THE FOLLOWING POSITIONS Technical Manager Senior Design Engineer Senior QC Senior Project Manager Requirements: Experience in Aluminium Glazing & ACP, mandatory Please contact through WhatsApp only 0974 33583779",
+   "details": [
+    "Senior QC",
+    "Requirements: Experience in Aluminium Glazing &",
+    "ACP, mandatory"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "832c2edd09f6bc4e",
+   "title": "Senior Design Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [],
+   "phones": [
+    "33583779"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR THE FOLLOWING POSITIONS Technical Manager Senior Design Engineer Senior QC Senior Project Manager Requirements: Experience in Aluminium Glazing & ACP, mandatory Please contact through WhatsApp only 0974 33583779",
+   "details": [
+    "Senior QC",
+    "Requirements: Experience in Aluminium Glazing &",
+    "ACP, mandatory"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "19a82f816446de39",
+   "title": "Senior Project Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [],
+   "phones": [
+    "33583779"
+   ],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR THE FOLLOWING POSITIONS Technical Manager Senior Design Engineer Senior QC Senior Project Manager Requirements: Experience in Aluminium Glazing & ACP, mandatory Please contact through WhatsApp only 0974 33583779",
+   "details": [
+    "Senior QC",
+    "Requirements: Experience in Aluminium Glazing &",
+    "ACP, mandatory"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "bf9f7e3c4b121a7a",
+   "title": "Estimation Engineer (Mech, Elec)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Project Managers (Mech/Elec) Estimation Engineers (Mech, Elec) Procurement Engineer (Mech) Recruitment Coordinator Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "de3bc1fda840e172",
+   "title": "Procurement Engineer (Mech)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Project Managers (Mech/Elec) Estimation Engineers (Mech, Elec) Procurement Engineer (Mech) Recruitment Coordinator Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "8ec8760a0762c630",
+   "title": "Recruitment Coordinator",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "meptechnicaljobs@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Urgently Required Project Managers (Mech/Elec) Estimation Engineers (Mech, Elec) Procurement Engineer (Mech) Recruitment Coordinator Email: meptechnicaljobs@gmail.com",
+   "details": [],
+   "typical_duties": "Coordinates schedules, documents and communication between teams, customers and suppliers and tracks follow-ups.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "bbbfaa57570d6682",
+   "title": "HSE Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "rlic2023hr@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR: HSE OFFICER Experienced HSE Officer required with a minimum of 5 years of experience and a valid NEBOSH certificate Candidates must have strong knowledge of health safety, risk assessment, and site inspections Interested applicants may submit their CV to rlic2023hr@gmail.com",
+   "details": [
+    "Experienced HSE Officer required with a minimum of",
+    "5 years of experience and a valid NEBOSH certificate",
+    "Candidates must have strong knowledge of health",
+    "safety, risk assessment, and site inspections"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "ea15226c7970541b",
+   "title": "Embroidery Operator",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "qtr.htb@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WANTED: FEMALE EMBROIDERY OPERATOR Experienced in operating Brother embroidery machines Detail-oriented and able to produce quality embroidery work Preferably Filipina Email: qtr.htb@gmail.com",
+   "details": [
+    "Experienced in operating",
+    "Brother embroidery machines",
+    "Detail-oriented and able to produce",
+    "quality embroidery work",
+    "Preferably Filipina"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "9baec683982aaccc",
+   "title": "Truck Driver",
+   "company": "Buhmaid",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "info@buhmaid.com"
+   ],
+   "phones": [
+    "66996705"
+   ],
+   "walk_in_date": null,
+   "ad_text": "VACANCY FOR TRUCK DRIVER Submit your application to info@buhmaid.com or send your resume via Whatsapp to: 66996705 (Applicants must have transferable visa with NOC immediately)",
+   "details": [
+    "(Applicants must have transferable visa with NOC",
+    "immediately)"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "5cebe072c0bb7df9",
+   "title": "Manager",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "sandcity58@gmail.com",
+    "alkhalilconst03@gmail.com"
+   ],
+   "phones": [
+    "71724852",
+    "72051962"
+   ],
+   "walk_in_date": null,
+   "ad_text": "MALE / FEMALE MASSAGE THERAPIST required for Male & Female massage center in Hotel SPA business All the therapist must have experience. Thailand, India Nepal, Sri lanka, Moroccan & Filipino nationality can apply. Overseas candidate can also apply. Overseas & local agent if can recruitment process from outside the country agent also welcome. Please call: 71724852 email: sandcity58@gmail.com REQUIRED: MANAGER FOR Parcel Delivery Company with at least five years of experience in the same field Civil Engineer with experience in professional contracting Civil works supervisors with experience across all stages of construction and finishing. Whatsapp: 72051962 / Send your CV to Email: alkhalilconst03@gmail.com",
+   "details": [
+    "Parcel Delivery Company",
+    "with at least five years of experience in the same field",
+    "experience in professional contracting",
+    "experience across all stages"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "838dc0a6b0ca28d9",
+   "title": "Civil Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "sandcity58@gmail.com",
+    "alkhalilconst03@gmail.com"
+   ],
+   "phones": [
+    "71724852",
+    "72051962"
+   ],
+   "walk_in_date": null,
+   "ad_text": "MALE / FEMALE MASSAGE THERAPIST required for Male & Female massage center in Hotel SPA business All the therapist must have experience. Thailand, India Nepal, Sri lanka, Moroccan & Filipino nationality can apply. Overseas candidate can also apply. Overseas & local agent if can recruitment process from outside the country agent also welcome. Please call: 71724852 email: sandcity58@gmail.com REQUIRED: MANAGER FOR Parcel Delivery Company with at least five years of experience in the same field Civil Engineer with experience in professional contracting Civil works supervisors with experience across all stages of construction and finishing. Whatsapp: 72051962 / Send your CV to Email: alkhalilconst03@gmail.com",
+   "details": [
+    "Parcel Delivery Company",
+    "with at least five years of experience in the same field",
+    "experience in professional contracting",
+    "experience across all stages"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
+   ]
+  },
+  {
+   "key": "a1f97037bf05bc4a",
+   "title": "Civil Works Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "sandcity58@gmail.com",
+    "alkhalilconst03@gmail.com"
+   ],
+   "phones": [
+    "71724852",
+    "72051962"
+   ],
+   "walk_in_date": null,
+   "ad_text": "MALE / FEMALE MASSAGE THERAPIST required for Male & Female massage center in Hotel SPA business All the therapist must have experience. Thailand, India Nepal, Sri lanka, Moroccan & Filipino nationality can apply. Overseas candidate can also apply. Overseas & local agent if can recruitment process from outside the country agent also welcome. Please call: 71724852 email: sandcity58@gmail.com REQUIRED: MANAGER FOR Parcel Delivery Company with at least five years of experience in the same field Civil Engineer with experience in professional contracting Civil works supervisors with experience across all stages of construction and finishing. Whatsapp: 72051962 / Send your CV to Email: alkhalilconst03@gmail.com",
+   "details": [
+    "Parcel Delivery Company",
+    "with at least five years of experience in the same field",
+    "experience in professional contracting",
+    "experience across all stages"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-25",
+   "source": "classified-20261025.pdf",
+   "first_seen": "2026-10-25",
+   "last_seen": "2026-10-25",
+   "seen_dates": [
+    "2026-10-25"
    ]
   }
  ]
