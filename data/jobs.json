@@ -433,6 +433,22 @@
     "ea15226c7970541b",
     "eac8b1f80e607957"
    ]
+  },
+  {
+   "date": "2026-10-26",
+   "ads_found": 4,
+   "segments": 8,
+   "vacancies_listed": 8,
+   "keys": [
+    "15f37ee6fcc08c12",
+    "6da9345f63c032b6",
+    "730db47069b374bf",
+    "89e949ac36dc386f",
+    "b76fba727648ab92",
+    "d64cad77b9b6e2a5",
+    "d791818be1e87cb0",
+    "df58cc0603b66e3d"
+   ]
   }
  ],
  "jobs": [
@@ -6272,6 +6288,226 @@
    "last_seen": "2026-10-25",
    "seen_dates": [
     "2026-10-25"
+   ]
+  },
+  {
+   "key": "d791818be1e87cb0",
+   "title": "House Boy/Cook",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "hospitality-healthcare",
+   "category_label": "Hospitality & Healthcare",
+   "emails": [],
+   "phones": [
+    "55567578",
+    "50967541"
+   ],
+   "walk_in_date": null,
+   "ad_text": "NEPALI HOUSE BOY / COOK Required Urgently From Nepal For a small Indian Family Visa Available",
+   "details": [
+    "Required Urgently From Nepal",
+    "Visa Available"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "730db47069b374bf",
+   "title": "Senior Safety Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "jeshma.hr@gmail.com"
+   ],
+   "phones": [
+    "50151279"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Safety Engineer Planning Engineer QA Inspector + Technical Assistant Work Inspector (Road, Utility, Drainage) Email : jeshma.hr@gmail.com",
+   "details": [],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "b76fba727648ab92",
+   "title": "Planning Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "jeshma.hr@gmail.com"
+   ],
+   "phones": [
+    "50151279"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Safety Engineer Planning Engineer QA Inspector + Technical Assistant Work Inspector (Road, Utility, Drainage) Email : jeshma.hr@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates project programmes (Primavera P6/MS Project), tracks progress and reports delays.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "d64cad77b9b6e2a5",
+   "title": "QA Inspector + Technical Assistant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "jeshma.hr@gmail.com"
+   ],
+   "phones": [
+    "50151279"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Safety Engineer Planning Engineer QA Inspector + Technical Assistant Work Inspector (Road, Utility, Drainage) Email : jeshma.hr@gmail.com",
+   "details": [],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "6da9345f63c032b6",
+   "title": "Work Inspector (Road, Utility, Drainage)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "jeshma.hr@gmail.com"
+   ],
+   "phones": [
+    "50151279"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Safety Engineer Planning Engineer QA Inspector + Technical Assistant Work Inspector (Road, Utility, Drainage) Email : jeshma.hr@gmail.com",
+   "details": [],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "df58cc0603b66e3d",
+   "title": "We Are Looking for A Land Surveyor",
+   "company": "Citysquarewll",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hr@citysquarewll.com",
+    "info@citysquarewll.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING We are looking for a land surveyor and site foreman with roadwork experience. Preferably of Indian nationality please forward CVs to the below email ID Local Hiring. Available vacancy Land surveyor: 1nos Site foreman: 1nos Email ID: hr@citysquarewll.com / info@citysquarewll.com",
+   "details": [
+    "with roadwork experience. Preferably of Indian nationality",
+    "Land surveyor: 1nos",
+    "Site foreman: 1nos"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "15f37ee6fcc08c12",
+   "title": "Site Foreman",
+   "company": "Citysquarewll",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hr@citysquarewll.com",
+    "info@citysquarewll.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING We are looking for a land surveyor and site foreman with roadwork experience. Preferably of Indian nationality please forward CVs to the below email ID Local Hiring. Available vacancy Land surveyor: 1nos Site foreman: 1nos Email ID: hr@citysquarewll.com / info@citysquarewll.com",
+   "details": [
+    "with roadwork experience. Preferably of Indian nationality",
+    "Land surveyor: 1nos",
+    "Site foreman: 1nos"
+   ],
+   "typical_duties": "Leads site crews, plans daily tasks, checks workmanship and materials, and reports progress to the supervisor or engineer.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
+   ]
+  },
+  {
+   "key": "89e949ac36dc386f",
+   "title": "Sales Executive/Sales Engineer",
+   "company": "Qatarockwool",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hr@qatarockwool.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "Required: Sales Executives / Sales Engineers Arabic Nationals Minimum 3 years of experience in building materials is required Bilingual proficiency is compulsory Interested candidates may send their CV to hr@qatarockwool.com",
+   "details": [
+    "Arabic Nationals",
+    "Minimum 3 years of experience in building",
+    "materials is required",
+    "Bilingual proficiency is compulsory",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-26",
+   "source": "classified-20261026.pdf",
+   "first_seen": "2026-10-26",
+   "last_seen": "2026-10-26",
+   "seen_dates": [
+    "2026-10-26"
    ]
   }
  ]
