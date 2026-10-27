@@ -449,6 +449,35 @@
     "d791818be1e87cb0",
     "df58cc0603b66e3d"
    ]
+  },
+  {
+   "date": "2026-10-27",
+   "ads_found": 8,
+   "segments": 16,
+   "vacancies_listed": 21,
+   "keys": [
+    "137b2ba1d223ed28",
+    "1d1ecf49a5833cc1",
+    "2b952b59faf34b4c",
+    "2de8c3525f47dcd9",
+    "3ed75b337ec922a8",
+    "5bfae8d339af3f13",
+    "6ae3deee612edcd8",
+    "6dccbf9d63fa8692",
+    "735e5fe9c69a1be4",
+    "776b2ad2a6205faf",
+    "94a5219e13844873",
+    "983b684f56ad1881",
+    "992589a0ba3e70d8",
+    "9baec683982aaccc",
+    "ba5bb66d969f39ce",
+    "d235537a4329abb2",
+    "d43089ad414d1f3a",
+    "e20380e382a98189",
+    "e4621331ba03bc28",
+    "ea0945c083b9e1c4",
+    "ea15226c7970541b"
+   ]
   }
  ],
  "jobs": [
@@ -6157,9 +6186,10 @@
    "issue_date": "2026-10-25",
    "source": "classified-20261025.pdf",
    "first_seen": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-27",
    "seen_dates": [
-    "2026-10-25"
+    "2026-10-25",
+    "2026-10-27"
    ]
   },
   {
@@ -6186,9 +6216,10 @@
    "issue_date": "2026-10-25",
    "source": "classified-20261025.pdf",
    "first_seen": "2026-10-25",
-   "last_seen": "2026-10-25",
+   "last_seen": "2026-10-27",
    "seen_dates": [
-    "2026-10-25"
+    "2026-10-25",
+    "2026-10-27"
    ]
   },
   {
@@ -6508,6 +6539,564 @@
    "last_seen": "2026-10-26",
    "seen_dates": [
     "2026-10-26"
+   ]
+  },
+  {
+   "key": "94a5219e13844873",
+   "title": "Construction Manager (UPDA A/B)",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "3ed75b337ec922a8",
+   "title": "Civil Engineer (UPDA)",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "ba5bb66d969f39ce",
+   "title": "Electrical Engineer (UPDA)",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "ea0945c083b9e1c4",
+   "title": "HSE Officer",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "2b952b59faf34b4c",
+   "title": "Electrician",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "1d1ecf49a5833cc1",
+   "title": "Carpenter",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Performs skilled finishing and building trade work to drawings and quality standards.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "992589a0ba3e70d8",
+   "title": "Steel Fixer",
+   "company": "Vdp Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruitment@vdpqatar.com"
+   ],
+   "phones": [
+    "55088425"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED A REPUTED COMPANY IS HIRING FOR FOLLOWING POSITIONS Position Qualification Construction Manager (UPDA A/B) Degree in Civil Engineering Civil Engineer (UPDA) Degree in Civil Engineering Electrical Engineer (UPDA) Degree in Electrical Engineering HSE Officer NEBOSH/IOSH/OSHA Electrician Kahrama Approved Carpenter With 3 to 5 Years of experience Steel Fixer With 3 to 5 Years of experience Send Cv to: recruitment@vdpqatar.com",
+   "details": [
+    "Degree in Civil Engineering",
+    "Degree in Electrical Engineering",
+    "NEBOSH/IOSH/OSHA",
+    "Kahrama Approved",
+    "With 3 to 5 Years of experience"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "d235537a4329abb2",
+   "title": "Engineer",
+   "company": "The",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "center.hrd@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "THE Nos 02 02 01 02 10 20 50 REQUIRED MAINTENANCE ENGINEER BACHELOR DEGREE MECHANICAL / ELECTRICAL ENGINEERING SHOULD KNOW TO USE AUTOCAD SOFTWARE GOOD WORKING KNOWLEDGE IN MALL BUILDING MAINTENANCE MEP WORKS AND RELATED GOVERNMENTS REQUIREMENTS APPLICANTS HAVING MORE THAN FIVE YEARS OF EXPERIENCE WITH ELIGIBILITY TO CHANGE THE SPONSORSHIP CAN APPLY TO center.hrd@gmail.com",
+   "details": [
+    "BACHELOR DEGREE",
+    "MECHANICAL /",
+    "ELECTRICAL",
+    "ENGINEERING",
+    "SHOULD KNOW TO USE"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "5bfae8d339af3f13",
+   "title": "Sales Coordinator (- Preferably )",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "2017hrqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REPUTED TRADING CO. LOOKING TO HIRE THE FOLLOWING Sales Coordinator (Female - Preferably Filipino) · Graduate with Minimum 5 years of experience in Sales Coordination · Fluent in English · Good Knowledge in MS Office with Excel Skills · Must be willing to transfer sponsorship Van Sales Executive (Food Products) · Graduate with Minimum 3 years of experience in food product sales · Valid Qatar Driving License · Strong market knowledge and customer network in Qatar (All Post Preferred Transferable visa must with NOC) Candidates who can join immediately please forward your updated profile to: 2017hrqatar@gmail.com",
+   "details": [
+    "· Graduate with Minimum 5 years of experience in Sales Coordination",
+    "· Fluent in English",
+    "· Good Knowledge in MS Office with Excel Skills",
+    "· Must be willing to transfer sponsorship",
+    "· Graduate with Minimum 3 years of experience in food product sales"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "e20380e382a98189",
+   "title": "Van Sales Executive (Food Products)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "2017hrqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REPUTED TRADING CO. LOOKING TO HIRE THE FOLLOWING Sales Coordinator (Female - Preferably Filipino) · Graduate with Minimum 5 years of experience in Sales Coordination · Fluent in English · Good Knowledge in MS Office with Excel Skills · Must be willing to transfer sponsorship Van Sales Executive (Food Products) · Graduate with Minimum 3 years of experience in food product sales · Valid Qatar Driving License · Strong market knowledge and customer network in Qatar (All Post Preferred Transferable visa must with NOC) Candidates who can join immediately please forward your updated profile to: 2017hrqatar@gmail.com",
+   "details": [
+    "· Graduate with Minimum 5 years of experience in Sales Coordination",
+    "· Fluent in English",
+    "· Good Knowledge in MS Office with Excel Skills",
+    "· Must be willing to transfer sponsorship",
+    "· Graduate with Minimum 3 years of experience in food product sales"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "735e5fe9c69a1be4",
+   "title": "Traffic Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Traffic Draftsman Civil Supervisors HSE Officer : Oil & Gas / Road GIS Technician Email : sanaajmal845@gmail.com",
+   "details": [
+    "HSE Officer : Oil & Gas / Road"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "e4621331ba03bc28",
+   "title": "Civil Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Traffic Draftsman Civil Supervisors HSE Officer : Oil & Gas / Road GIS Technician Email : sanaajmal845@gmail.com",
+   "details": [
+    "HSE Officer : Oil & Gas / Road"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "137b2ba1d223ed28",
+   "title": "GIS Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Traffic Draftsman Civil Supervisors HSE Officer : Oil & Gas / Road GIS Technician Email : sanaajmal845@gmail.com",
+   "details": [
+    "HSE Officer : Oil & Gas / Road"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "776b2ad2a6205faf",
+   "title": "IT & Digital Marketing Assistant",
+   "company": "Twol-Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hr@twol-qatar.com"
+   ],
+   "phones": [
+    "70805040"
+   ],
+   "walk_in_date": null,
+   "ad_text": "IT & DIGITAL MARKETING ASSISTANT REQUIRED Proven experience in graphics, AI videos, Ads Social media, APIs, Automation, AI agents, PHP, Node JS, servers, and ERP. Immediate joiners preferred Send CV and portfolio Email: hr@twol-qatar.com",
+   "details": [
+    "Proven experience in graphics, AI videos, Ads"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "d43089ad414d1f3a",
+   "title": "AI Agents",
+   "company": "Twol-Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "other-jobs",
+   "category_label": "Other Jobs",
+   "emails": [
+    "hr@twol-qatar.com"
+   ],
+   "phones": [
+    "70805040"
+   ],
+   "walk_in_date": null,
+   "ad_text": "IT & DIGITAL MARKETING ASSISTANT REQUIRED Proven experience in graphics, AI videos, Ads Social media, APIs, Automation, AI agents, PHP, Node JS, servers, and ERP. Immediate joiners preferred Send CV and portfolio Email: hr@twol-qatar.com",
+   "details": [
+    "Proven experience in graphics, AI videos, Ads"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "6ae3deee612edcd8",
+   "title": "Senior Resident Engineer",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Resident Engineer Irrigation Engineer Designs Coordinator QAQC Inspector/Manager Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "6dccbf9d63fa8692",
+   "title": "Irrigation Engineer",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Resident Engineer Irrigation Engineer Designs Coordinator QAQC Inspector/Manager Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "983b684f56ad1881",
+   "title": "Designs Coordinator",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Resident Engineer Irrigation Engineer Designs Coordinator QAQC Inspector/Manager Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Coordinates schedules, documents and communication between teams, customers and suppliers and tracks follow-ups.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
+   ]
+  },
+  {
+   "key": "2de8c3525f47dcd9",
+   "title": "QA/QC Inspector/Manager",
+   "company": "Steadfast Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "krishna@steadfastqatar.com"
+   ],
+   "phones": [
+    "50947435"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Senior Resident Engineer Irrigation Engineer Designs Coordinator QAQC Inspector/Manager Email: krishna@steadfastqatar.com",
+   "details": [],
+   "typical_duties": "Implements quality plans, inspects works against specifications, raises non-conformance reports and keeps inspection records.",
+   "issue_date": "2026-10-27",
+   "source": "classified-20261027.pdf",
+   "first_seen": "2026-10-27",
+   "last_seen": "2026-10-27",
+   "seen_dates": [
+    "2026-10-27"
    ]
   }
  ]
