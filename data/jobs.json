@@ -506,6 +506,44 @@
    "segments": 0,
    "vacancies_listed": 0,
    "keys": []
+  },
+  {
+   "date": "2026-11-01",
+   "ads_found": 7,
+   "segments": 15,
+   "vacancies_listed": 30,
+   "keys": [
+    "06df8fb8b085f14b",
+    "07781fb1da782846",
+    "08f5f1e1d498aaf4",
+    "09b39154099b2c49",
+    "0b14e082dde426b2",
+    "126401b783bbf53a",
+    "16938c510c7d9318",
+    "192a49287cd40878",
+    "27ae0b594be437e2",
+    "3005c1846fe8db3c",
+    "396e1cc0ecb0b936",
+    "40696ab2913a0f25",
+    "45fd1a34127f1212",
+    "472eb97f6d6077ce",
+    "4aa1f9dfa44fd71e",
+    "4ffd30e710e32225",
+    "822957f6930939ea",
+    "86cdf1532c3ceebf",
+    "90df3127a04d2fcc",
+    "9b96488135206a73",
+    "ab46d191a53f1680",
+    "b5d5845446958114",
+    "bee0b08e54faf495",
+    "d2dc35a94603c139",
+    "d8885c55615d35db",
+    "e00bc80e3bec2da9",
+    "e2ca280fd8e4c9ff",
+    "e59aea1e0346d2d3",
+    "ed03337d5538ea86",
+    "ff607e3a82ed8d7c"
+   ]
   }
  ],
  "jobs": [
@@ -2398,9 +2436,10 @@
    "issue_date": "2026-10-04",
    "source": "classified-20261004.pdf",
    "first_seen": "2026-10-04",
-   "last_seen": "2026-10-04",
+   "last_seen": "2026-11-01",
    "seen_dates": [
-    "2026-10-04"
+    "2026-10-04",
+    "2026-11-01"
    ]
   },
   {
@@ -7125,6 +7164,857 @@
    "last_seen": "2026-10-27",
    "seen_dates": [
     "2026-10-27"
+   ]
+  },
+  {
+   "key": "3005c1846fe8db3c",
+   "title": "BIM Manager",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "27ae0b594be437e2",
+   "title": "BIM Coordinator",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "86cdf1532c3ceebf",
+   "title": "Draftsman",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "bee0b08e54faf495",
+   "title": "Site Surveyor",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "e2ca280fd8e4c9ff",
+   "title": "Senior Planning Engineer",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Prepares and updates project programmes (Primavera P6/MS Project), tracks progress and reports delays.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "09b39154099b2c49",
+   "title": "Planning Engineer",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Prepares and updates project programmes (Primavera P6/MS Project), tracks progress and reports delays.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "0b14e082dde426b2",
+   "title": "Cost Control Engineer",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "d8885c55615d35db",
+   "title": "Senior Cost Control Engineer",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "ab46d191a53f1680",
+   "title": "Safety Officer",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "126401b783bbf53a",
+   "title": "11 Lifting Supervisor",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "472eb97f6d6077ce",
+   "title": "Stakeholder Manager",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "822957f6930939ea",
+   "title": "To Supply to PWA Project Manager",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Leads the team and operations of the function, manages budgets and deadlines and reports to senior management.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "ed03337d5538ea86",
+   "title": "14 Pavement Technical Engineer",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "90df3127a04d2fcc",
+   "title": "15 Gis Technician",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "16938c510c7d9318",
+   "title": "16 Site Traffic Management Supervisor",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "d2dc35a94603c139",
+   "title": "18 Electrical Supervisor",
+   "company": "Al Mohannadi",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "i.hamedi@mlp-qa.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "AL MOHANNADI FOR ROADS AND TRADING AND CONTRACTING Urgent Required for below position 1 BIM MANAGER 2 BIM COORDINATOR 3 DRAFTSMAN 4 SITE SURVEYOR 5 SENIOR PLANNING ENGINEER 6 PLANNING ENGINEER 7 COST CONTROL ENGINEER 8 SENIOR COST CONTROL ENGINEER 9 SAFETY OFFICER 10 STMS 11 LIFTING SUPERVISOR STAKEHOLDER MANAGER 12 Preferred Qualification: Bachelor’s degree in Engineering with ATM approval MALE SECRETARY To supply to PWA Project Manager - URGENT 13 To provide 3 CVs to be interviewed by PWA Preferably Arabic speaker male with good knowledge of ICTS and APMS 14 PAVEMENT TECHNICAL ENGINEER 15 GIS TECHNICIAN 16 SITE TRAFFIC MANAGEMENT SUPERVISOR 17 TRAFFIC FORMAN 18 ELECTRICAL SUPERVISOR Contact email: i.hamedi@mlp-qa.com",
+   "details": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "9b96488135206a73",
+   "title": "Mechanical Engineer",
+   "company": "In Grade A Mep Company",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "aah.management@hotmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "HIRING IN GRADE A MEP COMPANY Mechanical Engineer with minimum 10 yrs site experience in HVAC and Firefighting Must have UPDA and driving license MEP Draftsman with minimum 7 yrs experience in AutoCAD MEP Send your CV at aah.management@hotmail.com",
+   "details": [
+    "minimum 10 yrs site",
+    "experience in HVAC and Firefighting",
+    "Must have UPDA and driving license",
+    "MEP Draftsman with minimum 7 yrs experience in",
+    "AutoCAD MEP"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "4aa1f9dfa44fd71e",
+   "title": "Scaffolder Supervisor",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "66177104"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Scaffolders supervisors Residents Engineer HSE Officer- oil & gas /construction QAQC Civil/Mechanical Inspector Send CV to fatmazafar2203@gmail.com",
+   "details": [
+    "oil & gas /construction"
+   ],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "4ffd30e710e32225",
+   "title": "Resident Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "66177104"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Scaffolders supervisors Residents Engineer HSE Officer- oil & gas /construction QAQC Civil/Mechanical Inspector Send CV to fatmazafar2203@gmail.com",
+   "details": [
+    "oil & gas /construction"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "ff607e3a82ed8d7c",
+   "title": "HSE Officer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "oil-gas-hse",
+   "category_label": "Oil & Gas / HSE",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "66177104"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Scaffolders supervisors Residents Engineer HSE Officer- oil & gas /construction QAQC Civil/Mechanical Inspector Send CV to fatmazafar2203@gmail.com",
+   "details": [
+    "oil & gas /construction"
+   ],
+   "typical_duties": "Enforces site safety rules, carries out inspections and risk assessments, delivers toolbox talks and investigates incidents.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "06df8fb8b085f14b",
+   "title": "QA/QC Civil/Mechanical Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "fatmazafar2203@gmail.com"
+   ],
+   "phones": [
+    "66177104"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING Scaffolders supervisors Residents Engineer HSE Officer- oil & gas /construction QAQC Civil/Mechanical Inspector Send CV to fatmazafar2203@gmail.com",
+   "details": [
+    "oil & gas /construction"
+   ],
+   "typical_duties": "Implements quality plans, inspects works against specifications, raises non-conformance reports and keeps inspection records.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "e59aea1e0346d2d3",
+   "title": "Estimation Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hiringteam1256@gmail.com"
+   ],
+   "phones": [
+    "30711635"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING (Commercial Kitchen Equipment manufacturer) Estimation Engineer -1 nos (Auto Cad proficiency) Mechanical Engineer - 1 nos Chiller and Freezer Technician - 1 nos All candidate should have experience in same field Please send the C.V. to WhatsApp: 30711635 Email: hiringteam1256@gmail.com",
+   "details": [
+    "1 nos (Auto Cad proficiency)",
+    "1 nos",
+    "All candidate should have experience in same field"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "396e1cc0ecb0b936",
+   "title": "Mechanical Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hiringteam1256@gmail.com"
+   ],
+   "phones": [
+    "30711635"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING (Commercial Kitchen Equipment manufacturer) Estimation Engineer -1 nos (Auto Cad proficiency) Mechanical Engineer - 1 nos Chiller and Freezer Technician - 1 nos All candidate should have experience in same field Please send the C.V. to WhatsApp: 30711635 Email: hiringteam1256@gmail.com",
+   "details": [
+    "1 nos (Auto Cad proficiency)",
+    "1 nos",
+    "All candidate should have experience in same field"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "40696ab2913a0f25",
+   "title": "Chiller and Freezer Technician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hiringteam1256@gmail.com"
+   ],
+   "phones": [
+    "30711635"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING (Commercial Kitchen Equipment manufacturer) Estimation Engineer -1 nos (Auto Cad proficiency) Mechanical Engineer - 1 nos Chiller and Freezer Technician - 1 nos All candidate should have experience in same field Please send the C.V. to WhatsApp: 30711635 Email: hiringteam1256@gmail.com",
+   "details": [
+    "1 nos (Auto Cad proficiency)",
+    "1 nos",
+    "All candidate should have experience in same field"
+   ],
+   "typical_duties": "Installs, services and repairs air-conditioning and ventilation equipment, carries out preventive maintenance and fault finding.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "45fd1a34127f1212",
+   "title": "Accounts Assistant/Operational Assistant",
+   "company": "DNS",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "hr@dns.com.qa"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "LOOKING FOR CANDIDATES AT IT COMPANY for the below position Accounts Assistant / Operational Assistant Preference : Female candidate Transferable visa Good communication and interpersonal skills Send CV : hr@dns.com.qa",
+   "details": [
+    "Transferable visa",
+    "Good communication and interpersonal skills"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "e00bc80e3bec2da9",
+   "title": "QCDD Engineer",
+   "company": "TIG",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hr.tesla@tig.qa"
+   ],
+   "phones": [
+    "33773766"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED MEP CONTRACTING COMPANY in Qatar is looking for Mechanical Engineer Must hold UDPA license (min grade-C) MEP, QCDD Engineer Minimum 2 to 4 years of experience in HVAC project and fire protection field with have background in Leading the Maintenance/Operations Share CV: hr.tesla@tig.qa / 33773766 (WhatsApp only)",
+   "details": [
+    "Must hold UDPA license",
+    "Minimum 2 to 4 years of experience in HVAC project and",
+    "fire protection field with have background in Leading the",
+    "Maintenance/Operations"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "08f5f1e1d498aaf4",
+   "title": "Electrical Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruit25qtr@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A LEADING COMPANY IN QATAR is looking for following positions Electrical Engineer Fit-out Engineer ( Civil ) Electrician 3 to 5 years experience. Qatar driving licence Interested candidates may send their CV to recruit25qtr@gmail.com",
+   "details": [
+    "3 to 5 years experience. Qatar driving licence",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "192a49287cd40878",
+   "title": "Fit-out Engineer ( Civil )",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "recruit25qtr@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A LEADING COMPANY IN QATAR is looking for following positions Electrical Engineer Fit-out Engineer ( Civil ) Electrician 3 to 5 years experience. Qatar driving licence Interested candidates may send their CV to recruit25qtr@gmail.com",
+   "details": [
+    "3 to 5 years experience. Qatar driving licence",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
+   ]
+  },
+  {
+   "key": "b5d5845446958114",
+   "title": "Electrician",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "recruit25qtr@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "A LEADING COMPANY IN QATAR is looking for following positions Electrical Engineer Fit-out Engineer ( Civil ) Electrician 3 to 5 years experience. Qatar driving licence Interested candidates may send their CV to recruit25qtr@gmail.com",
+   "details": [
+    "3 to 5 years experience. Qatar driving licence",
+    "Interested candidates may send their CV to"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-11-01",
+   "source": "classified-20261101.pdf",
+   "first_seen": "2026-11-01",
+   "last_seen": "2026-11-01",
+   "seen_dates": [
+    "2026-11-01"
    ]
   }
  ]
