@@ -7,6 +7,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data', 'jobs.json')
 WORK = os.path.join(ROOT, '_dl')
 KEEP_DAYS = 60
+SEEKERS_URL = os.environ.get('SEEKERS_URL', '').strip()      # e.g. https://www.taxinme.com/jobs/seekers_ingest.php  (GitHub secret)
+SEEKERS_TOKEN = os.environ.get('SEEKERS_TOKEN', '').strip()  # same value as JOBS_SEEKERS_TOKEN in includes/config.php (GitHub secret)
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; TaxINMEJobsBot/1.0; +https://www.taxinme.com/jobs/)'}
 LISTING = 'https://www.gulf-times.com/classified'
 PDF_RE = re.compile(r'(?:https?://www\.gulf-times\.com)?(/gulftimes/uploads/pdf/\d{4}/\d{2}/\d{2}/classified-(\d{8})-1-\d+\.pdf(?:\?ts=\d+)?)')
@@ -23,6 +25,21 @@ def find_remote():
     for path, d in PDF_RE.findall(html):
         found.setdefault(d, 'https://www.gulf-times.com' + path.replace('&amp;', '&'))
     return found
+
+
+def send_seekers(pdfs):
+    """SITUATION WANTED -> position + e-mail only, sent straight to the website's admin queue (never stored in GitHub)."""
+    if not (SEEKERS_URL and SEEKERS_TOKEN):
+        print('Seekers: SEEKERS_URL / SEEKERS_TOKEN not set - skipped.'); return
+    try:
+        rows = gt_jobs.run_seekers(pdfs)['seekers']
+        if not rows:
+            print('Seekers: none found.'); return
+        req = urllib.request.Request(SEEKERS_URL, data=json.dumps({'seekers': rows}).encode('utf-8'),
+                                     headers={**UA, 'Content-Type': 'application/json', 'X-Seekers-Token': SEEKERS_TOKEN}, method='POST')
+        print('Seekers sent:', len(rows), '->', urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')[:200])
+    except Exception as ex:                       # must never break the vacancy build
+        print('Seekers: upload failed (vacancies unaffected):', ex)
 
 def main():
     os.makedirs(WORK, exist_ok=True)
@@ -46,6 +63,7 @@ def main():
     if not pdfs:
         print('Nothing new.'); return
     new = gt_jobs.run(pdfs)
+    send_seekers(pdfs)
     jobs = {j['key']: j for j in old['jobs']}
     for j in new['jobs']:
         e = jobs.get(j['key'])
@@ -61,6 +79,7 @@ def main():
     cutoff = (datetime.date.today() - datetime.timedelta(days=KEEP_DAYS)).isoformat()
     out = {'issues': sorted((i for i in issues.values() if i['date'] >= cutoff), key=lambda i: i['date']),
            'jobs': [j for j in jobs.values() if j['last_seen'] >= cutoff]}
+    out.pop('seekers', None)          # candidate e-mails are NEVER written into this (public) repo
     json.dump(out, open(DATA, 'w'), ensure_ascii=False, indent=1)
     print('jobs now', len(out['jobs']), 'issues', len(out['issues']))
 
