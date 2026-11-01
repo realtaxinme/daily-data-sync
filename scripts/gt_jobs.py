@@ -2,7 +2,8 @@
 """
 Gulf Times classified PDF -> structured vacancies.
 
-Reads only the SITUATION VACANT section (never SITUATION WANTED, so no job-seeker data is touched).
+Reads the SITUATION VACANT section into vacancies, and (optional, run_seekers) the SITUATION WANTED section into
+minimal job-seeker records: position + e-mail + years of experience only.
 Usage:  python3 gt_jobs.py file1.pdf [file2.pdf ...] -o jobs.json
 The issue date is taken from the file name (classified-YYYYMMDD-...).
 """
@@ -89,12 +90,13 @@ def split_subcolumns(bl):
 
 CONTACT = re.compile(r'[\w.\-]+@[\w.\-]+\.\w{2,}|\b(?:\+?974|00974)[\s\-]?\d|(?<!\d)[3-7]\d{3}[\s\-]?\d{4}(?!\d)', re.I)
 
-def segment_issue(pdf_path):
+def segment_issue(pdf_path, finder=None):
+    finder = finder or find_regions
     ads = []
     with pdfplumber.open(pdf_path) as pdf:
         started = False
         for pi, pg in enumerate(pdf.pages):
-            reg, started = find_regions(pg, started)
+            reg, started = finder(pg, started)
             if not reg: continue
             for (a, b) in x_columns(reg, 6):
                 cw = [w for w in reg if a - 1 <= (w['x0'] + w['x1']) / 2 <= b + 1]
@@ -410,6 +412,193 @@ def run(pdfs):
                     out['jobs'][j['key']] = j
         out['issues'].append({'date': d, 'ads_found': n_ads, 'segments': len(ads), 'vacancies_listed': len(set(listed)), 'keys': sorted(set(listed))})
     out['jobs'] = list(out['jobs'].values())
+    return out
+
+
+# ================================================================ SITUATION WANTED (job seekers)
+# Deliberately minimal: only POSITION + E-MAIL (+ years of experience) are kept.
+# Names, phone numbers, nationality, gender, age and the free text of the ad are never stored.
+
+def find_wanted_regions(pg, started):
+    """Everything below the SITUATION WANTED heading (and whole following pages). Other sections are removed later by content checks."""
+    words = pg.extract_words(x_tolerance=1.5, y_tolerance=2)
+    sit = [w for w in words if w['text'] == 'SITUATION']
+    wan = [w for w in words if w['text'] == 'WANTED' and any(abs(s['top']-w['top']) < 2 and 0 < w['x0']-s['x1'] < 10 for s in sit)]
+    if wan: y0 = wan[-1]['bottom'] + 2
+    elif started: y0 = 0
+    else: return [], started
+    return [w for w in words if w['top'] >= y0], True
+
+# role mailboxes belong to companies, not to job seekers
+ROLE_MAILBOX = re.compile(r'^(info|hr|hrd|career|careers|jobs?|recruit\w*|admin|sales|support|contact|enquir\w*|office|mail|cv|cvs|resume|hiring|vacanc\w*)\d*@', re.I)
+
+def repair_emails(text):
+    """E-mails wrapped over two lines: 'name@gmail.\\ncom' and 'name@\\ngmail.com' -> joined."""
+    t = re.sub(r'@\s+', '@', text)
+    t = re.sub(r'(@[A-Za-z0-9\-]+(?:\.[A-Za-z0-9\-]+)*)\.\s+(com|net|org|qa|in|co|edu|info|me|ae|uk)\b', r'\1.\2', t, flags=re.I)
+    return t
+
+SEEKER_HIRE = re.compile(r'(?i)\b(urgent(ly)?\s+(required|hiring|needed|wanted)|immediate\s+hiring|we\s+are\s+(hiring|looking)|now\s+hiring|vacanc(y|ies)|walk[\s\-]?in|send\s+(your\s+|us\s+)?(c\.?v|resume)|interested\s+(candidates?|applicants?)|candidates?\s+(can|may|must|should|with)|applicants?\s+(can|may|must)|only\s+shortlisted|for\s+rent|for\s+sale|rent\s+a\s+car|to\s+let|is\s+required|are\s+required|required\b.{0,40}\b(engineer|accountant|driver|technician|supervisor)|salary\s*:?\s*\d)')
+SEEKER_SIGNAL = re.compile(r'(?i)\b(seeking|looking\s+for|available|can\s+join|ready\s+to\s+join|join(ing)?\s+immediately|immediate(ly)?\s+(join|available)|transferable|noc\b|qid\b|valid\s+(qatar\s+)?(id|visa|driving)|freelanc\w+|\d+\+?\s*(years?|yrs?)\b|experience[d]?\b|open\s+for)')
+SEEKER_BAD_TITLE = re.compile(r'(?i)\b(rent|lease|hire|hiring|vacancy|required|wanted|accommodation|camp|villa|flat|company|w\.?l\.?l|llc)\b')
+
+PERSON = re.compile(r'(?i)\b(an?\s+)?(indian|filipino|filipina|pilipino|nepali|nepalese|egyptian|pakistani|sri\s+lankan|bangladeshi|sudanese|jordanian|syrian|lebanese|kenyan|ugandan|nigerian|ghanaian|moroccan|tunisian|palestinian|yemeni|male|female|lady|national(ity)?|upda|mmup|approved|certified|experienced|highly|accomplished|organi[sz]ed|dynamic|motivated|qualified|skilled|proven|hardworking|passionate)\b')
+LOCAL_ROLE_NOUN = r'(admin|messengers?|professionals?|experts?|incharge|in-charge|hostess|hostesses|storemen|storeman|stewards?|attendants?|inspectors?|trainers?|instructors?|programmers?|developers?|auditors?|editors?|translators?|interpreters?|photographers?|artists?|technologists?|pharmacists?|therapists?|dentists?|physicians?|sales\s*(?:person|executive|man))'
+ROLE_OK = re.compile(r'(?:\b' + ROLE_NOUN + r'|\b' + LOCAL_ROLE_NOUN + r')\b\s*$', re.I)
+
+SEEK_PHRASE = re.compile(r'(?i)(?:seeking|looking\s+for|open\s+for|interested\s+in|applying\s+for)\s+(?:a\s+|an\s+|the\s+)?(?:suitable\s+|challenging\s+|new\s+|temporary\s+|permanent\s+|full[\s\-]?time\s+)*(?:job|jobs|position|post|role|employment|opportunit(?:y|ies))?\s*(?:as|in|for|of|:)?\s*(?:a\s+|an\s+)?(?P<x>[A-Za-z][A-Za-z0-9&/,\.\-\s\(\)]{2,110}?)(?=\s*(?:opportunit|\.\s|\.$|;|\bwith\b|\bcontact\b|\bemail\b|\be-mail\b|\bin\s+(?:doha|qatar)\b|\bvalid\b|\bqid\b|\bcan\b|\bavailable\b|\bready\b|\bfor\b|\bduring\b|\bacross\b|\bto\b|$))')
+
+ACRONYMS = {'Cctv': 'CCTV', 'Plc': 'PLC', 'Scada': 'SCADA', 'Ict': 'ICT', 'Mis': 'MIS', 'Wps': 'WPS', 'Ptw': 'PTW', 'Hr': 'HR', 'Hse': 'HSE', 'Hvac': 'HVAC', 'Pro': 'PRO', 'Elv': 'ELV', 'Mep': 'MEP', 'It': 'IT', 'Bim': 'BIM', 'Cad': 'CAD', 'Qs': 'QS', 'Ndt': 'NDT'}
+
+KEEP_CAPS = {'HVAC','BMS','BIM','QA/QC','QAQC','HSE','PRO','ELV','MEP','FM','IT','HR','AC','CAD','QS','NDT','LV','MV','HT','CCTV','PLC','SCADA','ICT','MIS','WPS','PTW','ERP','SAP','IOSH','NEBOSH','UPDA','MMUP'}
+def tidy_title(t):
+    t = re.sub(r'(?i)\bsr\.?\s*(?=[A-Za-z])', 'Senior ', t)
+    t = re.sub(r'(?i)\bjr\.?\s*(?=[A-Za-z])', 'Junior ', t)
+    t = re.sub(r'(?i)^eng\.?\s+(?=chartered|civil|mechanical|electrical|structural)', '', t)
+    t = re.sub(r'(?i)\bsales?\s+(executive|manager|engineer|officer|representative|coordinator)', r'Sales \1', t)
+    t = re.sub(r'(?i)\bqa\s*/?\s*qc\b', 'QA/QC', t)
+    t = re.sub(r'(?i)\b(receptionist|cashier|accountant|executive|assistant|coordinator|officer|manager|engineer)s\b', r'\1', t)
+    t = re.sub(r'(?i)\bsecretaries\b', 'Secretary', t)
+    t = clean(depluralise(t))
+    words = []
+    for w in t.split(' '):
+        if w.upper() in KEEP_CAPS: words.append(w.upper())
+        elif w.lower() in ('or', 'and', 'of', 'for', 'in', '&'): words.append(w.lower())
+        elif w.isupper() or w.islower(): words.append('-'.join(x[:1].upper() + x[1:].lower() for x in w.split('-')))
+        else: words.append(w)
+    t = ' '.join(words)
+    t = re.sub(r'\s*/\s*', '/', t)
+    return t[:1].upper() + t[1:]
+
+def _split_roles(txt):
+    txt = re.sub(r'(?i)\bqa\s*/\s*qc\b', 'QAQC', txt)           # keep QA/QC in one piece
+    txt = re.sub(r'(?i)\ba\s*/\s*c\b', 'AC', txt)
+    txt = re.sub(r'(?i)\b([A-Za-z]+)\s*(?:&|and)\s*([A-Za-z]+\s+(?:professional|expert)s?)\b', r'\1 § \2', txt)   # 'Procurement & Contract Professional' stays whole
+    parts, depth, cur = [], 0, ''
+    for ch in txt:
+        depth += (ch in '([') - (ch in ')]')
+        if depth <= 0 and ch in '/,;|':
+            parts.append(cur); cur = ''
+        else: cur += ch
+    parts.append(cur)
+    out = []
+    for p in parts:
+        for q in re.split(r'(?i)\s+(?:&|and|or)\s+', p):
+            q = clean(re.sub(r'\([^)]*\)', ' ', q))
+            if q: out.append(q.replace('§', '&'))
+    return out
+
+def _titles_from(txt, field_ok=False):
+    """Candidate position titles from a fragment such as 'ADMIN ASSISTANT / Admin Coordinator / Secretary'."""
+    txt = re.sub(r'(?i)\b(opportunit(y|ies)|position|job|role|post|employment)\b', ' ', txt)
+    res = []
+    for p in expand_list(_split_roles(txt)):
+        p = clean(PERSON.sub(' ', p))
+        p = re.sub(r'(?i)^(as|in|for|of|a|an|the|and|or|with)\s+', '', p).strip()
+        p = re.sub(r'(?i)\s+(in|at|of|for|with)$', '', p).strip()
+        if not p or len(p.split()) > 7 or re.search(r'@|\d{3,}', p) or SEEKER_BAD_TITLE.search(p): continue
+        if re.fullmatch(r'(?i)(professional|expert)s?', p): continue
+        if not ROLE_OK.search(p): continue
+        res.append(tidy_title(p))
+    return list(dict.fromkeys(res))
+
+HEAD_SPLIT = re.compile(r'(?i)(?<=[A-Za-z\)])\.\s+(?=[A-Z0-9])|:\s|\s+[-–]\s+|,\s+(?=[A-Za-z]+\s+(?:with|having|male|female|indian|filipino)\b)|\s+with\s+|\s+having\s+|\s+(?:looking|seeking|is looking)\b')
+
+def seeker_position(text):
+    """-> (primary position, [other positions]) or (None, [])."""
+    t = clean(text)
+    # 1) leading title:  "HSE MANAGER / ENGINEER with 22 years", "ACCOUNTANT. 12 years", "CCTV DRAFTSMAN with ..."
+    head = HEAD_SPLIT.split(t, maxsplit=1)[0]
+    head = re.sub(r'(?i)^\d+\s*\+?\s*(yrs?|years?)\.?\s*(exp(erience)?\.?)?\s*', '', head)
+    head = re.sub(r'(?i)^(looking\s+for\s+(a\s+)?(job|suitable\s+position|position|opportunit\w+)\s*(in|as|for)?|job\s+wanted\s*(as|in)?)\s*', '', head)
+    c = _titles_from(head[:140])
+    generic = bool(c) and bool(re.search(r'(?i)\b(professional|expert)s?$', c[0])) and '&' not in c[0]
+    if c and not generic: return c[0], c[1:5]
+    # 2) explicit "seeking ... as X, Y or Z"
+    for m in SEEK_PHRASE.finditer(t):
+        c = _titles_from(m.group('x'))
+        if c: return c[0], c[1:5]
+    # 3) first role noun in the opening words: "INDIAN ACCOUNTANT BCom, MBA(F)..."  "PUBLIC RELATION OFFICER (PRO) Administration"
+    m = re.search(r'((?:[A-Za-z&\.\-]+\s+){0,3}[A-Za-z\.\-]*' + r'(?:' + ROLE_NOUN + r'|' + LOCAL_ROLE_NOUN + r'))\b', t[:110], re.I)
+    if m:
+        c = _titles_from(m.group(1))
+        if c: return c[0], c[1:5]
+    if c: return c[0], c[1:5]            # generic title (e.g. 'Supply Chain Professional') is still better than nothing
+    # 4) field only, e.g. "Seeking opportunities in QA/QC or Sales"
+    for m in SEEK_PHRASE.finditer(t):
+        x = clean(re.sub(r'(?i)\b(opportunit\w+|position|job)\b', ' ', m.group('x')))
+        if 2 <= len(x) <= 40 and len(x.split()) <= 6 and not re.search(r'\d|@', x) and not SEEKER_BAD_TITLE.search(x) and not re.match(r'(?i)^(a|an|the|to|my|our|organi|growth|dynamic|suitable|challenging)\b', x):
+            return tidy_title(x), []
+    return None, []
+
+def seeker_experience(text):
+    m = re.search(r'(?i)\b(?:over|more\s+than|above|around|about|total\s+of|having)?\s*(\d{1,2}(?:\.\d)?)\s*\+?\s*(?:years?|yrs?)\b', text)
+    if not m: return ''
+    n = m.group(1)
+    return (n[:-2] if n.endswith('.0') else n) + '+ yrs'
+
+def parse_seeker(lines, date, source):
+    """One SITUATION WANTED ad -> {'key','position','also','category',...} or None. Stores NO name / phone / free text."""
+    text = repair_emails(clean(' '.join(l.replace('¦', ' ') for l in lines)))
+    if len(text) < 40 or SEEKER_HIRE.search(text) or NOT_JOB.search(text[:120]): return None
+    if not SEEKER_SIGNAL.search(text): return None
+    emails = [e.lower().rstrip('.') for e in EMAIL.findall(text)]
+    emails = [e for e in dict.fromkeys(emails) if not ROLE_MAILBOX.match(e)]
+    if not emails or len(emails) > 2: return None           # none = nothing to publish; 3+ = probably an agency ad
+    pos, also = seeker_position(text)
+    if not pos: return None
+    slug, label = categorise(pos)
+    if re.search(r'(?i)\baccounts?\b', pos): slug, label = 'finance-accounting', 'Finance & Accounting'
+    if slug == 'other-jobs':
+        for a in also:
+            s2, l2 = categorise(a)
+            if s2 != 'other-jobs': slug, label = s2, l2; break
+    key = hashlib.sha1(f"{emails[0]}|{slug}".encode()).hexdigest()[:16]
+    return {'key': key, 'position': pos, 'also': also[:3], 'category': slug, 'category_label': label,
+            'email': emails[0], 'experience': seeker_experience(text), 'source': source}
+
+def is_ad_start(line):
+    """True when a line looks like the first line of a new classified: leading ALL-CAPS title words."""
+    toks = line.strip().split()
+    if not toks: return False
+    caps = lambda w: bool(re.search(r'[A-Z]', w)) and w == w.upper() and not re.fullmatch(r'[\W\d_]+', w)
+    first3 = toks[:3]
+    if sum(1 for w in first3 if caps(w)) >= 2 and caps(toks[0]): return True
+    t0 = re.sub(r'[^A-Za-z]', '', toks[0])
+    if caps(toks[0]) and len(t0) >= 5 and (re.search(r'[\.:,]$', toks[0]) or (len(toks) > 1 and toks[1].lower() in ('with', 'having', 'seeking', 'is', 'looking', '-', '–', '/', '(male', '(female'))): return True
+    if re.match(r'^\d{1,2}\s*\+?\s*(YRS?|YEARS?)\b', line.strip(), re.I) and caps(toks[1] if len(toks) > 1 else ''): return True
+    return False
+
+def split_multi(lines):
+    """If the page layout glued several ads into one block, cut it again once an ad has its e-mail and a new title line starts."""
+    out, cur = [], []
+    for ln in lines:
+        done = bool(cur) and EMAIL.search(repair_emails(' '.join(cur))) is not None and not cur[-1].rstrip().endswith((':', ',', '/', '-', '@'))
+        if done and is_ad_start(ln):
+            out.append(cur); cur = []
+        cur.append(ln)
+    if cur: out.append(cur)
+    return out
+
+def run_seekers(pdfs):
+    out = {'issues': [], 'seekers': {}}
+    for p in sorted(pdfs, key=issue_date):
+        d = issue_date(p)
+        found, skipped = 0, 0
+        for ad in segment_issue(p, find_wanted_regions):
+            for part in split_multi(ad['lines']):
+                r = parse_seeker(part, d, os.path.basename(p))
+                if not r: skipped += 1; continue
+                found += 1
+                e = out['seekers'].get(r['key'])
+                if e:
+                    e['last_seen'] = max(e['last_seen'], d)
+                    if d not in e['seen_dates']: e['seen_dates'].append(d)
+                else:
+                    r['first_seen'] = d; r['last_seen'] = d; r['seen_dates'] = [d]
+                    out['seekers'][r['key']] = r
+        out['issues'].append({'date': d, 'seekers_found': found, 'blocks_skipped': skipped})
+    out['seekers'] = list(out['seekers'].values())
     return out
 
 if __name__ == '__main__':
