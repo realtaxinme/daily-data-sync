@@ -20,6 +20,9 @@ jobs:
         with: { python-version: '3.11' }
       - run: pip install pdfplumber numpy
       - run: python scripts/fetch_and_build.py
+        env:
+          SEEKERS_URL: ${{ secrets.SEEKERS_URL }}
+          SEEKERS_TOKEN: ${{ secrets.SEEKERS_TOKEN }}
       - name: Commit changes
         run: |
           git config user.name "jobs-bot"
