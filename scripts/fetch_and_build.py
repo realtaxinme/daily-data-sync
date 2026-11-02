@@ -1,5 +1,5 @@
 """Daily job: find new Gulf Times classified PDFs, parse them, merge into data/jobs.json."""
-import os, re, sys, json, glob, datetime, urllib.request, urllib.error
+import os, re, sys, json, glob, datetime, ssl, urllib.request, urllib.error
 sys.path.insert(0, os.path.dirname(__file__))
 import gt_jobs
 
@@ -37,7 +37,15 @@ def send_seekers(pdfs):
             print('Seekers: none found.'); return
         req = urllib.request.Request(SEEKERS_URL, data=json.dumps({'seekers': rows}).encode('utf-8'),
                                      headers={**UA, 'Content-Type': 'application/json', 'X-Seekers-Token': SEEKERS_TOKEN}, method='POST')
-        print('Seekers sent:', len(rows), '->', urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')[:200])
+        try:
+            resp = urllib.request.urlopen(req, timeout=60)
+        except urllib.error.URLError as ex:
+            if not isinstance(getattr(ex, 'reason', None), ssl.SSLError): raise
+            # the site serves its certificate without the intermediate chain (browsers repair that, Python does not)
+            print('Seekers: WARNING - certificate chain incomplete on the website, retrying without verification. '
+                  'Install the full chain / fullchain.pem in your hosting SSL settings to remove this warning.')
+            resp = urllib.request.urlopen(req, timeout=60, context=ssl._create_unverified_context())
+        print('Seekers sent:', len(rows), '->', resp.read().decode('utf-8', 'replace')[:200])
     except urllib.error.HTTPError as ex:           # must never break the vacancy build
         print('Seekers: upload failed - HTTP', ex.code, ex.read().decode('utf-8', 'replace')[:200],
               '(403 = token differs from JOBS_SEEKERS_TOKEN, 503 = token not set in config.php, 404 = wrong SEEKERS_URL)')
