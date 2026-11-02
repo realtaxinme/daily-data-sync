@@ -544,6 +544,24 @@
     "ed03337d5538ea86",
     "ff607e3a82ed8d7c"
    ]
+  },
+  {
+   "date": "2026-11-02",
+   "ads_found": 4,
+   "segments": 10,
+   "vacancies_listed": 10,
+   "keys": [
+    "054ec55bc565f58e",
+    "0fddaa59dedff800",
+    "22ddff0545311a11",
+    "2b38b26c82ce2bca",
+    "3b365714f8a32ecb",
+    "3f369e2a8e745f4a",
+    "48720d7a62e56c5a",
+    "562d9f25c3d463bd",
+    "7301b22804a9985a",
+    "fd5e1519dbcf15b2"
+   ]
   }
  ],
  "jobs": [
@@ -8015,6 +8033,292 @@
    "last_seen": "2026-11-01",
    "seen_dates": [
     "2026-11-01"
+   ]
+  },
+  {
+   "key": "0fddaa59dedff800",
+   "title": "Finance Cum Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "moosawiqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENT HIRING - FINANCE CUM ACCOUNTANT with 3-5 years of proven accounting and finance experience. Key responsibility- Day to day accounts and assisting with overall financial operations and administration Interested candidates share CV to moosawiqatar@gmail.com",
+   "details": [
+    "with 3-5 years of proven accounting and finance",
+    "experience. Key responsibility- Day to day accounts",
+    "and assisting with overall financial operations",
+    "and administration",
+    "Interested candidates share CV to"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "7301b22804a9985a",
+   "title": "Light Driver (Qatar License)",
+   "company": "Louver",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "hr@louver.org"
+   ],
+   "phones": [
+    "77075033"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY LOOKING FOR Light drivers (Qatar license) ELV Technicians Marketing executive (male/female) Contact hr@louver.org 77075033 (WhatsApp only)",
+   "details": [],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "48720d7a62e56c5a",
+   "title": "ELV Technician",
+   "company": "Louver",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "hr@louver.org"
+   ],
+   "phones": [
+    "77075033"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY LOOKING FOR Light drivers (Qatar license) ELV Technicians Marketing executive (male/female) Contact hr@louver.org 77075033 (WhatsApp only)",
+   "details": [],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "562d9f25c3d463bd",
+   "title": "Marketing Executive (/)",
+   "company": "Louver",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hr@louver.org"
+   ],
+   "phones": [
+    "77075033"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY LOOKING FOR Light drivers (Qatar license) ELV Technicians Marketing executive (male/female) Contact hr@louver.org 77075033 (WhatsApp only)",
+   "details": [],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "2b38b26c82ce2bca",
+   "title": "Auto Painters",
+   "company": "Company: Mowateer Car Assembly",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "garage@mowateer.com"
+   ],
+   "phones": [
+    "77573035"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING Auto painters, Auto denters, Auto mechanics & Auto electricians Company: Mowateer Car Assembly Birkat Al Awamer, Doha - Qatar Email: garage@mowateer.com",
+   "details": [
+    "Company: Mowateer Car Assembly",
+    "Birkat Al Awamer, Doha - Qatar"
+   ],
+   "typical_duties": "Performs skilled finishing and building trade work to drawings and quality standards.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "3b365714f8a32ecb",
+   "title": "Auto Electrician",
+   "company": "Company: Mowateer Car Assembly",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "garage@mowateer.com"
+   ],
+   "phones": [
+    "77573035"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING Auto painters, Auto denters, Auto mechanics & Auto electricians Company: Mowateer Car Assembly Birkat Al Awamer, Doha - Qatar Email: garage@mowateer.com",
+   "details": [
+    "Company: Mowateer Car Assembly",
+    "Birkat Al Awamer, Doha - Qatar"
+   ],
+   "typical_duties": "Installs and maintains electrical wiring, panels and fittings, tests circuits and fixes faults safely to code.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "22ddff0545311a11",
+   "title": "Projects Engineer",
+   "company": "Fire & Electromechanical Company",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "jobs.atsdoha@gmail.com"
+   ],
+   "phones": [
+    "77885046"
+   ],
+   "walk_in_date": null,
+   "ad_text": "FIRE & ELECTROMECHANICAL COMPANY – HIRING NOW Projects Engineer – BE/B.Tech in EEE, UPDA Fire System Technicians Light Driver Office & Store Assistant Age: Up to 35 Years. Experience: 3–10 years (Relevant Experience) Send your CV: jobs.atsdoha@gmail.com /",
+   "details": [
+    "BE/B.Tech in EEE, UPDA",
+    "Age: Up to 35 Years. Experience: 3–10 years (Relevant",
+    "Experience)"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "fd5e1519dbcf15b2",
+   "title": "Fire System Technician",
+   "company": "Fire & Electromechanical Company",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "jobs.atsdoha@gmail.com"
+   ],
+   "phones": [
+    "77885046"
+   ],
+   "walk_in_date": null,
+   "ad_text": "FIRE & ELECTROMECHANICAL COMPANY – HIRING NOW Projects Engineer – BE/B.Tech in EEE, UPDA Fire System Technicians Light Driver Office & Store Assistant Age: Up to 35 Years. Experience: 3–10 years (Relevant Experience) Send your CV: jobs.atsdoha@gmail.com /",
+   "details": [
+    "BE/B.Tech in EEE, UPDA",
+    "Age: Up to 35 Years. Experience: 3–10 years (Relevant",
+    "Experience)"
+   ],
+   "typical_duties": "Carries out installation, preventive maintenance and fault finding on the relevant equipment and keeps service records.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "3f369e2a8e745f4a",
+   "title": "Light Driver",
+   "company": "Fire & Electromechanical Company",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [
+    "jobs.atsdoha@gmail.com"
+   ],
+   "phones": [
+    "77885046"
+   ],
+   "walk_in_date": null,
+   "ad_text": "FIRE & ELECTROMECHANICAL COMPANY – HIRING NOW Projects Engineer – BE/B.Tech in EEE, UPDA Fire System Technicians Light Driver Office & Store Assistant Age: Up to 35 Years. Experience: 3–10 years (Relevant Experience) Send your CV: jobs.atsdoha@gmail.com /",
+   "details": [
+    "BE/B.Tech in EEE, UPDA",
+    "Age: Up to 35 Years. Experience: 3–10 years (Relevant",
+    "Experience)"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
+   ]
+  },
+  {
+   "key": "054ec55bc565f58e",
+   "title": "Office & Store Assistant",
+   "company": "Fire & Electromechanical Company",
+   "company_inferred": false,
+   "location": "Doha, Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "jobs.atsdoha@gmail.com"
+   ],
+   "phones": [
+    "77885046"
+   ],
+   "walk_in_date": null,
+   "ad_text": "FIRE & ELECTROMECHANICAL COMPANY – HIRING NOW Projects Engineer – BE/B.Tech in EEE, UPDA Fire System Technicians Light Driver Office & Store Assistant Age: Up to 35 Years. Experience: 3–10 years (Relevant Experience) Send your CV: jobs.atsdoha@gmail.com /",
+   "details": [
+    "BE/B.Tech in EEE, UPDA",
+    "Age: Up to 35 Years. Experience: 3–10 years (Relevant",
+    "Experience)"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-02",
+   "source": "classified-20261102.pdf",
+   "first_seen": "2026-11-02",
+   "last_seen": "2026-11-02",
+   "seen_dates": [
+    "2026-11-02"
    ]
   }
  ]
