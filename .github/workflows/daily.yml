@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: '30 4 * * *'      # every day 07:30 Qatar time (04:30 UTC)
     - cron: '30 11 * * *'     # second try in the afternoon, in case the paper was published late
-  workflow_dispatch: {}        # "Run workflow" button
+  workflow_dispatch:           # "Run workflow" button
+    inputs:
+      seekers_backfill:
+        description: 'Only re-send job seekers from every PDF still available (tick once to fill the admin queue)'
+        type: boolean
+        default: false
   push:
     paths: ['pdfs/**']         # manual fallback: upload a PDF into /pdfs
 
@@ -23,6 +28,7 @@ jobs:
         env:
           SEEKERS_URL: ${{ secrets.SEEKERS_URL }}
           SEEKERS_TOKEN: ${{ secrets.SEEKERS_TOKEN }}
+          SEEKERS_BACKFILL: ${{ inputs.seekers_backfill && '1' || '' }}
       - name: Commit changes
         run: |
           git config user.name "jobs-bot"
