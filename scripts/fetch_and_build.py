@@ -1,5 +1,5 @@
 """Daily job: find new Gulf Times classified PDFs, parse them, merge into data/jobs.json."""
-import os, re, sys, json, glob, datetime, urllib.request
+import os, re, sys, json, glob, datetime, urllib.request, urllib.error
 sys.path.insert(0, os.path.dirname(__file__))
 import gt_jobs
 
@@ -38,11 +38,32 @@ def send_seekers(pdfs):
         req = urllib.request.Request(SEEKERS_URL, data=json.dumps({'seekers': rows}).encode('utf-8'),
                                      headers={**UA, 'Content-Type': 'application/json', 'X-Seekers-Token': SEEKERS_TOKEN}, method='POST')
         print('Seekers sent:', len(rows), '->', urllib.request.urlopen(req, timeout=60).read().decode('utf-8', 'replace')[:200])
-    except Exception as ex:                       # must never break the vacancy build
+    except urllib.error.HTTPError as ex:           # must never break the vacancy build
+        print('Seekers: upload failed - HTTP', ex.code, ex.read().decode('utf-8', 'replace')[:200],
+              '(403 = token differs from JOBS_SEEKERS_TOKEN, 503 = token not set in config.php, 404 = wrong SEEKERS_URL)')
+    except Exception as ex:
         print('Seekers: upload failed (vacancies unaffected):', ex)
+
+def backfill_seekers():
+    """Re-read the SITUATION WANTED section of every PDF still on the Gulf Times page (plus /pdfs) and send it.
+    Needed once, because the normal run skips issues that are already in data/jobs.json. The website ignores duplicates."""
+    pdfs = []
+    for d, url in sorted(find_remote().items()):
+        dest = os.path.join(WORK, f'classified-{d}.pdf')
+        try:
+            open(dest, 'wb').write(get(url)); pdfs.append(dest); print('downloaded', d)
+        except Exception as e:
+            print('download failed', d, e)
+    for p in sorted(glob.glob(os.path.join(ROOT, 'pdfs', 'classified-*.pdf'))):
+        if p not in pdfs: pdfs.append(p); print('manual pdf', p)
+    if not pdfs:
+        print('Backfill: no PDFs found (Gulf Times page unreachable? upload PDFs into /pdfs).'); return
+    send_seekers(pdfs)
 
 def main():
     os.makedirs(WORK, exist_ok=True)
+    if os.environ.get('SEEKERS_BACKFILL', '').strip() == '1':
+        backfill_seekers(); return
     old = json.load(open(DATA)) if os.path.exists(DATA) else {'issues': [], 'jobs': []}
     have = {i['date'] for i in old['issues']}
     pdfs = []
