@@ -1,5 +1,5 @@
 """Daily job: find new Gulf Times classified PDFs, parse them, merge into data/jobs.json."""
-import os, re, sys, json, glob, datetime, ssl, urllib.request, urllib.error
+import os, re, sys, json, glob, datetime, urllib.request, urllib.error
 sys.path.insert(0, os.path.dirname(__file__))
 import gt_jobs
 
@@ -7,8 +7,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, 'data', 'jobs.json')
 WORK = os.path.join(ROOT, '_dl')
 KEEP_DAYS = 60
-SEEKERS_URL = os.environ.get('SEEKERS_URL', '').strip()      # e.g. https://www.taxinme.com/jobs/seekers_ingest.php  (GitHub secret)
-SEEKERS_TOKEN = os.environ.get('SEEKERS_TOKEN', '').strip()  # same value as JOBS_SEEKERS_TOKEN in includes/config.php (GitHub secret)
+SEEKERS_OUT = os.environ.get('SEEKERS_OUT', '').strip()    # e.g. seekers-repo/seekers.json (private repo checked out by the workflow)
+SEEKER_KEEP_DAYS = 30
 UA = {'User-Agent': 'Mozilla/5.0 (compatible; TaxINMEJobsBot/1.0; +https://www.taxinme.com/jobs/)'}
 LISTING = 'https://www.gulf-times.com/classified'
 PDF_RE = re.compile(r'(?:https?://www\.gulf-times\.com)?(/gulftimes/uploads/pdf/\d{4}/\d{2}/\d{2}/classified-(\d{8})-1-\d+\.pdf(?:\?ts=\d+)?)')
@@ -28,29 +28,33 @@ def find_remote():
 
 
 def send_seekers(pdfs):
-    """SITUATION WANTED -> position + e-mail only, sent straight to the website's admin queue (never stored in GitHub)."""
-    if not (SEEKERS_URL and SEEKERS_TOKEN):
-        print('Seekers: SEEKERS_URL / SEEKERS_TOKEN not set - skipped.'); return
+    """SITUATION WANTED -> position + e-mail only. Written to the PRIVATE repo checked out at SEEKERS_OUT
+    (never into this public repo); the website pulls that file. Never breaks the vacancy build."""
+    if not SEEKERS_OUT:
+        print('Seekers: SEEKERS_OUT not set - skipped.'); return
+    if not os.path.isdir(os.path.dirname(SEEKERS_OUT) or '.'):
+        print('Seekers: private repo not checked out (is the SEEKERS_REPO_TOKEN secret set?) - skipped.'); return
     try:
         rows = gt_jobs.run_seekers(pdfs)['seekers']
-        if not rows:
-            print('Seekers: none found.'); return
-        req = urllib.request.Request(SEEKERS_URL, data=json.dumps({'seekers': rows}).encode('utf-8'),
-                                     headers={**UA, 'Content-Type': 'application/json', 'X-Seekers-Token': SEEKERS_TOKEN}, method='POST')
-        try:
-            resp = urllib.request.urlopen(req, timeout=60)
-        except urllib.error.URLError as ex:
-            if not isinstance(getattr(ex, 'reason', None), ssl.SSLError): raise
-            # the site serves its certificate without the intermediate chain (browsers repair that, Python does not)
-            print('Seekers: WARNING - certificate chain incomplete on the website, retrying without verification. '
-                  'Install the full chain / fullchain.pem in your hosting SSL settings to remove this warning.')
-            resp = urllib.request.urlopen(req, timeout=60, context=ssl._create_unverified_context())
-        print('Seekers sent:', len(rows), '->', resp.read().decode('utf-8', 'replace')[:200])
-    except urllib.error.HTTPError as ex:           # must never break the vacancy build
-        print('Seekers: upload failed - HTTP', ex.code, ex.read().decode('utf-8', 'replace')[:200],
-              '(403 = token differs from JOBS_SEEKERS_TOKEN, 503 = token not set in config.php, 404 = wrong SEEKERS_URL)')
+        old = {}
+        if os.path.exists(SEEKERS_OUT):
+            try: old = {r['key']: r for r in json.load(open(SEEKERS_OUT, encoding='utf-8')).get('seekers', [])}
+            except Exception as ex: print('Seekers: could not read existing file, starting fresh:', ex)
+        added = 0
+        for r in rows:
+            e = old.get(r['key'])
+            if e:
+                e['seen_dates'] = sorted(set(e.get('seen_dates', [])) | set(r.get('seen_dates', [])))
+                e['last_seen'] = max(e['last_seen'], r['last_seen']); e['first_seen'] = min(e['first_seen'], r['first_seen'])
+            else:
+                old[r['key']] = r; added += 1
+        cutoff = (datetime.date.today() - datetime.timedelta(days=SEEKER_KEEP_DAYS)).isoformat()
+        keep = sorted((r for r in old.values() if r['last_seen'] >= cutoff), key=lambda r: r['last_seen'], reverse=True)
+        json.dump({'updated': datetime.datetime.utcnow().isoformat(timespec='seconds') + 'Z', 'seekers': keep},
+                  open(SEEKERS_OUT, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+        print(f'Seekers: found {len(rows)} in these PDFs, {added} new, {len(keep)} total saved to private repo file.')
     except Exception as ex:
-        print('Seekers: upload failed (vacancies unaffected):', ex)
+        print('Seekers: failed (vacancies unaffected):', ex)
 
 def backfill_seekers():
     """Re-read the SITUATION WANTED section of every PDF still on the Gulf Times page (plus /pdfs) and send it.
