@@ -21,13 +21,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Check out the PRIVATE seekers repo
+        uses: actions/checkout@v4
+        continue-on-error: true            # if this fails, vacancies are still built
+        with:
+          repository: realtaxinme/taxinme-seekers
+          token: ${{ secrets.SEEKERS_REPO_TOKEN }}
+          path: seekers-repo
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
       - run: pip install pdfplumber numpy
       - run: python scripts/fetch_and_build.py
         env:
-          SEEKERS_URL: ${{ secrets.SEEKERS_URL }}
-          SEEKERS_TOKEN: ${{ secrets.SEEKERS_TOKEN }}
+          SEEKERS_OUT: seekers-repo/seekers.json
           SEEKERS_BACKFILL: ${{ inputs.seekers_backfill && '1' || '' }}
       - name: Commit changes
         run: |
@@ -35,4 +41,13 @@ jobs:
           git config user.email "jobs-bot@users.noreply.github.com"
           git add data/jobs.json
           git diff --staged --quiet || git commit -m "Update jobs $(date -u +%F)"
+          git push
+      - name: Save seekers to the private repo
+        continue-on-error: true
+        run: |
+          cd seekers-repo
+          git config user.name "jobs-bot"
+          git config user.email "jobs-bot@users.noreply.github.com"
+          git add seekers.json
+          git diff --staged --quiet || git commit -m "Seekers $(date -u +%F)"
           git push
