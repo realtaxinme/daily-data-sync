@@ -562,6 +562,22 @@
     "7301b22804a9985a",
     "fd5e1519dbcf15b2"
    ]
+  },
+  {
+   "date": "2026-11-03",
+   "ads_found": 4,
+   "segments": 8,
+   "vacancies_listed": 8,
+   "keys": [
+    "1925cefa046ea5d9",
+    "35e5c3646cce2208",
+    "4554c3323b5593c5",
+    "7305b46d871c3359",
+    "99fefa5ad00a010c",
+    "ddc9f2c94568a74d",
+    "fbc53b9d2b65132f",
+    "fc862f77825dfb73"
+   ]
   }
  ],
  "jobs": [
@@ -5407,9 +5423,10 @@
    "issue_date": "2026-10-21",
    "source": "classified-20261021.pdf",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-11-03",
    "seen_dates": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-11-03"
    ]
   },
   {
@@ -8319,6 +8336,207 @@
    "last_seen": "2026-11-02",
    "seen_dates": [
     "2026-11-02"
+   ]
+  },
+  {
+   "key": "99fefa5ad00a010c",
+   "title": "1) Plc Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "center.hrd@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "JOB VACANCIES A leading Engineering, Manufacturing, and Automation company based in Qatar is urgently seeking qualified and experienced candidates for the following positions 1) PLC ENGINEER – 1 No Requirements Bachelor of Engineering (B.E./B.Tech) in Electrical, Electronics, Automation or related field 2–4 years’ experience in PLC/industrial automation Excellent Knowledge in Programming of PLC, HMI, SCADA and Basic knowledge in VFD & control panels Familiarity with Modbus, Profinet, Profibus & Ethernet/IP Ability to read electrical drawings and control schematics REQUIRED CHIEF ACCOUNTANT 1) University Degree in Accountancy & Chartered Accountancy 2) Good knowledge in all aspects of Accounting systems including financial reports, balance sheet, year end audit process etc Applicants with more than eight years of work experience & eligibility to change the Sponsorship can apply to center.",
+   "details": [
+    "1 No",
+    "Requirements",
+    "2–4 years’ experience in PLC/industrial automation",
+    "Familiarity with Modbus, Profinet, Profibus & Ethernet/IP",
+    "Ability to read electrical drawings and control schematics"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
+   ]
+  },
+  {
+   "key": "ddc9f2c94568a74d",
+   "title": "Chief Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "center.hrd@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "JOB VACANCIES A leading Engineering, Manufacturing, and Automation company based in Qatar is urgently seeking qualified and experienced candidates for the following positions 1) PLC ENGINEER – 1 No Requirements Bachelor of Engineering (B.E./B.Tech) in Electrical, Electronics, Automation or related field 2–4 years’ experience in PLC/industrial automation Excellent Knowledge in Programming of PLC, HMI, SCADA and Basic knowledge in VFD & control panels Familiarity with Modbus, Profinet, Profibus & Ethernet/IP Ability to read electrical drawings and control schematics REQUIRED CHIEF ACCOUNTANT 1) University Degree in Accountancy & Chartered Accountancy 2) Good knowledge in all aspects of Accounting systems including financial reports, balance sheet, year end audit process etc Applicants with more than eight years of work experience & eligibility to change the Sponsorship can apply to center.",
+   "details": [
+    "1 No",
+    "Requirements",
+    "2–4 years’ experience in PLC/industrial automation",
+    "Familiarity with Modbus, Profinet, Profibus & Ethernet/IP",
+    "Ability to read electrical drawings and control schematics"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
+   ]
+  },
+  {
+   "key": "4554c3323b5593c5",
+   "title": "2) Sales Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Doha, Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "jobsrecruitmentdohaqatar@gmail.com"
+   ],
+   "phones": [
+    "44466609",
+    "44466648"
+   ],
+   "walk_in_date": null,
+   "ad_text": "Good communication and troubleshooting skills 2) Sales Engineer – Controls & Automation Requirements Bachelor of Engineering (B.E./B.Tech) in Electrical, Electronics, Instrumentation, or a related field Minimum 3–5 years of experience in technical sales within the Controls, Automation, or BMS industry Strong understanding of PLC (Siemens, Allen-Bradley, etc.), SCADA systems, BMS architecture, and Control Panel design Good communication Skills in Arabic & English TRANSFERABLE VISA, NOC & QATAR DRIVING LICENSE IS REQUIRED TEL 44466609 Send your CV to: jobsrecruitmentdohaqatar@gmail.com 44466648",
+   "details": [
+    "Controls & Automation",
+    "Requirements",
+    "Minimum 3–5 years of experience in technical sales within the Controls, Automation, or BMS industry",
+    "Control Panel design",
+    "Good communication Skills in Arabic & English"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
+   ]
+  },
+  {
+   "key": "fc862f77825dfb73",
+   "title": "Data Entry Operator",
+   "company": "Transportation provided by the Company)",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [
+    "dataentryqatar@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "IMMEDIATE HIRING DATA ENTRY OPERATOR (cid:23) (Salary – QR 2450 + Accommodation & Transportation provided by the Company) (cid:23) Good typing & excel skills (cid:23) Diploma or Equivalent (cid:23) Basic document handling experience Send CV to: dataentryqatar@gmail.com with the job title on the subject before 10th November 2026",
+   "details": [
+    "Transportation provided by the Company)",
+    "(cid:23) Good typing & excel skills",
+    "(cid:23) Diploma or Equivalent",
+    "(cid:23) Basic document handling experience",
+    "with the job title on the subject before"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
+   ]
+  },
+  {
+   "key": "7305b46d871c3359",
+   "title": "MEP BIM Modeler",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW MEP BIM MODELER Mechanical Engineer HSE Officer Sr Planning engineer (UPDA GRADE A) Email: hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
+   ]
+  },
+  {
+   "key": "35e5c3646cce2208",
+   "title": "Mechanical Engineer",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW MEP BIM MODELER Mechanical Engineer HSE Officer Sr Planning engineer (UPDA GRADE A) Email: hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
+   ]
+  },
+  {
+   "key": "1925cefa046ea5d9",
+   "title": "Senior Planning Engineer (UPDA GRADE A)",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "hibaf3346@gmail.com"
+   ],
+   "phones": [
+    "51114783"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW MEP BIM MODELER Mechanical Engineer HSE Officer Sr Planning engineer (UPDA GRADE A) Email: hibaf3346@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates project programmes (Primavera P6/MS Project), tracks progress and reports delays.",
+   "issue_date": "2026-11-03",
+   "source": "classified-20261103.pdf",
+   "first_seen": "2026-11-03",
+   "last_seen": "2026-11-03",
+   "seen_dates": [
+    "2026-11-03"
    ]
   }
  ]
