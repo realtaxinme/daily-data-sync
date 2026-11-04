@@ -72,11 +72,26 @@ def backfill_seekers():
         print('Backfill: no PDFs found (Gulf Times page unreachable? upload PDFs into /pdfs).'); return
     send_seekers(pdfs)
 
+def reclassify_education_jobs(rows):
+    """Move clear school-teaching titles into the dedicated category in old and new data."""
+    changed = False
+    for job in rows:
+        try:
+            slug, _label = gt_jobs.categorise(str(job.get('title', '')), str(job.get('ad_text', '')))
+            if slug == 'teachers-education' and job.get('category') != slug:
+                job['category'] = slug
+                changed = True
+        except Exception:
+            continue
+    return changed
+
+
 def main():
     os.makedirs(WORK, exist_ok=True)
     if os.environ.get('SEEKERS_BACKFILL', '').strip() == '1':
         backfill_seekers(); return
-    old = json.load(open(DATA)) if os.path.exists(DATA) else {'issues': [], 'jobs': []}
+    old = json.load(open(DATA, encoding='utf-8')) if os.path.exists(DATA) else {'issues': [], 'jobs': []}
+    old_reclassified = reclassify_education_jobs(old.get('jobs', []))
     have = {i['date'] for i in old['issues']}
     pdfs = []
     # 1) PDFs auto-discovered on the Gulf Times classified page
@@ -94,7 +109,12 @@ def main():
         if m and f'{m.group(1)[:4]}-{m.group(1)[4:6]}-{m.group(1)[6:]}' not in have and p not in pdfs:
             pdfs.append(p); print('manual pdf', p)
     if not pdfs:
-        print('Nothing new.'); return
+        if old_reclassified:
+            json.dump(old, open(DATA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+            print('Reclassified existing school-teaching jobs in data/jobs.json.')
+        else:
+            print('Nothing new.')
+        return
     new = gt_jobs.run(pdfs)
     send_seekers(pdfs)
     jobs = {j['key']: j for j in old['jobs']}
@@ -110,6 +130,8 @@ def main():
     issues = {i['date']: i for i in old['issues']}
     for i in new['issues']: issues[i['date']] = i
     cutoff = (datetime.date.today() - datetime.timedelta(days=KEEP_DAYS)).isoformat()
+    # Correct any earlier school-teaching rows after merging the new issue data.
+    reclassify_education_jobs(jobs.values())
     out = {'issues': sorted((i for i in issues.values() if i['date'] >= cutoff), key=lambda i: i['date']),
            'jobs': [j for j in jobs.values() if j['last_seen'] >= cutoff]}
     out.pop('seekers', None)          # candidate e-mails are NEVER written into this (public) repo

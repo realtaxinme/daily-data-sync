@@ -147,13 +147,14 @@ def issue_date(path):
     return f"{m.group(1)}-{m.group(2)}-{m.group(3)}" if m else None
 
 CATS = [  # (slug, label, regex on title)  -- first match wins
+ ('teachers-education', 'Teachers & Education', r'\b(teachers?|teaching assistants?|teacher assistants?|lecturers?|tutors?|principals?|vice principals?|assistant principals?|deputy principals?|deputy heads?|head teachers?|heads? of school|nursery teachers?|nursery practitioners?|early years teachers?|kindergarten teachers?|kg teachers?|primary teachers?|elementary teachers?|middle school teachers?|secondary teachers?|subject teachers?|special education teachers?|school librarians?|school counsellors?|school counselors?|school administrators?|education consultants?|learning support (teachers?|assistants?)|special educational needs|senco|sendco|academic coordinators?|school coordinators?|curriculum specialists?|head of (department|year|primary|secondary|mathematics|maths|science|english))\b'),
  ('sales-first', 'Sales, HR & Admin', r'^(sales|business development|marketing)\b'),
  ('finance-accounting', 'Finance & Accounting', r'\baccountants?\b|accounting|\bfinanc|\baudit|bookkeep|\bcashier|payroll|treasur|\btax\b|budget|credit control|cost control|accounts (clerk|payable|receivable|officer|assistant|manager)'),
  ('oil-gas-hse', 'Oil & Gas / HSE', r'\bhse\b|\bsafety\b|nebosh|\boil\b|\bgas\b|petro|process operator|\benvironment|fire\s+(fighting|warden)|piping|plant operator|instrumentation|\bscaffold\w*\s+inspector'),
  ('drivers-logistics', 'Drivers & Logistics', r'\bdrivers?\b|chauffeur|logistic|warehouse|store ?keeper|forklift|crane operator|\bloader|dispatch|delivery|\bfleet|trailer|shipping|supply chain|procurement|\bbuyer'),
  ('engineering-construction', 'Engineering & Construction', r'engineer|draft|draught|surveyor|architect|designer|\bbim\b|modell?er|qa\s?/?\s?qc|qaqc|planner|planning|estimator|quantity|project manager|construction manager|site manager|document controller|\bcad\b|autocad|revit|\bqs\b|inspector'),
  ('technicians-trades', 'Technicians & Trades', r'technician|electrician|plumber|\bmechanics?\b|\bmason|carpenter|foreman|welder|fitter|painter|\btiler|\btile\b|gypsum|rigger|\bhelper|labou?rer|insulator|steel fixer|\boperator|\bhvac\b|\bac\b|maintenance|supervisor|handyman|joiner|scaffold|\bductman|\bfixer'),
- ('hospitality-healthcare', 'Hospitality & Healthcare', r'nurse|doctor|physician|dentist|pharmac|\bchef\b|\bcook\b|waiter|barista|hotel|restaurant|housekeep|cleaner|hospitality|caregiver|therap|teacher|tutor'),
+ ('hospitality-healthcare', 'Hospitality & Healthcare', r'nurse|doctor|physician|dentist|pharmac|\bchef\b|\bcook\b|waiter|barista|hotel|restaurant|housekeep|cleaner|hospitality|caregiver|therap'),
  ('sales-hr-admin', 'Sales, HR & Admin', r'\bsales|marketing|\bhr\b|human resource|recruit|\badmin|secretary|coordinator|executive|customer service|\bpro\b|receptionist|assistant|clerk|\boffice\b|business development|telesales|merchandis|manager|officer'),
 ]
 def categorise(title, text=''):
@@ -172,6 +173,7 @@ def parse_walkin(text, year):
     return f"{y:04d}-{mon:02d}-{int(m.group(1)):02d}"
 
 ROLE_BLURBS = [  # (regex, 'Typical duties' text, skills)
+ (r'(teacher|lecturer|tutor|principal|teaching assistant|learning support)', 'Plans and delivers lessons or learning support, assesses student progress, maintains classroom records and works with colleagues and families to support student development.'),
  (r'quantity surveyor', 'Prepares bills of quantities and cost estimates, measures completed work, values variations and supports contract and subcontractor payments.'),
  (r'draft|draught', 'Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.'),
  (r'document controller', 'Controls project documents and transmittals, maintains registers and revision status and supports audits and handover packages.'),
@@ -201,7 +203,7 @@ def role_blurb(title):
     return 'Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.'
 
 
-ROLE_NOUN = r'(engineers?|technicians?|foremen|foreman|supervisors?|draftsm[ae]n|draughtsm[ae]n|accountants?|officers?|managers?|inspectors?|modell?ers?|plumbers?|electricians?|masons?|carpenters?|coordinators?|executives?|controllers?|drivers?|surveyors?|designers?|operators?|welders?|fitters?|mechanics?|helpers?|labou?rers?|secretar(y|ies)|assistants?|administrators?|specialists?|analysts?|planners?|estimators?|storekeepers?|salesm[ae]n|pro|nurses?|doctors?|chefs?|cooks?|waiters?|cleaners?|guards?|riggers?|insulators?|painters?|tilers?|architects?|lecturers?|teachers?|receptionists?|cashiers?|buyers?|clerks?|agents?|consultants?|directors?|superintendents?|fixers?|installers?|representatives?|reps?|leads?|heads?)'
+ROLE_NOUN = r'(teachers?|tutors?|lecturers?|principals?|head teachers?|teaching assistants?|learning support assistants?|engineers?|technicians?|foremen|foreman|supervisors?|draftsm[ae]n|draughtsm[ae]n|accountants?|officers?|managers?|inspectors?|modell?ers?|plumbers?|electricians?|masons?|carpenters?|coordinators?|executives?|controllers?|drivers?|surveyors?|designers?|operators?|welders?|fitters?|mechanics?|helpers?|labou?rers?|secretar(y|ies)|assistants?|administrators?|specialists?|analysts?|planners?|estimators?|storekeepers?|salesm[ae]n|pro|nurses?|doctors?|chefs?|cooks?|waiters?|cleaners?|guards?|riggers?|insulators?|painters?|tilers?|architects?|lecturers?|teachers?|receptionists?|cashiers?|buyers?|clerks?|agents?|consultants?|directors?|superintendents?|fixers?|installers?|representatives?|reps?|leads?|heads?)'
 ROLE_END = re.compile(r'\b' + ROLE_NOUN + r'\b\s*(\([^)]*\))?\s*$', re.I)
 DISC = r'(mechanical|electrical|civil|instrument(ation)?|structural|piping|process|architectural|mep|plumbing|production|elv|road|infra\w*)'
 LEAD = re.compile(r'(?i)^\s*(urgent(ly)?\s+)?(hiring(\s+now)?|required|requirement|vacancy\s+for|wanted|looking\s+for|vacancies?)\s*[-–:!]*\s*')
