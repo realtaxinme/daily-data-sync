@@ -28,7 +28,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install existing classifier dependencies
-        run: python -m pip install pdfplumber numpy
+        run: python -m pip install --upgrade certifi pdfplumber numpy
 
       - name: Run offline classifier and parser checks
         run: python scripts/test_education_pipeline.py
