@@ -228,7 +228,7 @@ def normalize(job: dict[str, Any], source: dict[str, Any], fallback_url: str = "
     org = job.get("hiringOrganization") or job.get("organization") or job.get("company") or job.get("companyName") or job.get("employerName") or source.get("name")
     if isinstance(org, dict):
         org = org.get("name") or source.get("name")
-    url_value = job.get("url") or job.get("jobUrl") or job.get("applyUrl") or job.get("apply_url") or job.get("applicationUrl") or job.get("application_url") or job.get("sameAs") or fallback_url
+    url_value = job.get("url") or job.get("jobUrl") or job.get("job_url") or job.get("applyUrl") or job.get("apply_url") or job.get("applicationUrl") or job.get("application_url") or job.get("sameAs") or fallback_url
     if isinstance(url_value, dict):
         url_value = url_value.get("url") or url_value.get("@id") or fallback_url
     vacancy_url = resolve_url(url_value, source["source_url"])
@@ -249,15 +249,23 @@ def normalize(job: dict[str, Any], source: dict[str, Any], fallback_url: str = "
     source_job_id = clean_text(identifier, 190) or hashlib.sha256(vacancy_url.encode()).hexdigest()
     location = job.get("jobLocation") or job.get("location") or job.get("locationName") or {}
     if isinstance(location, list):
-        location = location[0] if location else {}
+        # Breezy can provide a primary location plus an optional locations array.
+        location = next((x for x in location if isinstance(x, dict)), {})
     if isinstance(location, dict):
         address = location.get("address") or location
         if isinstance(address, dict):
-            city = clean_text(address.get("addressLocality") or address.get("addressRegion") or address.get("name"), 120)
+            city = clean_text(
+                address.get("addressLocality") or address.get("city") or
+                address.get("addressRegion") or address.get("state") or address.get("name"), 120
+            )
         else:
             city = clean_text(address, 120)
     else:
         city = clean_text(location, 120)
+    if not city and isinstance(job.get("locations"), list):
+        primary = next((x for x in job["locations"] if isinstance(x, dict) and x.get("primary")), None)
+        candidate = primary or next((x for x in job["locations"] if isinstance(x, dict)), {})
+        city = clean_text(candidate.get("city") or candidate.get("name"), 120)
     country = clean_text(source.get("country"), 40)
     if country.lower() not in ALLOWED_COUNTRIES:
         return None
@@ -272,7 +280,10 @@ def normalize(job: dict[str, Any], source: dict[str, Any], fallback_url: str = "
         "city": city,
         "subject": infer_subject(title),
         "education_level": infer_level(title),
-        "job_type": clean_text(job.get("employmentType") or job.get("jobType"), 80),
+        "job_type": clean_text(
+            job.get("employmentType") or job.get("jobType") or
+            (job.get("type", {}).get("name") if isinstance(job.get("type"), dict) else job.get("type")), 80
+        ),
         "description": description,
         "closing_date": valid_date(job.get("validThrough") or job.get("closingDate") or job.get("closing_date")),
     }
@@ -393,22 +404,73 @@ def parse_api(body: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
     return rows
 
 
+def parse_breezy(body: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
+    """Parse the public JSON job-board feed served by {company}.breezy.hr/json.
+
+    Breezy's public feed contains listing metadata (not full descriptions), so
+    role eligibility is determined primarily from the published job title.
+    The employer's own posting URL is retained for the application journey.
+    """
+    data = json.loads(body.decode("utf-8", "replace"))
+    if isinstance(data, dict):
+        data = data.get("jobs") or data.get("results") or data.get("data") or []
+    if not isinstance(data, list):
+        raise ValueError("Breezy feed did not contain a jobs array")
+
+    rows: list[dict[str, Any]] = []
+    for raw in data[:MAX_JOBS_PER_SOURCE]:
+        if not isinstance(raw, dict):
+            continue
+        job = dict(raw)
+        # Breezy uses `name` for the title and `company` for the employer.
+        if not job.get("title"):
+            job["title"] = job.get("name")
+        if not job.get("organization"):
+            job["organization"] = job.get("company")
+        # Prefer the explicitly marked primary location where available.
+        if isinstance(job.get("locations"), list):
+            primary = next((x for x in job["locations"] if isinstance(x, dict) and x.get("primary")), None)
+            if primary and not job.get("location"):
+                job["location"] = primary
+        candidate_url = job.get("url")
+        if not candidate_url and job.get("friendly_id"):
+            candidate_url = urllib.parse.urljoin(source["source_url"].rstrip("/") + "/", "p/" + str(job["friendly_id"]))
+        item = normalize(job, source, str(candidate_url or ""))
+        if item:
+            rows.append(item)
+    return rows
+
+
 def collect_source(source: dict[str, Any]) -> dict[str, Any]:
     method = str(source.get("collection_method", "")).lower()
     url = safe_url(source.get("source_url", ""))
+    host = urllib.parse.urlsplit(url).hostname or ""
     if not robots_allows(url):
         raise RuntimeError("robots.txt does not permit collection or could not be checked")
-    body, content_type, status = fetch(url, "application/rss+xml, application/atom+xml, application/json, text/html;q=0.9")
-    if status < 200 or status >= 300:
-        raise RuntimeError(f"Source returned HTTP {status}")
-    if method == "rss":
-        rows = parse_rss(body, source)
-    elif method == "api":
-        rows = parse_api(body, source)
-    elif method == "html":
-        rows = parse_html(body, source)
+
+    # Breezy career pages render listings from their public /json board feed;
+    # the HTML shell generally contains no JobPosting JSON-LD.
+    if host.endswith(".breezy.hr"):
+        parsed = urllib.parse.urlsplit(url)
+        feed_url = urllib.parse.urlunsplit((parsed.scheme, parsed.netloc, "/json", "", ""))
+        if not robots_allows(feed_url):
+            raise RuntimeError("robots.txt does not permit the Breezy JSON feed")
+        body, _, status = fetch(feed_url, "application/json")
+        if status < 200 or status >= 300:
+            raise RuntimeError(f"Breezy feed returned HTTP {status}")
+        rows = parse_breezy(body, source)
     else:
-        raise RuntimeError("Unsupported collection method")
+        body, _, status = fetch(url, "application/rss+xml, application/atom+xml, application/json, text/html;q=0.9")
+        if status < 200 or status >= 300:
+            raise RuntimeError(f"Source returned HTTP {status}")
+        if method == "rss":
+            rows = parse_rss(body, source)
+        elif method == "api":
+            rows = parse_api(body, source)
+        elif method == "html":
+            rows = parse_html(body, source)
+        else:
+            raise RuntimeError("Unsupported collection method")
     return {"source_id": int(source["id"]), "source_url": source["source_url"], "status": "ok", "jobs": rows, "error": ""}
 
 
@@ -431,10 +493,12 @@ def load_sources(path: Path) -> list[dict[str, Any]]:
             source_id = int(item.get("id"))
         except (TypeError, ValueError):
             continue
+        active_value = item.get("active", 1)
+        is_active = str(active_value).strip().lower() not in ("0", "false", "no", "off", "inactive", "")
         method = str(item.get("collection_method", "")).strip().lower()
         url = str(item.get("source_url", "")).strip()
         name = clean_text(item.get("name"), 190)
-        if source_id < 1 or method not in ("rss", "api", "html") or not url or not name:
+        if not is_active or source_id < 1 or method not in ("rss", "api", "html") or not url or not name:
             continue
         sources.append({
             "id": source_id,
