@@ -56,16 +56,54 @@ def main():
     check(len(rows) == 1 and rows[0]["city"] == "Doha" and rows[0]["closing_date"] == "2026-12-31", "JobPosting JSON-LD parsing failed")
     check(not edu.is_school_role("Driving Instructor", "Teach driving lessons"), "Driving instructor incorrectly classified")
 
+    breezy = b'''[
+      {
+        "id": "breezy-1",
+        "friendly_id": "primary-teacher-abc123",
+        "name": "Key Stage 1 Class Teacher",
+        "url": "https://dess.breezy.hr/p/primary-teacher-abc123",
+        "type": {"name": "Contract"},
+        "location": {"city": "Doha", "country": "Qatar"},
+        "company": {"name": "Doha English Speaking School"}
+      },
+      {
+        "id": "breezy-2",
+        "name": "Finance Manager",
+        "url": "https://dess.breezy.hr/p/finance-manager-abc123",
+        "location": {"city": "Doha", "country": "Qatar"}
+      }
+    ]'''
+    breezy_source = {"id": 1, "name": "Doha English Speaking School", "country": "Qatar",
+                     "source_url": "https://dess.breezy.hr/"}
+    rows = edu.parse_breezy(breezy, breezy_source)
+    check(len(rows) == 1, "Breezy adapter did not retain only eligible school vacancies")
+    check(rows[0]["title"] == "Key Stage 1 Class Teacher", "Breezy title mapping failed")
+    check(rows[0]["city"] == "Doha", "Breezy city mapping failed")
+    check(rows[0]["job_type"] == "Contract", "Breezy employment type mapping failed")
+    check(rows[0]["employer"] == "Doha English Speaking School", "Breezy employer mapping failed")
+
+    # Verify that a Breezy URL marked `html` is routed to its JSON feed.
+    old_robots, old_fetch = edu.robots_allows, edu.fetch
+    try:
+        edu.robots_allows = lambda url: True
+        edu.fetch = lambda url, accept="*/*": (breezy, "application/json", 200)
+        collected = edu.collect_source({**breezy_source, "collection_method": "html"})
+        check(collected["status"] == "ok" and len(collected["jobs"]) == 1,
+              "Breezy html-source routing did not collect the public JSON feed")
+    finally:
+        edu.robots_allows, edu.fetch = old_robots, old_fetch
+
     # Registry file + results file (GitHub-to-website pull bridge). No network used.
     with tempfile.TemporaryDirectory() as tmp:
         reg = Path(tmp) / "sources.json"
         reg.write_text(json.dumps({"sources": [
             {"id": 7, "name": "Good RSS", "country": "Qatar", "source_url": "https://example.invalid/feed", "collection_method": "rss"},
-            {"id": 8, "name": "Manual only", "country": "Qatar", "source_url": "https://example.invalid/m", "collection_method": "manual"},
+            {"id": 8, "name": "Manual only", "country": "Qatar", "source_url": "https://example.invalid/m", "collection_method": "manual", "active": 1},
+            {"id": 9, "name": "Inactive RSS", "country": "Qatar", "source_url": "https://example.invalid/inactive", "collection_method": "rss", "active": 0},
             {"id": "x", "name": "Bad id", "country": "Qatar", "source_url": "https://example.invalid/b", "collection_method": "rss"},
         ]}), encoding="utf-8")
         loaded = edu.load_sources(reg)
-        check(len(loaded) == 1 and loaded[0]["id"] == 7, "Registry loader must keep only valid rss/api/html sources")
+        check(len(loaded) == 1 and loaded[0]["id"] == 7, "Registry loader must keep only active valid rss/api/html sources")
         try:
             edu.load_sources(Path(tmp) / "missing.json")
             raise AssertionError("Missing registry file must raise")
@@ -76,7 +114,7 @@ def main():
         written = json.loads(out.read_text(encoding="utf-8"))
         check(written["run_id"] and written["results"][0]["source_id"] == 7, "Results file was not written correctly")
         check(not hasattr(edu, "api_request"), "Collector must not call the TaxINME website")
-    print("PASS: education category, exclusions, existing-row reclassification, RSS and JSON-LD parser checks")
+    print("PASS: education category, exclusions, existing-row reclassification, RSS, JSON-LD, Breezy and active-source checks")
 
 
 if __name__ == "__main__":
