@@ -578,6 +578,27 @@
     "fbc53b9d2b65132f",
     "fc862f77825dfb73"
    ]
+  },
+  {
+   "date": "2026-11-04",
+   "ads_found": 6,
+   "segments": 12,
+   "vacancies_listed": 13,
+   "keys": [
+    "0426c3eccb5c498c",
+    "2b38b26c82ce2bca",
+    "3b365714f8a32ecb",
+    "43250543a473b89f",
+    "5ba76b7aa077e086",
+    "75cce7d7bc487cf0",
+    "79d577aa50a63202",
+    "98358f6c603ff858",
+    "9b96488135206a73",
+    "bdd49b969a9a97a4",
+    "d394f6971abf88c1",
+    "d4d540441a42eaa7",
+    "e74f83f93e74a1e4"
+   ]
   }
  ],
  "jobs": [
@@ -7706,9 +7727,10 @@
    "issue_date": "2026-11-01",
    "source": "classified-20261101.pdf",
    "first_seen": "2026-11-01",
-   "last_seen": "2026-11-01",
+   "last_seen": "2026-11-04",
    "seen_dates": [
-    "2026-11-01"
+    "2026-11-01",
+    "2026-11-04"
    ]
   },
   {
@@ -8184,9 +8206,10 @@
    "issue_date": "2026-11-02",
    "source": "classified-20261102.pdf",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "seen_dates": [
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-04"
    ]
   },
   {
@@ -8213,9 +8236,10 @@
    "issue_date": "2026-11-02",
    "source": "classified-20261102.pdf",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-04",
    "seen_dates": [
-    "2026-11-02"
+    "2026-11-02",
+    "2026-11-04"
    ]
   },
   {
@@ -8537,6 +8561,292 @@
    "last_seen": "2026-11-03",
    "seen_dates": [
     "2026-11-03"
+   ]
+  },
+  {
+   "key": "43250543a473b89f",
+   "title": "1. Lead HVAC Engineer",
+   "company": "Engineering Personnel For",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "marytess.patulot@kentplc.com",
+    "arsha.nambiath@kentplc.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED ENGINEERING PERSONNEL FOR OIL & GAS – QATAR We are looking for the following engineering professionals who are currently available in Qatar 1. Lead HVAC Engineer 2. HVAC Engineer 3. Process Engineer Requirements · Must be locally available in Qatar · Immediate availability is preferred · Must have a valid Qatar visa with eligibility for visa transfer · Must hold a valid MMUP Certification · Relevant qualifications and experience in the respective field Interested candidates are requested to send their updated CVs to: Email marytess.patulot@kentplc.com / arsha.nambiath@kentplc.com Please mention the position applied for in the subject line of your email",
+   "details": [
+    "Requirements",
+    "· Must be locally available in Qatar",
+    "· Immediate availability is preferred",
+    "· Must have a valid Qatar visa with eligibility for visa transfer",
+    "· Must hold a valid MMUP Certification"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "e74f83f93e74a1e4",
+   "title": "2. HVAC Engineer",
+   "company": "Engineering Personnel For",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "marytess.patulot@kentplc.com",
+    "arsha.nambiath@kentplc.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED ENGINEERING PERSONNEL FOR OIL & GAS – QATAR We are looking for the following engineering professionals who are currently available in Qatar 1. Lead HVAC Engineer 2. HVAC Engineer 3. Process Engineer Requirements · Must be locally available in Qatar · Immediate availability is preferred · Must have a valid Qatar visa with eligibility for visa transfer · Must hold a valid MMUP Certification · Relevant qualifications and experience in the respective field Interested candidates are requested to send their updated CVs to: Email marytess.patulot@kentplc.com / arsha.nambiath@kentplc.com Please mention the position applied for in the subject line of your email",
+   "details": [
+    "Requirements",
+    "· Must be locally available in Qatar",
+    "· Immediate availability is preferred",
+    "· Must have a valid Qatar visa with eligibility for visa transfer",
+    "· Must hold a valid MMUP Certification"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "d4d540441a42eaa7",
+   "title": "3. Process Engineer",
+   "company": "Engineering Personnel For",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "marytess.patulot@kentplc.com",
+    "arsha.nambiath@kentplc.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED ENGINEERING PERSONNEL FOR OIL & GAS – QATAR We are looking for the following engineering professionals who are currently available in Qatar 1. Lead HVAC Engineer 2. HVAC Engineer 3. Process Engineer Requirements · Must be locally available in Qatar · Immediate availability is preferred · Must have a valid Qatar visa with eligibility for visa transfer · Must hold a valid MMUP Certification · Relevant qualifications and experience in the respective field Interested candidates are requested to send their updated CVs to: Email marytess.patulot@kentplc.com / arsha.nambiath@kentplc.com Please mention the position applied for in the subject line of your email",
+   "details": [
+    "Requirements",
+    "· Must be locally available in Qatar",
+    "· Immediate availability is preferred",
+    "· Must have a valid Qatar visa with eligibility for visa transfer",
+    "· Must hold a valid MMUP Certification"
+   ],
+   "typical_duties": "Plans, designs or supervises technical work for projects or operations, prepares reports and coordinates with site teams and consultants.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "75cce7d7bc487cf0",
+   "title": "Senior Planning Engineer (UPDA Grade A )",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "careers.sfast@gmail.com"
+   ],
+   "phones": [
+    "66195077"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Sr. Planning Engineer (UPDA Grade A ) MEP BIM Modeler Painting & Welding QC Inspector Civil & Mechanical QA/QC Inspector Email: careers.sfast@gmail.com Contact Number: 66195077",
+   "details": [],
+   "typical_duties": "Prepares and updates project programmes (Primavera P6/MS Project), tracks progress and reports delays.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "98358f6c603ff858",
+   "title": "MEP BIM Modeler",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "careers.sfast@gmail.com"
+   ],
+   "phones": [
+    "66195077"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Sr. Planning Engineer (UPDA Grade A ) MEP BIM Modeler Painting & Welding QC Inspector Civil & Mechanical QA/QC Inspector Email: careers.sfast@gmail.com Contact Number: 66195077",
+   "details": [],
+   "typical_duties": "Builds and coordinates BIM models, runs clash detection and issues model-based drawings and schedules.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "d394f6971abf88c1",
+   "title": "Painting & Welding QC Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "careers.sfast@gmail.com"
+   ],
+   "phones": [
+    "66195077"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Sr. Planning Engineer (UPDA Grade A ) MEP BIM Modeler Painting & Welding QC Inspector Civil & Mechanical QA/QC Inspector Email: careers.sfast@gmail.com Contact Number: 66195077",
+   "details": [],
+   "typical_duties": "Inspects works and materials against specifications and standards and records findings and reports.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "0426c3eccb5c498c",
+   "title": "Civil & Mechanical QA/QC Inspector",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "careers.sfast@gmail.com"
+   ],
+   "phones": [
+    "66195077"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Sr. Planning Engineer (UPDA Grade A ) MEP BIM Modeler Painting & Welding QC Inspector Civil & Mechanical QA/QC Inspector Email: careers.sfast@gmail.com Contact Number: 66195077",
+   "details": [],
+   "typical_duties": "Implements quality plans, inspects works against specifications, raises non-conformance reports and keeps inspection records.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "bdd49b969a9a97a4",
+   "title": "Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "tfphrd@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WANTED: ACCOUNTANT A leading Grade A fire protection company in Qatar requires a qualified Accountant Requirements: Bachelor’s degree in Accounting or Finance Accounting experience; contracting/trading sector preferred Strong knowledge of accounting software and MS Excel Ability to manage accounts receivable and follow up on outstanding payments To apply, send your CV to: tfphrd@gmail.com",
+   "details": [
+    "Requirements: Bachelor’s degree in Accounting or Finance",
+    "Accounting experience; contracting/trading sector preferred",
+    "Strong knowledge of accounting software and MS Excel",
+    "Ability to manage accounts receivable and follow up on",
+    "outstanding payments"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "79d577aa50a63202",
+   "title": "Requires A Qualified Accountant",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "finance-accounting",
+   "category_label": "Finance & Accounting",
+   "emails": [
+    "tfphrd@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "WANTED: ACCOUNTANT A leading Grade A fire protection company in Qatar requires a qualified Accountant Requirements: Bachelor’s degree in Accounting or Finance Accounting experience; contracting/trading sector preferred Strong knowledge of accounting software and MS Excel Ability to manage accounts receivable and follow up on outstanding payments To apply, send your CV to: tfphrd@gmail.com",
+   "details": [
+    "Requirements: Bachelor’s degree in Accounting or Finance",
+    "Accounting experience; contracting/trading sector preferred",
+    "Strong knowledge of accounting software and MS Excel",
+    "Ability to manage accounts receivable and follow up on",
+    "outstanding payments"
+   ],
+   "typical_duties": "Handles day-to-day accounting entries, reconciliations and reports, supports month-end closing and works with the finance team and auditors.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
+   ]
+  },
+  {
+   "key": "5ba76b7aa077e086",
+   "title": "Is Looking for A Digital Marketing Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "hrrecruiterqtr@gmail.com"
+   ],
+   "phones": [
+    "70044563"
+   ],
+   "walk_in_date": null,
+   "ad_text": "A REPUTED WASTE MANAGEMENT CO is looking for a Digital marketing executive Proficient in social media marketing with experience in the same field Indians preferred Contact no - 70044563 E-mail - hrrecruiterqtr@gmail.com",
+   "details": [
+    "Proficient in social media marketing with",
+    "experience in the same field"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-04",
+   "source": "classified-20261104.pdf",
+   "first_seen": "2026-11-04",
+   "last_seen": "2026-11-04",
+   "seen_dates": [
+    "2026-11-04"
    ]
   }
  ]
