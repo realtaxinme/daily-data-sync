@@ -1,4 +1,3 @@
-
 name: TaxINME Teachers & Education jobs
 
 on:
@@ -61,3 +60,24 @@ jobs:
             git -C seekers-repo commit -m "Update collected education jobs"
             git -C seekers-repo push origin HEAD:main
           fi
+
+      - name: Import vacancies into TaxINME review queue
+        env:
+          EDU_IMPORT_TOKEN: ${{ secrets.EDU_IMPORT_TOKEN }}
+          EDU_IMPORT_URL: https://www.taxinme.com/education/import_results.php
+        run: |
+          set -euo pipefail
+          test -s seekers-repo/education/results.json
+          if [ -z "$EDU_IMPORT_TOKEN" ]; then
+            echo "Missing GitHub Actions secret: EDU_IMPORT_TOKEN" >&2
+            exit 1
+          fi
+          curl --fail-with-body --silent --show-error \
+            --retry 3 --retry-delay 3 --retry-all-errors \
+            --connect-timeout 20 --max-time 120 \
+            -X POST \
+            -H "Authorization: Bearer ${EDU_IMPORT_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data-binary @seekers-repo/education/results.json \
+            "$EDU_IMPORT_URL"
+          echo
