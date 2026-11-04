@@ -1,3 +1,4 @@
+
 name: TaxINME Teachers & Education jobs
 
 on:
@@ -16,12 +17,14 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
+      # 1. Check out daily-data-sync
       - name: Check out daily-data-sync
         uses: actions/checkout@v4
 
+      # 2. Check out private TaxINME seekers repository
       - name: Check out private TaxINME seekers repository
         uses: actions/checkout@v4
         with:
@@ -30,25 +33,36 @@ jobs:
           token: ${{ secrets.SEEKERS_REPO_TOKEN }}
           path: seekers-repo
 
+      # 3. Set up Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
+      # 4. Install dependencies
       - name: Install dependencies
-        run: python -m pip install --upgrade certifi pdfplumber numpy
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade certifi pdfplumber numpy
 
+      # 5. Run education pipeline tests
       - name: Run education pipeline tests
-        run: python scripts/test_education_pipeline.py
+        run: |
+          python scripts/test_education_pipeline.py
 
+      # 6. Collect education jobs
       - name: Collect education jobs
         env:
           EDU_SOURCES_FILE: seekers-repo/education/sources.json
           EDU_RESULTS_OUT: seekers-repo/education/results.json
-        run: python scripts/fetch_education_jobs.py
+        run: |
+          python scripts/fetch_education_jobs.py
 
+      # 7. Commit results to private repository
       - name: Commit results to private repository
         run: |
+          set -euo pipefail
+
           git -C seekers-repo config user.name "github-actions[bot]"
           git -C seekers-repo config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -61,23 +75,83 @@ jobs:
             git -C seekers-repo push origin HEAD:main
           fi
 
-      - name: Import vacancies into TaxINME review queue
-        env:
-          EDU_IMPORT_TOKEN: ${{ secrets.EDU_IMPORT_TOKEN }}
-          EDU_IMPORT_URL: https://www.taxinme.com/education/import_results.php
+      # 8. Update SSL certificates
+      - name: Update SSL certificates
         run: |
           set -euo pipefail
-          test -s seekers-repo/education/results.json
-          if [ -z "$EDU_IMPORT_TOKEN" ]; then
-            echo "Missing GitHub Actions secret: EDU_IMPORT_TOKEN" >&2
+
+          sudo apt-get update
+          sudo apt-get install -y ca-certificates
+          sudo update-ca-certificates
+
+      # 9. Check TaxINME SSL certificate
+      - name: Check TaxINME SSL certificate
+        env:
+          EDU_IMPORT_URL: ${{ secrets.EDU_IMPORT_URL }}
+        run: |
+          set -euo pipefail
+
+          HOST=$(python -c "from urllib.parse import urlparse; import os; print(urlparse(os.environ['EDU_IMPORT_URL']).hostname or '')")
+
+          if [ -z "$HOST" ]; then
+            echo "Invalid EDU_IMPORT_URL secret."
             exit 1
           fi
-          curl --fail-with-body --silent --show-error \
-            --retry 3 --retry-delay 3 --retry-all-errors \
-            --connect-timeout 20 --max-time 120 \
-            -X POST \
-            -H "Authorization: Bearer ${EDU_IMPORT_TOKEN}" \
-            -H "Content-Type: application/json" \
+
+          echo "Checking SSL certificate for $HOST"
+
+          echo | openssl s_client \
+            -connect "$HOST:443" \
+            -servername "$HOST" \
+            -verify_return_error \
+            -CAfile /etc/ssl/certs/ca-certificates.crt
+
+      # 10. Import vacancies into TaxINME
+      - name: Import education vacancies into TaxINME
+        env:
+          EDU_IMPORT_URL: ${{ secrets.EDU_IMPORT_URL }}
+          EDU_IMPORT_TOKEN: ${{ secrets.EDU_IMPORT_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "$EDU_IMPORT_URL" ]; then
+            echo "EDU_IMPORT_URL secret is missing."
+            exit 1
+          fi
+
+          if [ -z "$EDU_IMPORT_TOKEN" ]; then
+            echo "EDU_IMPORT_TOKEN secret is missing."
+            exit 1
+          fi
+
+          if [ ! -f seekers-repo/education/results.json ]; then
+            echo "Education results.json file not found."
+            exit 1
+          fi
+
+          CA_BUNDLE="/etc/ssl/certs/ca-certificates.crt"
+
+          echo "Sending education vacancies to TaxINME..."
+
+          RESPONSE=$(curl \
+            --silent \
+            --show-error \
+            --fail-with-body \
+            --location \
+            --retry 3 \
+            --retry-all-errors \
+            --connect-timeout 30 \
+            --max-time 120 \
+            --cacert "$CA_BUNDLE" \
+            --request POST \
+            --header "Authorization: Bearer ${EDU_IMPORT_TOKEN}" \
+            --header "Content-Type: application/json" \
             --data-binary @seekers-repo/education/results.json \
-            "$EDU_IMPORT_URL"
-          echo
+            "$EDU_IMPORT_URL")
+
+          echo "TaxINME import response:"
+          echo "$RESPONSE"
+
+          python -c "import json,sys; d=json.loads(sys.argv[1]); sys.exit(0 if d.get('ok') is True else 1)" "$RESPONSE"
+
+          echo "Education vacancies imported successfully."
