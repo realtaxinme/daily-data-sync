@@ -20,8 +20,11 @@ import json
 import os
 import re
 import socket
+import ssl
 import sys
 import time
+
+import certifi
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -111,7 +114,7 @@ class PinnedHTTPConnection(http.client.HTTPConnection):
 
 class PinnedHTTPSConnection(http.client.HTTPSConnection):
     def __init__(self, host: str, port: int, ip: str, timeout: int):
-        super().__init__(host, port, timeout=timeout, context=__import__("ssl").create_default_context())
+        super().__init__(host, port, timeout=timeout, context=ssl.create_default_context(cafile=certifi.where()))
         self._pinned_ip = ip
 
     def connect(self):
@@ -431,6 +434,7 @@ def main() -> int:
         return 2
     try:
         safe_url(api_url)
+        log(f"Using verified TLS CA bundle: {certifi.where()}")
         response = api_request(api_url + ("&" if "?" in api_url else "?") + "action=sources", token)
         sources = response.get("sources", [])
         if not isinstance(sources, list):
