@@ -42,12 +42,14 @@ jobs:
       # 4. Install dependencies
       - name: Install dependencies
         run: |
+          set -euo pipefail
           python -m pip install --upgrade pip
           python -m pip install --upgrade certifi pdfplumber numpy
 
       # 5. Run education pipeline tests
       - name: Run education pipeline tests
         run: |
+          set -euo pipefail
           python scripts/test_education_pipeline.py
 
       # 6. Collect education jobs
@@ -56,6 +58,7 @@ jobs:
           EDU_SOURCES_FILE: seekers-repo/education/sources.json
           EDU_RESULTS_OUT: seekers-repo/education/results.json
         run: |
+          set -euo pipefail
           python scripts/fetch_education_jobs.py
 
       # 7. Commit results to private repository
@@ -84,19 +87,12 @@ jobs:
           sudo apt-get install -y ca-certificates
           sudo update-ca-certificates
 
-      # 9. Check TaxINME SSL certificate
+      # 9. Verify TaxINME SSL certificate
       - name: Check TaxINME SSL certificate
-        env:
-          EDU_IMPORT_URL: ${{ secrets.EDU_IMPORT_URL }}
         run: |
           set -euo pipefail
 
-          HOST=$(python -c "from urllib.parse import urlparse; import os; print(urlparse(os.environ['EDU_IMPORT_URL']).hostname or '')")
-
-          if [ -z "$HOST" ]; then
-            echo "Invalid EDU_IMPORT_URL secret."
-            exit 1
-          fi
+          HOST="www.taxinme.com"
 
           echo "Checking SSL certificate for $HOST"
 
@@ -109,23 +105,19 @@ jobs:
       # 10. Import vacancies into TaxINME
       - name: Import education vacancies into TaxINME
         env:
-          EDU_IMPORT_URL: ${{ secrets.EDU_IMPORT_URL }}
           EDU_IMPORT_TOKEN: ${{ secrets.EDU_IMPORT_TOKEN }}
         run: |
           set -euo pipefail
 
-          if [ -z "$EDU_IMPORT_URL" ]; then
-            echo "EDU_IMPORT_URL secret is missing."
-            exit 1
-          fi
+          EDU_IMPORT_URL="https://www.taxinme.com/education/import_results.php"
 
-          if [ -z "$EDU_IMPORT_TOKEN" ]; then
-            echo "EDU_IMPORT_TOKEN secret is missing."
+          if [ -z "${EDU_IMPORT_TOKEN:-}" ]; then
+            echo "ERROR: EDU_IMPORT_TOKEN GitHub secret is missing."
             exit 1
           fi
 
           if [ ! -f seekers-repo/education/results.json ]; then
-            echo "Education results.json file not found."
+            echo "ERROR: education/results.json file not found."
             exit 1
           fi
 
