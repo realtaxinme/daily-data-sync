@@ -1,13 +1,21 @@
 #!/usr/bin/env python3
-"""Fetch permitted school vacancies from TaxINME's active education source registry.
+"""Fetch permitted school vacancies for TaxINME Teachers & Education.
+
+Architecture (GitHub-to-website PULL, same idea as the job-seekers bridge):
+  1. The source registry is read from a LOCAL file in the private data repo
+     (education/sources.json, exported from the TaxINME admin page).
+  2. Sources are collected here (rss / api / html JSON-LD JobPosting only).
+  3. Results are written to a LOCAL file (education/results.json) which the
+     workflow commits to the private repo. TaxINME then PULLS that file.
+
+This script never contacts taxinme.com, so InfinityFree's bot protection and
+its certificate chain are not involved. It never publishes jobs: TaxINME puts
+every record into the Pending Review queue.
 
 Supported source methods:
 - rss: RSS 2.0 / Atom feeds
 - api: JSON arrays or common jobs/results/data wrappers
 - html: public JobPosting JSON-LD only (no brittle generic page scraping)
-
-All results are sent to TaxINME's authenticated ingestion endpoint and enter
-its pending-review queue. This script never publishes jobs.
 """
 from __future__ import annotations
 
@@ -23,6 +31,7 @@ import socket
 import ssl
 import sys
 import time
+from pathlib import Path
 
 import certifi
 import urllib.error
@@ -384,25 +393,6 @@ def parse_api(body: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
     return rows
 
 
-def api_request(url: str, token: str, payload: dict[str, Any] | None = None) -> dict[str, Any]:
-    headers = {"User-Agent": UA, "Accept": "application/json", "X-TaxINME-Education-Token": token}
-    data = None
-    method = "GET"
-    if payload is not None:
-        data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
-        headers["Content-Type"] = "application/json; charset=utf-8"
-        method = "POST"
-    body, _content_type, status = request_pinned(url, method=method, headers=headers, data=data, max_bytes=MAX_BYTES)
-    if 300 <= status < 400:
-        raise RuntimeError("TaxINME API redirected; use the final HTTPS endpoint URL")
-    if status < 200 or status >= 300:
-        raise RuntimeError(f"TaxINME API returned HTTP {status}")
-    result = json.loads(body.decode("utf-8", "replace"))
-    if not isinstance(result, dict) or not result.get("ok"):
-        raise RuntimeError("TaxINME API returned an unsuccessful response")
-    return result
-
-
 def collect_source(source: dict[str, Any]) -> dict[str, Any]:
     method = str(source.get("collection_method", "")).lower()
     url = safe_url(source.get("source_url", ""))
@@ -419,33 +409,72 @@ def collect_source(source: dict[str, Any]) -> dict[str, Any]:
         rows = parse_html(body, source)
     else:
         raise RuntimeError("Unsupported collection method")
-    return {"source_id": int(source["id"]), "status": "ok", "jobs": rows, "error": ""}
+    return {"source_id": int(source["id"]), "source_url": source["source_url"], "status": "ok", "jobs": rows, "error": ""}
+
+
+def load_sources(path: Path) -> list[dict[str, Any]]:
+    """Read the registry exported from the TaxINME admin page (education/sources.json)."""
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        raise RuntimeError(f"Source registry file not found: {path}")
+    except ValueError as exc:
+        raise RuntimeError(f"Source registry file is not valid JSON: {exc}")
+    raw = data.get("sources") if isinstance(data, dict) else data
+    if not isinstance(raw, list):
+        raise RuntimeError('Source registry file must contain a "sources" list')
+    sources: list[dict[str, Any]] = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+        try:
+            source_id = int(item.get("id"))
+        except (TypeError, ValueError):
+            continue
+        method = str(item.get("collection_method", "")).strip().lower()
+        url = str(item.get("source_url", "")).strip()
+        name = clean_text(item.get("name"), 190)
+        if source_id < 1 or method not in ("rss", "api", "html") or not url or not name:
+            continue
+        sources.append({
+            "id": source_id,
+            "name": name,
+            "country": clean_text(item.get("country"), 40),
+            "source_url": url,
+            "source_type": clean_text(item.get("source_type"), 30),
+            "collection_method": method,
+        })
+    return sources[:MAX_SOURCES]
+
+
+def build_output(results: list[dict[str, Any]]) -> dict[str, Any]:
+    now = dt.datetime.now(dt.timezone.utc)
+    run_id = now.strftime("%Y%m%dT%H%M%SZ") + "-" + (os.environ.get("GITHUB_RUN_ID") or "local")
+    return {"run_id": run_id, "generated_at": now.isoformat(timespec="seconds"), "results": results}
+
+
+def write_json_atomic(path: Path, payload: dict[str, Any]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=1), encoding="utf-8")
+    tmp.replace(path)
 
 
 def main() -> int:
-    api_url = os.environ.get("TAXINME_EDU_API_URL", "").strip()
-    token = os.environ.get("TAXINME_EDU_API_TOKEN", "").strip()
-    if not api_url or not token:
-        log("Missing TAXINME_EDU_API_URL or TAXINME_EDU_API_TOKEN GitHub secret")
-        return 2
-    api_parts = urllib.parse.urlsplit(api_url)
-    if api_parts.scheme != "https" or not api_parts.hostname:
-        log("TAXINME_EDU_API_URL must be an HTTPS URL")
-        return 2
+    sources_file = Path(os.environ.get("EDU_SOURCES_FILE", "seekers-repo/education/sources.json"))
+    results_file = Path(os.environ.get("EDU_RESULTS_OUT", "seekers-repo/education/results.json"))
     try:
-        safe_url(api_url)
-        log(f"Using verified TLS CA bundle: {certifi.where()}")
-        response = api_request(api_url + ("&" if "?" in api_url else "?") + "action=sources", token)
-        sources = response.get("sources", [])
-        if not isinstance(sources, list):
-            raise RuntimeError("TaxINME did not return a valid source list")
+        log(f"Using verified TLS CA bundle for school sites: {certifi.where()}")
+        sources = load_sources(sources_file)
     except Exception as exc:
-        log(f"Could not retrieve active source registry: {exc}")
+        log(f"Could not load the source registry: {exc}")
         return 1
+    log(f"Loaded {len(sources)} active rss/api/html source(s) from {sources_file}")
 
     results: list[dict[str, Any]] = []
     total_jobs = 0
-    for source_index, source in enumerate(sources[:MAX_SOURCES]):
+    failed = 0
+    for source_index, source in enumerate(sources):
         if source_index:
             time.sleep(1.0)  # polite spacing between independently hosted source sites
         try:
@@ -453,17 +482,20 @@ def main() -> int:
             total_jobs += len(result["jobs"])
             log(f"{source.get('name')}: collected {len(result['jobs'])} eligible vacancy/vacancies")
         except Exception as exc:
-            result = {"source_id": int(source["id"]), "status": "error", "jobs": [], "error": clean_text(str(exc), 400)}
+            failed += 1
+            result = {"source_id": int(source["id"]), "source_url": source["source_url"], "status": "error",
+                      "jobs": [], "error": clean_text(str(exc), 400)}
             log(f"{source.get('name')}: ERROR {result['error']}")
         results.append(result)
 
     try:
-        ingested = api_request(api_url, token, {"action": "ingest", "results": results})
-        log("TaxINME import complete: " + json.dumps(ingested.get("stats", {}), ensure_ascii=False))
+        write_json_atomic(results_file, build_output(results))
     except Exception as exc:
-        log(f"Could not submit collected vacancies to TaxINME: {exc}")
+        log(f"Could not write results file {results_file}: {exc}")
         return 1
-    log(f"Finished: {len(results)} source(s), {total_jobs} collected record(s) sent for review")
+    if sources and failed == len(sources):
+        print("::warning::Every education source failed; see the log above.", flush=True)
+    log(f"Finished: {len(results)} source(s), {total_jobs} record(s) written to {results_file} for TaxINME to pull")
     return 0
 
 
