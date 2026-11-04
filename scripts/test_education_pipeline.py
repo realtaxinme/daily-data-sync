@@ -1,5 +1,7 @@
 """Offline smoke tests for the education classifier and source parsers."""
+import json
 import sys
+import tempfile
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gt_jobs
@@ -53,6 +55,27 @@ def main():
     rows = edu.parse_html(page, source)
     check(len(rows) == 1 and rows[0]["city"] == "Doha" and rows[0]["closing_date"] == "2026-12-31", "JobPosting JSON-LD parsing failed")
     check(not edu.is_school_role("Driving Instructor", "Teach driving lessons"), "Driving instructor incorrectly classified")
+
+    # Registry file + results file (GitHub-to-website pull bridge). No network used.
+    with tempfile.TemporaryDirectory() as tmp:
+        reg = Path(tmp) / "sources.json"
+        reg.write_text(json.dumps({"sources": [
+            {"id": 7, "name": "Good RSS", "country": "Qatar", "source_url": "https://example.invalid/feed", "collection_method": "rss"},
+            {"id": 8, "name": "Manual only", "country": "Qatar", "source_url": "https://example.invalid/m", "collection_method": "manual"},
+            {"id": "x", "name": "Bad id", "country": "Qatar", "source_url": "https://example.invalid/b", "collection_method": "rss"},
+        ]}), encoding="utf-8")
+        loaded = edu.load_sources(reg)
+        check(len(loaded) == 1 and loaded[0]["id"] == 7, "Registry loader must keep only valid rss/api/html sources")
+        try:
+            edu.load_sources(Path(tmp) / "missing.json")
+            raise AssertionError("Missing registry file must raise")
+        except RuntimeError:
+            pass
+        out = Path(tmp) / "education" / "results.json"
+        edu.write_json_atomic(out, edu.build_output([{"source_id": 7, "source_url": "https://example.invalid/feed", "status": "ok", "jobs": [], "error": ""}]))
+        written = json.loads(out.read_text(encoding="utf-8"))
+        check(written["run_id"] and written["results"][0]["source_id"] == 7, "Results file was not written correctly")
+        check(not hasattr(edu, "api_request"), "Collector must not call the TaxINME website")
     print("PASS: education category, exclusions, existing-row reclassification, RSS and JSON-LD parser checks")
 
 
