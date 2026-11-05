@@ -98,12 +98,12 @@ def main():
         reg = Path(tmp) / "sources.json"
         reg.write_text(json.dumps({"sources": [
             {"id": 7, "name": "Good RSS", "country": "Qatar", "source_url": "https://example.invalid/feed", "collection_method": "rss"},
-            {"id": 8, "name": "Manual only", "country": "Qatar", "source_url": "https://example.invalid/m", "collection_method": "manual", "active": 1},
+            {"id": 8, "name": "Manual now checked", "country": "Qatar", "source_url": "https://example.invalid/m", "collection_method": "manual", "active": 1},
             {"id": 9, "name": "Inactive RSS", "country": "Qatar", "source_url": "https://example.invalid/inactive", "collection_method": "rss", "active": 0},
             {"id": "x", "name": "Bad id", "country": "Qatar", "source_url": "https://example.invalid/b", "collection_method": "rss"},
         ]}), encoding="utf-8")
         loaded = edu.load_sources(reg)
-        check(len(loaded) == 1 and loaded[0]["id"] == 7, "Registry loader must keep only active valid rss/api/html sources")
+        check(len(loaded) == 2 and loaded[0]["id"] == 7 and loaded[1]["id"] == 8 and loaded[1]["collection_method"] == "html", "Registry loader must include active legacy manual sources as HTML checks")
         try:
             edu.load_sources(Path(tmp) / "missing.json")
             raise AssertionError("Missing registry file must raise")
@@ -114,7 +114,7 @@ def main():
         written = json.loads(out.read_text(encoding="utf-8"))
         check(written["run_id"] and written["results"][0]["source_id"] == 7, "Results file was not written correctly")
         check(not hasattr(edu, "api_request"), "Collector must not call the TaxINME website")
-    print("PASS: education category, exclusions, existing-row reclassification, RSS, JSON-LD, Breezy and active-source checks")
+    print("PASS: education category, exclusions, existing-row reclassification, RSS, JSON-LD, Breezy and active-source reporting checks")
 
 
 if __name__ == "__main__":
