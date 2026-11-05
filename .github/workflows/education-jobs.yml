@@ -61,7 +61,8 @@ jobs:
           set -euo pipefail
           python scripts/fetch_education_jobs.py
 
-      # 7. Commit results to private repository
+      # 7. Save results to the PRIVATE repository. TaxINME PULLS this file itself
+      #    (GitHub never calls taxinme.com: InfinityFree's bot protection blocks that).
       - name: Commit results to private repository
         run: |
           set -euo pipefail
@@ -73,77 +74,20 @@ jobs:
 
           if git -C seekers-repo diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git -C seekers-repo commit -m "Update collected education jobs"
-            git -C seekers-repo push origin HEAD:main
+            exit 0
           fi
 
-      # 8. Update SSL certificates
-      - name: Update SSL certificates
-        run: |
-          set -euo pipefail
+          git -C seekers-repo commit -m "Update collected education jobs"
 
-          sudo apt-get update
-          sudo apt-get install -y ca-certificates
-          sudo update-ca-certificates
-
-      # 9. Verify TaxINME SSL certificate
-      - name: Check TaxINME SSL certificate
-        run: |
-          set -euo pipefail
-
-          HOST="www.taxinme.com"
-
-          echo "Checking SSL certificate for $HOST"
-
-          echo | openssl s_client \
-            -connect "$HOST:443" \
-            -servername "$HOST" \
-            -verify_return_error \
-            -CAfile /etc/ssl/certs/ca-certificates.crt
-
-      # 10. Import vacancies into TaxINME
-      - name: Import education vacancies into TaxINME
-        env:
-          EDU_IMPORT_TOKEN: ${{ secrets.EDU_IMPORT_TOKEN }}
-        run: |
-          set -euo pipefail
-
-          EDU_IMPORT_URL="https://www.taxinme.com/education/import_results.php"
-
-          if [ -z "${EDU_IMPORT_TOKEN:-}" ]; then
-            echo "ERROR: EDU_IMPORT_TOKEN GitHub secret is missing."
-            exit 1
-          fi
-
-          if [ ! -f seekers-repo/education/results.json ]; then
-            echo "ERROR: education/results.json file not found."
-            exit 1
-          fi
-
-          CA_BUNDLE="/etc/ssl/certs/ca-certificates.crt"
-
-          echo "Sending education vacancies to TaxINME..."
-
-          RESPONSE=$(curl \
-            --silent \
-            --show-error \
-            --fail-with-body \
-            --location \
-            --retry 3 \
-            --retry-all-errors \
-            --connect-timeout 30 \
-            --max-time 120 \
-            --cacert "$CA_BUNDLE" \
-            --request POST \
-            --header "Authorization: Bearer ${EDU_IMPORT_TOKEN}" \
-            --header "Content-Type: application/json" \
-            --data-binary @seekers-repo/education/results.json \
-            "$EDU_IMPORT_URL")
-
-          echo "TaxINME import response:"
-          echo "$RESPONSE"
-
-          python -c "import json,sys; d=json.loads(sys.argv[1]); sys.exit(0 if d.get('ok') is True else 1)" "$RESPONSE"
-
-          echo "Education vacancies imported successfully."
+          # The daily jobs workflow also pushes to this repo: retry after a rebase if we collide.
+          for attempt in 1 2 3 4 5; do
+            if git -C seekers-repo push origin HEAD:main; then
+              echo "Results saved to the private repository (attempt $attempt)."
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt); rebasing and retrying..."
+            git -C seekers-repo pull --rebase origin main
+            sleep $((attempt * 3))
+          done
+          echo "ERROR: could not push results after 5 attempts."
+          exit 1
