@@ -599,6 +599,26 @@
     "d4d540441a42eaa7",
     "e74f83f93e74a1e4"
    ]
+  },
+  {
+   "date": "2026-11-05",
+   "ads_found": 8,
+   "segments": 16,
+   "vacancies_listed": 12,
+   "keys": [
+    "2b38b26c82ce2bca",
+    "3b365714f8a32ecb",
+    "78be244d0792b5a4",
+    "86da364cd61d7662",
+    "986b5caae600a76f",
+    "98defe0dc1255f2c",
+    "b5ffcf0b6f4ab107",
+    "ccbe39f414a7e9fc",
+    "d28441652127c08d",
+    "ef35567150c17eda",
+    "f3cd328510295daa",
+    "f7d17891ad544cdc"
+   ]
   }
  ],
  "jobs": [
@@ -5533,9 +5553,10 @@
    "issue_date": "2026-10-21",
    "source": "classified-20261021.pdf",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-11-05",
    "seen_dates": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-11-05"
    ]
   },
   {
@@ -5563,9 +5584,10 @@
    "issue_date": "2026-10-21",
    "source": "classified-20261021.pdf",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-11-05",
    "seen_dates": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-11-05"
    ]
   },
   {
@@ -5593,9 +5615,10 @@
    "issue_date": "2026-10-21",
    "source": "classified-20261021.pdf",
    "first_seen": "2026-10-21",
-   "last_seen": "2026-10-21",
+   "last_seen": "2026-11-05",
    "seen_dates": [
-    "2026-10-21"
+    "2026-10-21",
+    "2026-11-05"
    ]
   },
   {
@@ -8206,10 +8229,11 @@
    "issue_date": "2026-11-02",
    "source": "classified-20261102.pdf",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "seen_dates": [
     "2026-11-02",
-    "2026-11-04"
+    "2026-11-04",
+    "2026-11-05"
    ]
   },
   {
@@ -8236,10 +8260,11 @@
    "issue_date": "2026-11-02",
    "source": "classified-20261102.pdf",
    "first_seen": "2026-11-02",
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-05",
    "seen_dates": [
     "2026-11-02",
-    "2026-11-04"
+    "2026-11-04",
+    "2026-11-05"
    ]
   },
   {
@@ -8847,6 +8872,206 @@
    "last_seen": "2026-11-04",
    "seen_dates": [
     "2026-11-04"
+   ]
+  },
+  {
+   "key": "78be244d0792b5a4",
+   "title": "Salesman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "ksafeer085@gmail.com"
+   ],
+   "phones": [],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY HIRING Salesman - 1Nos ( 2 Year Experience in Building Materials Wholesale Qatar Market) Male and Indian preferably. Transferable Visa & NOC Send CV ksafeer085@gmail.com",
+   "details": [
+    "1Nos",
+    "( 2 Year Experience in Building Materials",
+    "Wholesale Qatar Market) Male and Indian"
+   ],
+   "typical_duties": "Develops customers and sales opportunities, prepares quotations, follows up orders and meets sales targets.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
+   ]
+  },
+  {
+   "key": "98defe0dc1255f2c",
+   "title": "Traffic Tech Draftsman",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "sanaajmal845@gmail.com"
+   ],
+   "phones": [
+    "60048529"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HIRING NOW Telecommunication Engineer : oil & gas Site Supervisor: oil & gas QC Inspector : oil & gas Traffic tech Draftsman Email : sanaajmal845@gmail.com",
+   "details": [],
+   "typical_duties": "Prepares and updates technical drawings (AutoCAD/Revit), coordinates with engineers and keeps drawing registers and revisions up to date.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
+   ]
+  },
+  {
+   "key": "86da364cd61d7662",
+   "title": "Welder",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "technicians-trades",
+   "category_label": "Technicians & Trades",
+   "emails": [],
+   "phones": [
+    "44879131"
+   ],
+   "walk_in_date": null,
+   "ad_text": "WE ARE URGENTLY HIRING candidates for the following positions for an ongoing project Positions Available Labor, Gas Cutter, Welder Preferred Nationalities Indian, Nepal, Pakistan, Kenya Requirements: Valid Qatar ID and valid NOC (No Objection Certificate) should be available Walk-in Interview Details Logistic Village Qatar, LVQ (cid:27) Date: November 9, 2026, Monday (cid:27) Time: 10:00 AM (cid:27) Location: Building No:117, Zone:91, Street No:2004 https://maps.app.goo.gl/L5nn4KXxrypj5aJ78 Landline No : +974 44879131 & Interested candidates can attend the interview directly along with their updated CV, valid Qatar ID, and NOC",
+   "details": [
+    "Preferred Nationalities",
+    "Requirements: Valid Qatar ID and valid NOC",
+    "(No Objection Certificate) should be available",
+    "Logistic Village Qatar, LVQ",
+    "https://maps.app.goo.gl/L5nn4KXxrypj5aJ78"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
+   ]
+  },
+  {
+   "key": "f7d17891ad544cdc",
+   "title": "Business Development Executive",
+   "company": "Confidential employer",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "sales-hr-admin",
+   "category_label": "Sales, HR & Admin",
+   "emails": [
+    "techsales026@gmail.com"
+   ],
+   "phones": [
+    "74470423"
+   ],
+   "walk_in_date": null,
+   "ad_text": "URGENTLY REQUIRED BUSINESS DEVELOPMENT EXECUTIVE (Qatar) Tech-Sales firm hiring full-time on-site BDE in Qatar Requirements Indian national currently in Qatar Proven track record in Retail / Software Sales Exceptional communication skills Apply Now: techsales026@gmail.com +974 74470423",
+   "details": [
+    "(Qatar)",
+    "Tech-Sales firm hiring full-time",
+    "on-site BDE in Qatar",
+    "Requirements",
+    "Proven track record in Retail / Software Sales"
+   ],
+   "typical_duties": "Duties vary by employer. Read the requirements above and ask the employer for the full job description before applying.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
+   ]
+  },
+  {
+   "key": "ef35567150c17eda",
+   "title": "Heavy Truck Driver",
+   "company": "Leading Oil & Gas Transport Company seeks",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [],
+   "phones": [
+    "31549032"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HEAVY TRUCK DRIVERS REQUIRED Leading Oil & Gas Transport Company seeks honest, dedicated Asian Heavy Truck Drivers Minimum 3 years experience in driving tankers/ trailers. Valid QID with Driver profession and NOC mandatory Send CV via WhatsApp: 31549032",
+   "details": [
+    "Leading Oil & Gas Transport Company seeks",
+    "Minimum 3 years experience in driving tankers/",
+    "trailers. Valid QID with Driver profession and",
+    "NOC mandatory"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
+   ]
+  },
+  {
+   "key": "d28441652127c08d",
+   "title": "Dedicated Asian Heavy Truck Driver",
+   "company": "Leading Oil & Gas Transport Company seeks",
+   "company_inferred": false,
+   "location": "Qatar",
+   "category": "drivers-logistics",
+   "category_label": "Drivers & Logistics",
+   "emails": [],
+   "phones": [
+    "31549032"
+   ],
+   "walk_in_date": null,
+   "ad_text": "HEAVY TRUCK DRIVERS REQUIRED Leading Oil & Gas Transport Company seeks honest, dedicated Asian Heavy Truck Drivers Minimum 3 years experience in driving tankers/ trailers. Valid QID with Driver profession and NOC mandatory Send CV via WhatsApp: 31549032",
+   "details": [
+    "Leading Oil & Gas Transport Company seeks",
+    "Minimum 3 years experience in driving tankers/",
+    "trailers. Valid QID with Driver profession and",
+    "NOC mandatory"
+   ],
+   "typical_duties": "Drives and looks after the assigned vehicle, follows routes and schedules, and keeps trip and maintenance records. A valid Qatar driving licence is normally required.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
+   ]
+  },
+  {
+   "key": "b5ffcf0b6f4ab107",
+   "title": "Civil Engineer/Site Supervisor",
+   "company": "Orion-Qatar",
+   "company_inferred": true,
+   "location": "Qatar",
+   "category": "engineering-construction",
+   "category_label": "Engineering & Construction",
+   "emails": [
+    "info@orion-qatar.com"
+   ],
+   "phones": [
+    "66007299"
+   ],
+   "walk_in_date": null,
+   "ad_text": "REQUIRED Civil Engineer / Site Supervisor Indians Preferred Whatsapp Number - 66007299 Email - info@orion-qatar.com",
+   "details": [],
+   "typical_duties": "Supervises site activities and labour, ensures work follows drawings and safety rules, and reports daily progress.",
+   "issue_date": "2026-11-05",
+   "source": "classified-20261105.pdf",
+   "first_seen": "2026-11-05",
+   "last_seen": "2026-11-05",
+   "seen_dates": [
+    "2026-11-05"
    ]
   }
  ]
