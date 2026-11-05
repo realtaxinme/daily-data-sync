@@ -15,7 +15,8 @@ every record into the Pending Review queue.
 Supported source methods:
 - rss: RSS 2.0 / Atom feeds
 - api: JSON arrays or common jobs/results/data wrappers
-- html: public JobPosting JSON-LD only (no brittle generic page scraping)
+- html: JobPosting JSON-LD plus conservative job-link extraction from public listings
+- ATS adapters: Breezy, ApplyToJob, SkoolSpotRecruit and eTeach via their public listing pages
 """
 from __future__ import annotations
 
@@ -54,14 +55,16 @@ EXCLUDED_ROLE = re.compile(
     r"fitness instructor|personal trainer|technical trainer|product trainer)\b", re.I
 )
 SCHOOL_ROLE = re.compile(
-    r"\b(teacher|teaching assistant|teacher assistant|class teacher|homeroom|"
-    r"lecturer|tutor|principal|vice principal|deputy head|head teacher|"
+    r"\b(teacher|teaching assistant|teacher assistant|learning assistant|instructional assistant|instructional coach|class teacher|homeroom|"
+    r"lecturer|tutor|principal|vice principal|assistant principal|deputy head|head teacher|head of school|"
     r"head of (department|year|primary|secondary|mathematics|maths|science|english)|"
     r"school coordinator|academic coordinator|curriculum specialist|learning support|"
     r"special educational needs|senco|sendco|nursery practitioner|nursery teacher|"
     r"early years educator|early years teacher|kindergarten teacher|kg teacher|"
     r"elementary teacher|primary teacher|secondary teacher|subject teacher|"
-    r"school librarian|school counsellor|school counselor)\b", re.I
+    r"school librarian|school counsellor|school counselor|media specialist|science lab assistant|lab assistant|"
+    r"academic support|eal support|english language and literature|early childhood|elementary|"
+    r"school nurse|school psychologist|school social worker|admissions officer|registrar)\b", re.I
 )
 
 
@@ -353,6 +356,67 @@ class JsonLdParser(HTMLParser):
             self.buf = []
 
 
+class JobLinkParser(HTMLParser):
+    """Collect visible anchors and nearby text without executing page scripts."""
+    def __init__(self):
+        super().__init__()
+        self.links: list[tuple[str, str]] = []
+        self.href = ""
+        self.parts: list[str] = []
+        self.depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag.lower() == "a" and attrs.get("href"):
+            self.href = attrs["href"]
+            self.parts = []
+            self.depth = 1
+        elif self.depth:
+            self.depth += 1
+
+    def handle_data(self, data):
+        if self.depth:
+            self.parts.append(data)
+
+    def handle_endtag(self, tag):
+        if not self.depth:
+            return
+        self.depth -= 1
+        if tag.lower() == "a" and self.href:
+            title = clean_text(" ".join(self.parts), 200)
+            if title:
+                self.links.append((self.href, title))
+            self.href = ""
+            self.parts = []
+            self.depth = 0
+
+
+def parse_job_links(body: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
+    parser = JobLinkParser()
+    parser.feed(body.decode("utf-8", "replace"))
+    rows: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for href, title in parser.links:
+        # Reject navigation, login, and generic apply links; only accept anchors
+        # whose visible label itself resembles a school vacancy title.
+        if not is_school_role(title, ""):
+            continue
+        url = resolve_url(href, source["source_url"])
+        try:
+            url = safe_url(url)
+        except Exception:
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        item = normalize({"title": title, "url": url}, source, url)
+        if item:
+            rows.append(item)
+        if len(rows) >= MAX_JOBS_PER_SOURCE:
+            break
+    return rows
+
+
 def parse_html(body: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
     parser = JsonLdParser()
     parser.feed(body.decode("utf-8", "replace"))
@@ -376,6 +440,8 @@ def parse_html(body: bytes, source: dict[str, Any]) -> list[dict[str, Any]]:
         item = normalize(job, source, job["url"])
         if item:
             rows.append(item)
+    if not rows:
+        rows = parse_job_links(body, source)
     return rows[:MAX_JOBS_PER_SOURCE]
 
 
@@ -496,6 +562,9 @@ def load_sources(path: Path) -> list[dict[str, Any]]:
         active_value = item.get("active", 1)
         is_active = str(active_value).strip().lower() not in ("0", "false", "no", "off", "inactive", "")
         method = str(item.get("collection_method", "")).strip().lower()
+        # Legacy `manual` records are now actively checked using the public-page adapter.
+        if method == "manual":
+            method = "html"
         url = str(item.get("source_url", "")).strip()
         name = clean_text(item.get("name"), 190)
         if not is_active or source_id < 1 or method not in ("rss", "api", "html") or not url or not name:
@@ -533,8 +602,9 @@ def main() -> int:
     except Exception as exc:
         log(f"Could not load the source registry: {exc}")
         return 1
-    log(f"Loaded {len(sources)} active rss/api/html source(s) from {sources_file}")
+    log(f"Loaded {len(sources)} active education source(s) from {sources_file}; every active source will be reported")
 
+    log(f"Starting individual checks for {len(sources)} active sources")
     results: list[dict[str, Any]] = []
     total_jobs = 0
     failed = 0
@@ -544,12 +614,13 @@ def main() -> int:
         try:
             result = collect_source(source)
             total_jobs += len(result["jobs"])
-            log(f"{source.get('name')}: collected {len(result['jobs'])} eligible vacancy/vacancies")
+            count = len(result["jobs"])
+            log(f"SOURCE {source_index + 1:02d}/{len(sources):02d} (ID {source['id']}) | {source.get('name')} | OK | {count} eligible vacancy/vacancies" if count else f"SOURCE {source_index + 1:02d}/{len(sources):02d} (ID {source['id']}) | {source.get('name')} | OK | ZERO eligible vacancies")
         except Exception as exc:
             failed += 1
             result = {"source_id": int(source["id"]), "source_url": source["source_url"], "status": "error",
                       "jobs": [], "error": clean_text(str(exc), 400)}
-            log(f"{source.get('name')}: ERROR {result['error']}")
+            log(f"SOURCE {source_index + 1:02d}/{len(sources):02d} (ID {source['id']}) | {source.get('name')} | ERROR | {result['error']}")
         results.append(result)
 
     try:
@@ -559,6 +630,7 @@ def main() -> int:
         return 1
     if sources and failed == len(sources):
         print("::warning::Every education source failed; see the log above.", flush=True)
+    log(f"SOURCE SUMMARY: checked={len(results)}, successful={len(results)-failed}, failed={failed}, eligible_vacancies={total_jobs}")
     log(f"Finished: {len(results)} source(s), {total_jobs} record(s) written to {results_file} for TaxINME to pull")
     return 0
 
