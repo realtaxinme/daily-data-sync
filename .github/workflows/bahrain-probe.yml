@@ -1,0 +1,34 @@
+name: Bahrain e-paper probe (discovery only)
+
+# One-off, manual. Changes nothing, publishes nothing, writes no data files.
+# It records how the News of Bahrain e-paper serves its edition so the real
+# collector can be built on facts instead of guesses.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install Playwright + Chromium
+        run: |
+          python -m pip install --upgrade pip
+          pip install playwright
+          python -m playwright install --with-deps chromium
+      - name: Run probe
+        run: python scripts/bahrain_probe.py
+      - name: Upload probe results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bahrain-probe
+          path: probe/
+          retention-days: 7
